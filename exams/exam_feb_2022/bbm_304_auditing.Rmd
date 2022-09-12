@@ -1,0 +1,146 @@
+---
+title: "**KARATINA UNIVERSITY**"
+subtitle: "**School of Business**"
+author: ""
+date: ""
+output: 
+  pdf_document:
+    fig_height: 3
+    fig_width: 5
+  html_document:
+    fig_height: 3
+    fig_width: 5
+  word_document:
+    fig_height: 3
+    fig_width: 5
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{center}
+    \includegraphics[width=2in,height=2in]{logo.png}\LARGE\\}
+  - \posttitle{\end{center}}
+  - \usepackage[utf8]{inputenc}
+  - \usepackage{pdflscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+  - \usepackage{amsmath}
+params:
+  year: 2022
+  month: February 18
+  academic_year: 2021/2022
+  course_code:  BBM 304
+  course_title: Auditing & Internal Review
+  time: 1400 to 1700 hrs
+  degree: BACHELOR OF BUSINESS MANAGEMENT
+---
+
+```{r, setup, include=FALSE}
+require(mosaic)   # Load additional packages here 
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="small")   # slightly smaller font for code
+```
+
+```{r, include=FALSE}
+# copy the R logo to the current directory
+file.copy(file.path(R.home("doc"), "html", "logo.png"), '.')
+```
+
+\center
+\textbf{UNIVERSITY EXAMINATIONS}
+
+\center
+
+\center
+`r params$degree`
+
+\center
+
+\vspace{15mm}
+
+`r params$academic_year` ACADEMIC YEAR
+
+\vspace{5mm} 
+
+\textbf{COURSE CODE}: `r params$course_code`
+
+\vspace{5mm} 
+
+\textbf{COURSE TITLE}: `r params$course_title`
+
+\vspace{35mm}
+
+\textbf{Exam Period}: `r paste(params$month, params$year)` \hfill\ **Time**: `r params$time`
+
+
+\vspace{10mm} 
+
+\begin{flushleft}
+
+Instructions: 
+
+1. Attempt \textbf{QUESTION ONE} and choose \textbf{THREE (3)} additional questions. 
+
+2. The examination is worth 70 percent of the total score. 
+
+3. During the exam, you must not have in your possession any item or material that has not been authorised for your exam. This includes books, notes, paper, electronic device(s), mobile phone, smart watch/device, calculator, pencil case, or writing on any part of your body. Items or materials on your desk, chair, in your clothing or otherwise on your person will be deemed to be in your possession.
+
+
+
+\newpage
+
+\textbf{QUESTION ONE}
+
+An auditor should be independent in attitude and appearance.
+a. In your opinion, what are the important issues affecting auditor independence in a capital market economy? \hfill\ (9 mks)
+
+b. Why is the inquiry into auditor independence becoming increasingly important? \hfill\ (6  mks)
+
+c. How can the independence of auditors be improved. \hfill\ (4 mks)
+
+d. Identify the six characteristics that determine the reliability of audit evidence \hfill\ (6 mks).
+
+\textbf{QUESTION TWO}
+
+Discuss in detail the following general principles of auditing:
+
+a. Professional ethics. \hfill\ (5 mks)
+
+b. International standards on auditing. \hfill\ (5 mks)
+
+c. Professional scepticism. \hfill\ (5 mks)
+
+
+\textbf{QUESTION THREE}
+
+The scope of internal auditing is found in the Institute of Internal Auditors’ Implementation Standards.
+
+a. Describe the scope of the internal audit function. \hfill\ (5 mks)
+
+b. What are the implications of the wide scope of internal audit function with specific reference to:
+
+        i. Expertise required. \hfill\ (2 mks)
+        
+        ii. Value for money. \hfill\ (3 mks)
+        
+        iii. Information systems. \hfill\ (2 mks)
+        
+        iv. Compliance. \hfill\ (3 mks)
+
+
+\textbf{QUESTION FOUR}
+
+Discuss the composition and the role of the audit committee, and explain the linkage between the audit committee and the internal and external audit functions.  \hfill\ (15 mks)
+
+
+\textbf{QUESTION FIVE}
+
+a. Discuss in detail the internal controls over wages and salaries, b. highlighting on the following specific areas:
+
+        i. Approval and control of documents. \hfill\ (5 mks)
+        
+        ii. Arithmetical accuracy. \hfill\ (5 mks)
+        
+        iii. Control accounts. \hfill\ (5 mks)
+
+\end{flushleft}
+

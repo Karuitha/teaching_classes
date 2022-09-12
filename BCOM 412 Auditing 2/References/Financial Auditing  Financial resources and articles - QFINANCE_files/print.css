@@ -1,0 +1,192 @@
+BODY {
+	width: 100%; color: rgb(0, 0, 0); font-size: 11pt; background-image: none; background-color: rgb(255, 255, 255);
+}
+#qf-footer {
+	display: none;
+}
+#column-6 {
+	display: none;
+}
+#column-7 {
+	display: none;
+}
+.qf-breadcrumbs {
+	display: none;
+}
+.qf-bookmarks {
+	display: none;
+}
+.qf-pagination {
+	display: none;
+}
+.top {
+	display: none;
+}
+.linkBtn {
+	display: none;
+}
+.linkView {
+	display: none;
+}
+A.back {
+	display: none;
+}
+#qf-ad1 {
+	display: none;
+}
+.qf-bookmarks .qf-addthis {
+	width: 0px; height: 0px; float: none; display: none;
+}
+#wrapper {
+	width: auto; background-image: none;
+}
+#banner {
+	height: 60px; min-height: 60px; background-image: none;
+}
+.div-3-col {
+	height: auto; padding-left: 0px;
+}
+.div-3-col #col-content {
+	overflow: visible; padding-right: 0px; background-image: none;
+}
+.div-3-col #column-1 {
+	margin: 0px; width: 0px; float: none; display: none;
+}
+.div-3-col #column-2 {
+	margin: 0px; padding: 0px; width: auto; height: auto; float: left;
+}
+.div-3-col {
+	padding: 0px;
+}
+.div-3-col #col-content {
+	padding-right: 0px; background-image: none;
+}
+.div-3-col #column-4 #layout-column_column-4 {
+	min-height: 0px;
+}
+.div-3-col #column-5 {
+	padding: 10px 0px; overflow: hidden;
+}
+.div-3-col #column-5 #column-5-left {
+	padding-left: 0px; min-height: 0px;
+}
+.div-3-col #column-5 #column-5-right {
+	padding: 0px;
+}
+.div-3-col #column-5 #column-5-right #layout-column_column-5-right {
+	min-height: 0px;
+}
+.div-3-col #col-content {
+	margin: 0px; width: 90%; padding-right: 0px; background-image: none;
+}
+.div-3-col #column-3 {
+	display: none;
+}
+.div-3-col #column-2 {
+	padding: 10px 0px 20px;
+}
+.qf-logo {
+	left: 0px; top: 10px; position: absolute;
+}
+.qf-logo .logo-print {
+	width: auto; height: auto; position: static;
+}
+#qf-utility-nav {
+	display: none;
+}
+#qf-search {
+	display: none;
+}
+HR {
+	margin: 0px 0px 15px; padding: 0px; border: 0px; height: 1px; color: rgb(104, 33, 69); display: block; background-color: rgb(104, 33, 69);
+}
+H1 {
+	border-bottom-color: ; border-bottom-width: medium; border-bottom-style: none;
+}
+.qf-article-body #toc {
+	border-bottom-color: rgb(104, 33, 69); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.qf-article-header .title {
+	border-bottom-color: ; border-bottom-width: medium; border-bottom-style: none;
+}
+.qf-nav-list {
+	padding: 0px; margin-bottom: 2em;
+}
+.qf-nav-list UL {
+	margin-left: 1.5em;
+}
+.qf-nav-list LI {
+	padding: 0px 0px 0.5em; list-style-type: disc; background-image: none;
+}
+.qf-nav-list LI.img SPAN {
+	margin: 0px 6px 5px 0px; padding-right: 6px; float: left; background-image: none;
+}
+.qf-nav-list LI.img SPAN IMG {
+	border: 1px solid rgb(204, 204, 204);
+}
+.qf-nav-list LI.img {
+	margin-left: -10px; list-style-type: none;
+}
+#column-9 {
+	margin-bottom: 1.5em;
+}
+#column-10 {
+	margin-bottom: 1.5em;
+}
+#qf-carousel {
+	min-height: 0px; background-image: none;
+}
+#qf-carousel .inner {
+	margin: 1.5em 0px; height: auto; overflow: visible; min-height: 0px; background-image: none;
+}
+#qf-carousel .inner .block {
+	margin: 0px; padding: 0px 0px 1em; color: rgb(0, 0, 0);
+}
+#qf-carousel .inner .block A {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.js-dyn#qf-carousel .inner {
+	background-image: none;
+}
+.js-dyn#qf-carousel .inner #nav {
+	display: none;
+}
+.js-dyn#qf-carousel .inner .block {
+	margin: 0px; font-size: 1.1em; background-image: none;
+}
+.js-dyn#qf-carousel .inner .block H3 A {
+	padding: 0px 0px 5px; font-size: 1.5em; font-weight: normal; display: block;
+}
+.qf-article-tabs {
+	padding: 0px; margin-bottom: 15px;
+}
+.qf-article-tabs .tabbody UL {
+	margin: 0px; padding: 0px; list-style-type: disc;
+}
+.qf-article-tabs .tabbody LI {
+	padding: 0px 0px 1em; background-image: none;
+}
+.qf-article-tabs H2 {
+	margin: 0px 0px 15px; padding: 0px 0px 5px; border-bottom-color: rgb(104, 33, 69); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.qf-tabs .js-content {
+	border-top-color: ; border-top-width: medium; border-top-style: none;
+}
+.qf-article-tabs UL.js-qf {
+	display: none;
+}
+.qf-tabs H3 {
+	margin: 0px; padding: 0px 0px 5px; text-transform: capitalize;
+}
+.qf-tabs A.accessibletabsanchor {
+	color: rgb(0, 0, 0); font-size: 0.8em; text-decoration: none; position: static;
+}
+.qf-logo-footer_print {
+	margin: 1em 0px; padding: 10px 0px; width: 100%; clear: both; border-top-color: rgb(104, 33, 69); border-top-width: 1px; border-top-style: solid; display: block;
+}
+.qf-logo-footer_print IMG {
+	margin: 0px 5px 0px 0px; vertical-align: top;
+}
+.blog-comments .comment UL {
+	display: none;
+}

@@ -1,0 +1,323 @@
+﻿body
+{
+margin-left:0px; margin-right:0px; margin-top:0px; margin-bottom:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; background-color:#EFF4F5; line-height:160%
+}
+
+H1 {
+	Font:Arial, Helvetica, sans-serif; MARGIN-TOP: 5px; FONT-SIZE: 130%; MARGIN-BOTTOM: 10px; COLOR: #990000; transparent; TEXT-ALIGN: center; TEXT-DECORATION: underline; font-weight:bold
+}
+
+H1.a {
+	Font:Arial, Helvetica, sans-serif; MARGIN-TOP:0px; FONT-SIZE: 120%; MARGIN-BOTTOM: 0px; COLOR:#FFFFFF; transparent; TEXT-ALIGN: center; TEXT-DECORATION:none; font-weight:bold
+}
+H1.r {
+	Font:Arial, Helvetica, sans-serif; MARGIN-TOP: 5px; FONT-SIZE: 130%; MARGIN-BOTTOM: 10px; COLOR: #990000; transparent; TEXT-ALIGN: left; TEXT-DECORATION: underline; font-weight:bold
+}
+
+H1.interval {
+	Font:Arial, Helvetica, sans-serif; MARGIN-TOP: 5px; FONT-SIZE: 130%; MARGIN-BOTTOM: 10px; COLOR: #003366; transparent; TEXT-ALIGN: center; TEXT-DECORATION: underline; font-weight:bold
+}
+
+table.index_div
+{
+border-collapse:collapse; border-color:#003366; border-width:0px; border-style:solid; text-align:center; vertical-align:top 
+}
+table.index_div td.index_div_l
+{
+border-color:#003366; border-width:0px; border-style:solid; padding: 5px; text-align:center; vertical-align:top; width:50%; padding: 5px
+}
+table.index_div td.index_div_r
+{
+border-color:#003366; border-width:0px; border-style:solid; padding: 5px; text-align:center; vertical-align:top; width:50%; padding: 5px
+}
+
+table.index_list
+{
+border-collapse:collapse; border-color:#003366; border-width:1px; border-style:solid; width:250px
+}
+table.index_list td.index_list_h
+{
+text-align:center; vertical-align: middle; border-color:#003366; border-width:1px; border-style:solid; padding: 5px; background:#003366
+}
+table.index_list td.index_list_td
+{
+text-align:left; vertical-align: middle; border-color:#003366; border-width:1px; border-style:solid; padding: 5px
+}
+
+table.index_list
+{
+border-collapse:collapse; border-color:#003366; border-width:1px; border-style:solid; width:250px
+}
+table.index_list td.index_list_h
+{
+text-align:center; vertical-align: middle; border-color:#003366; border-width:1px; border-style:solid; padding: 5px; background:#003366
+}
+table.index_list td.index_list_td
+{
+text-align:left; vertical-align: middle; border-color:#003366; border-width:1px; border-style:solid; padding: 5px
+}
+
+
+table.rel_books
+{
+border-collapse:collapse; border-color:#003366; border-width:0px; border-style:solid; width:400px
+}
+table.rel_books td.rel_books_h
+{
+text-align:left; vertical-align: middle; border-color:#003366; border-width:0px; border-style:solid; padding: 5px
+}
+table.rel_books td.rel_books_td
+{
+text-align:left; vertical-align: middle; border-color:#003366; border-width:0px; border-style:solid; padding: 5px
+}
+
+table.info
+{
+width:500px; border-collapse:collapse; border-color:#003366; border-width:0px; border-style:solid; text-align:center; vertical-align:middle 
+}
+table.info td.info_l
+{
+border-color:#003366; border-width:0px; border-style:solid; padding: 5px; text-align:center; vertical-align:middle
+}
+table.info td.info_2
+{
+border-color:#003366; border-width:0px; border-style:solid; padding: 5px; text-align:center; vertical-align:middle
+}
+table.info td.info_3
+{
+border-color:#003366; border-width:0px; border-style:solid; padding: 5px; text-align:center; vertical-align:middle
+}
+
+table.book_info
+{
+width:400px; border-collapse:collapse; border-color:#003366; border-width:1px; border-style:solid; 
+}
+table.book_info td.book_info_h
+{
+text-align:center; vertical-align: middle; border-color:#003366; border-width:1px; border-style:solid; padding: 5px; width:10px; background:#003366
+}
+table.book_info td.book_info_l
+{
+text-align:right; vertical-align: middle; border-color:#003366; border-width:1px; border-style:solid; padding: 5px; width:50%; font-weight:bold
+}
+table.book_info td.book_info_r
+{
+text-align:left; vertical-align: middle; border-color:#003366; border-width:1px; border-style:solid; padding: 5px; width:50%
+}
+
+table.cat_list
+{
+border-collapse:collapse; border-color:#003366; border-width:1px; border-style:solid
+}
+table.cat_list td.cat_list_h
+{
+text-align:center; vertical-align: middle; border-color:#003366; border-width:1px; border-style:solid; padding: 5px; width:10px; background:#003366
+}
+table.cat_list td.cat_list_1
+{
+text-align:center; vertical-align: middle; border-color:#003366; border-width:1px; border-style:solid; padding: 5px; width:10px
+}
+table.cat_list td.cat_list_2
+{
+text-align:left; vertical-align: middle; border-color:#003366; border-width:1px; border-style:solid; padding: 5px; width:250px
+}
+table.cat_list td.cat_list_3
+{
+text-align:center; vertical-align: middle; border-color:#003366; border-width:1px; border-style:solid; padding: 5px; width:30px; font-weight:bold
+}
+table.cat_list td.cat_list_4
+{
+text-align:center; vertical-align: middle; border-color:#003366; border-width:1px; border-style:solid; padding: 5px; width:50px; font-weight:bold
+}
+
+
+
+table.books_index
+{
+width:400px; border-collapse:collapse; border-color:#003366; border-width:1px; border-style:solid; 
+}
+table.books_index td.books_index_sr
+{
+text-align:center; vertical-align: middle; border-color:#003366; border-width:1px; border-style:solid; padding: 5px; width:10%
+}
+table.books_index td.books_index_list
+{
+text-align:left; vertical-align: middle; border-color:#003366; border-width:1px; border-style:solid; padding: 5px; width:90%
+}
+
+TABLE.mover {
+	FONT-FAMILY: verdana,helvetica,arial,sans-serif; border-color:transparent; font-size:90%
+}
+TD {
+	FONT-FAMILY: verdana,helvetica,arial,sans-serif
+}
+TH {
+	FONT-FAMILY: verdana,helvetica,arial,sans-serif
+}
+UL {
+	FONT-FAMILY: verdana,helvetica,arial,sans-serif
+}
+OL {
+	FONT-FAMILY: verdana,helvetica,arial,sans-serif
+}
+
+table.main
+{
+width:990px
+}
+table.main td.main_t
+{
+text-align:center; vertical-align:top
+}
+table.main td.main_m
+{
+text-align:center; vertical-align:top
+}
+table.main td.main_b
+{
+text-align:center; vertical-align:baseline
+}
+
+table.mid
+{
+width:990px
+}
+table.mid td.mid_l
+{
+text-align:center; vertical-align:top
+}
+table.mid td.mid_c
+{
+text-align:center; vertical-align:top
+}
+table.mid td.mid_r
+{
+text-align:center; vertical-align:top
+}
+
+table.cenv
+{
+width:600px
+}
+table.cenv td.cenv_t
+{
+text-align:center; vertical-align:top
+}
+table.cenv td.cenv_m
+{
+text-align:center; vertical-align:top
+}
+table.cenv td.cenv_b
+{
+text-align:center; vertical-align:top
+}
+table.cenh
+{
+width:600px
+}
+table.cenh td.cenh_l
+{
+text-align:center
+}
+table.cenh td.cenh_c
+{
+text-align:center; vertical-align:top; width:600px; height:600px;
+}
+table.cenh td.cenh_r
+{
+text-align:center; vertical-align:top
+}
+
+/** Navigation table starts **/
+
+#navigation td {
+	border-bottom: 2px solid #C0DFFD;
+	}
+	
+#navigation a {
+	font: bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color: #003366;
+	line-height:16px;
+	letter-spacing:.1em;
+	text-decoration: none;
+	display:block;
+	padding:2px 5px 2px 5px;
+	}
+	
+#navigation a:hover {
+	background: #FFFFFF;
+	color:#FF9900;
+	}
+	
+.navText {
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	color: #900b09;
+	line-height:16px;
+	letter-spacing:.1em;
+	text-decoration: none;
+	}
+/** Navigation table end **/
+
+a.cat
+{
+color:#003366; text-decoration:underline; font-weight:bold
+}
+a.cat:hover
+{
+color:#FF9900; text-decoration:none; font-weight:bold
+}
+
+a.scat
+{
+color:#003366; text-decoration:underline
+}
+a.scat:hover
+{
+color:#FF9900; text-decoration:none
+}
+
+a.latest
+{
+color:#003366; text-decoration:none
+}
+a.latest:hover
+{
+color:#FF9900; text-decoration:underline
+}
+
+
+a.book_link
+{
+color:#0000CC
+}
+a.book_link:hover
+{
+color:#FF9900; text-decoration:none
+}
+
+a.books_link
+{
+color:#000000; text-decoration:none
+}
+a.books_link:hover
+{
+color:#FF9900; text-decoration:none
+}
+
+a.read_link
+{
+color:#003366
+}
+a.read_link:hover
+{
+color:#FF9900; text-decoration:none
+}
+
+a.download_link
+{
+color:#003366
+}
+a.download_link:hover
+{
+color:#FF9900; text-decoration:none
+}

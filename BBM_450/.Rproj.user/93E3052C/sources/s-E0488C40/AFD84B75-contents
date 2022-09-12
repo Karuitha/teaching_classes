@@ -1,0 +1,21 @@
+@book{proctor2004building,
+  title={Building financial models with Microsoft Excel: A guide for business professionals},
+  author={Proctor, K Scott},
+  volume={269},
+  year={2004},
+  publisher={John Wiley \& Sons}
+}
+
+@book{mayes2020financial,
+  title={Financial analysis with microsoft excel},
+  author={Mayes, Timothy R},
+  year={2020},
+  publisher={Cengage Learning}
+}
+
+@book{hall2015accounting,
+  title={Accounting information systems},
+  author={Hall, James A},
+  year={2015},
+  publisher={Cengage Learning}
+}

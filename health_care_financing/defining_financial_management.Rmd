@@ -1,0 +1,158 @@
+---
+title: "Defining Financial Management"
+author: "John Karuitha"
+date: "`r format(Sys.Date(), format = '%A, %B %d %Y')`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## INTRODUCTION
+Financial management is that managerial activity concerned with planning and controlling the firm's financial resources. It was a branch of economics till 1890, and as a separate discipline, it is of recent origin. Still, it has no unique body of knowledge and draws heavily on economics for its theoretical concepts.
+
+In general financial management is the effective & efficient utilisation of financial resources. It means creating balance among financial planning, procurement of funds, profit administration & sources of funds.
+
+## DEFINITIONS OF FINANCIAL MANAGEMENT:
+
+- Solomon: "Financial management is concerned with the efficient use of an important economic resource, namely, capital funds."
+- J. L. Massie: "Financial management is the operational activity of a business that is responsible for obtaining and effectively utilising the funds necessary for efficient operation."
+- Weston & Brigham: "Financial management is an area of financial decision making harmonising individual motives & enterprise goals."
+- Howard & Upton: "Financial management is the application of the planning & control functions of the finance function."
+- J. F. Bradley: "Financial management is the area of business management devoted to the judicious use of capital & careful selection of sources of capital in order to enable a spending unit to move in the direction of reaching its goals."
+
+## MAIN FEATURES OF FINANCIAL MANAGEMENT:
+
+Based on the above definitions, the following are the main characteristics of financial management.
+
+1. Analytical Thinking-Under financial management, financial problems are analysed and considered. Finance managers study the trend of actual figures and do ratio analysis.
+
+2. Continuous Process-previously financial management was required rarely, but now the financial manager remains busy throughout the year.
+
+3. Basis of Managerial Decisions- All managerial decisions relating to finance will consider the report prepared by the finance manager. Financial management is the basis of managerial decisions.
+
+4. Maintaining Balance between Risk and Profitability-Larger The more significant risk, the higher the expected profits. Financial management maintains a balance between risk and profitability.
+
+5. Coordination between Processes- There is always coordination between various business processes.
+
+6. Centralised Nature- Financial management is of a centralised nature. Other activities can be decentralised, but only one department for financial management.
+
+## SCOPE OF FINANCIAL MANAGEMENT
+
+Financial management, at present, is not confined to raising and allocating funds. Financial management also emphasises financial institutions like stock exchanges and capital markets because they influence the underwriting of securities & corporate promotion. The scope of Financial Management has widened to cover capital structure, dividend policies, profit planning and control, AND depreciation policies. Some of the functional areas covered in financial management are as follows:-
+
+   1. Determining financial needs:- A finance manager is supposed to meet the financial needs of the enterprise. For this purpose, he should determine the financial needs of the concern. Funds are needed to meet promotional expenses fixed and working capital needs. The requirement of fixed assets is related to types of industry. A manufacturing concern will require more investments in fixed assets than a trading concern. The working capital needs depend upon the scale of operations. The larger the scale of operations, the higher the need for working capital. A wrong assessment of financial needs may jeopardise the survival of a concern.
+   
+   2. Choosing the sources of funds:- Several sources may be available for raising funds. A concern may resort to the issue of share capital and debentures. Financial institutions may be requested to provide long-term funds. The working capital needs may be drawn from cash, credit or overdraft facilities from commercial bands. A finance manager has to be very careful & cautious in approaching different sources.
+   
+   3. Financial analysis and interpretation:- The analysis & interpretation of financial statements is an essential task of a finance manager. He is expected to know about the concern's profitability, liquidity, and short-term and long-term financial position. For this purpose, many ratios have to be calculated. The interpretation of various ratios is also essential to reach certain conclusions. Financial analysis and interpretation have become an important area of financial management.
+   
+   3. Cost-volume-profit analysis:- This is popularly known as the "CVP relationship". For this purpose, fixed, variable, and semi-variable costs must be analysed. Fixed costs are more or less constant for varying sales volumes, while variable costs vary according to the sales volume. Semi-variable costs are either fixed or variable in the short term. The financial manager must ensure that the firm's income will cover its variable costs, for there is no point in being in business if this is not accomplished. Moreover, a firm will also have to generate an adequate income to cover its fixed costs. The financial manager has to find out the break-even point when the total costs match total sales or revenue.
+   
+   6. Working capital management:- Working capital refers to that part of a firm's capital required to finance short-term or current assets such as cash, receivables and inventories. It is essential to maintain a proper level of these assets. The finance manager is required to determine the quantum of such assets.
+    
+   6. Dividend policy: - Dividend is the reward of the shareholders for investments made by them in the shares of the company. The investors are interested in earning the maximum return on their investments, whereas management wants to retain profits for future financing. These contradictory aims will have to be reconciled in the interests of shareholders and the company. Dividend policy is an essential area of financial management because the interest of the shareholders and the company's needs are directly related to it.
+    
+   7. Capital budgeting: - Capital budgeting is the process of making investment decisions in capital expenditures. It is an expenditure, the benefits of which are expected to be received over a period exceeding one year. It is expenditure for acquiring or improving the fixed assets, the benefits expected to be received over several years in the future. Capital budgeting decisions are vital to any organisation. Any unsound investment decision may prove to be fatal for the very existence of the concern.
+ 
+## OBJECTIVES OF FINANCIAL MANAGEMENT
+
+Financial management provides a framework for selecting a proper course of action and deciding a viable commercial strategy. The main objective is to maximise the owner's economic welfare. This objective can be achieved by;
+
+   1. Profit Maximization, and
+   2. Wealth Maximisation.
+    
+### Profit Maximisation. 
+
+Profit earning is the main aim of every economic activity. A for-profit business is an economic institution that must earn profit to cover its costs and provide funds for growth. No business can survive without earning profit. Profit is a measure of the efficiency of a business enterprise. Profits also serve as a protection against risks that cannot be ensured. The accumulated profits enable a business to face risks like price drops, competition from other units, adverse government policies. Thus, profit maximisation is considered the main objective of the business. The following arguments are advanced in favour of profit maximisation as the objective of business:
+
+  1. When profit-earning is the aim of business, then profit maximisation should be the obvious objective.
+   
+  2. Profitability is a barometer for measuring a business enterprise's efficiency and economic prosperity.
+   
+  3. Economic and business conditions do not remain the same at all times. There may be adverse business conditions like recession, depression, severe competition. A business will survive under unfavourable situations only if it has some past earnings to rely upon. Therefore, a business should earn more and more when the situation is favourable.
+   
+  4. Profits are the main sources of finance for the growth of a business. So, a business should aim to maximise profits to enable its growth and development.
+   
+  5. Profitability is essential for fulfilling social goals also. By pursuing the objective of profit maximisation, a firm also maximises socio-economic welfare.
+   
+However, the profit maximisation objective has been criticised on many grounds. They are:
+
+   - A firm pursuing the objective of profit maximisation starts exploiting workers and the consumers. Hence, it is immoral and leads to several corrupt practices.
+   
+   - It is also argued that profit maximisation should be the objective in the conditions of perfect competition, and in the wake of imperfect competition today, it cannot be the legitimate objective of a firm.
+   
+   - One has to reconcile the conflicting interests of all the parties connected with the firm. Thus, profit maximisation as an objective of financial management has been considered inadequate. Even as an operational criterion for maximising the owner's economic welfare, profit maximisation has been rejected because of the following drawbacks;
+   
+        - The term' profit' is vague and cannot be precisely defined. It means different things for different people. Should we consider short-term profits or long-term profits? Does it mean total profits or earnings per share? Even if we take the meaning of profits as earnings per share and maximise the earnings per share, it does not necessarily mean an increase in the market value of the share and the owner's economic welfare.
+   
+        - Profit maximisation objective ignores the time value of money and does not consider the magnitude and timing of earnings. It treats all earnings as equal when they occur in different periods. It ignores that cash received today is more valuable than the same cash received after three years.
+    
+        - It does not consider the risk of the prospective earnings stream. Some projects are riskier than others.
+    
+        - The effect of dividend policy on the market price of shares is also not considered in the objective of profit maximisation.
+    
+### Wealth Maximisation. 
+
+Wealth maximisation is the appropriate objective of an enterprise. When the firm maximises the stockholder's wealth, the individual stockholder can use this wealth to maximise his utility. By maximising the stockholder's wealth, the firm is operating consistently towards maximising the stockholder's utility.
+
+A stockholder's current wealth is the product of the number of shares owned, multiplied by the current stock price per share.
+This objective helps in increasing the value of shares in the market. The share's market price serves as a performance index or report card of its progress. It also indicates how well management is doing on behalf of the shareholder.
+
+However, the maximisation of the market price of the shares should be in the long run. Every financial decision should be based on a cost-benefit analysis. If the benefit is more than the cost, the decision will help in maximising the wealth.
+
+#### Implications of Wealth maximisation. 
+
+There is a rationale in applying a wealth maximising policy as an operating financial management policy. It serves the interests of suppliers of loaned capital, employees, management and society. Besides shareholders, there are short-term and long-term suppliers of funds who have financial interests in the concern. Short-term lenders are primarily interested in liquidity position to get their payments in time. The long-term lenders get a fixed interest rate from the earnings and prioritise shareholders in return for their funds. The wealth maximisation objective serves shareholders' interests by increasing holdings' value and ensuring security to lenders. The economic interest of society is served if various resources are put to economical and efficient use.
+
+#### Criticism of Wealth Maximization. 
+
+The wealth maximisation objective has also been criticised by certain financial theorists mainly on the following accounts;
+
+   1. It is a prescriptive idea. The objective is not descriptive of what the firms do.
+   2. The objective of wealth maximisation is not necessarily socially desirable.
+   3. There is some controversy as to whether the objective is to maximise the stockholder's wealth or the wealth of the firm, which includes other financial claim holders such as debenture holders, preferred stockholders, etc.,
+   4. The objective of wealth maximisation may also face difficulties when ownership and management are separated, as in most large corporate organisations.
+
+Despite all the criticism, wealth maximisation is the most appropriate objective of a firm and the side costs in the form of conflicts between the stockholders and debenture holders, firm and society and stockholders and managers can be minimised.
+
+## SEPARATION OF OWNERSHIP FROM MANAGEMENT AND THE AGENCY CONFLICT
+In large businesses, separation of ownership and management is a practical necessity. Major corporations may have hundreds of thousands of shareholders. There is no way for them to be actively involved in management: It would be like running Karatina University through a series of small meetings for all its students, lecturers and administrators. Authority has to be delegated to managers.
+
+The separation of ownership and management has clear advantages. It allows share ownership to change without interfering with the operation of the business. It allows the firm to hire professional managers. However, it also brings problems if the managers' and owners' objectives differ. 
+
+This is referred to as AGENCY CONFLICT whereby rather than attending to the wishes of shareholders, managers may seek a more leisurely or luxurious working lifestyle; they may shun unpopular decisions, or they may attempt to build an empire with their shareholders' money. Such conflicts between shareholders' and managers' objectives create principal-agent problems. 
+
+The shareholders are the principals who delegate decision-making powers to their agents, the managers. Shareholders want management to increase the firm's value, but managers may have their axes to grind or nests to feather. Agency costs are incurred when
+
+   1. Managers do not attempt to maximise firm value and 
+   2. Shareholders incur costs to monitor the managers and influence their actions. 
+
+Of course, there are no costs when the shareholders are also the managers. That is one of the advantages of a sole proprietorship. Owner–managers have no conflicts of interest.
+
+## COSTS OF THE AGENCY RELATIONSHIP
+There are costs involved with any effort to minimise the potential for conflict between the principal's interest and the agent's interest. Such costs are called agency costs, and they are of three types: monitoring, bonding, and residual loss.
+
+The principal's monitoring costs are costs to monitor or limit the agent's actions. In a corporation, shareholders may require managers to periodically report on their activities via audited accounting statements sent to shareholders. The accountants' fees and the management time lost in preparing such statements are monitoring costs. Another example is the implicit cost incurred when shareholders limit the decision-making power of managers. By doing so, the owners may miss profitable investment opportunities; the foregone profit is a monitoring cost. The board of directors of a corporation has a fiduciary duty to shareholders; that is, the legal responsibility to make decisions (or to see that decisions are made) in the best interests of shareholders. Part of that responsibility is to ensure that managerial decisions are also in the best interests of the shareholders. Therefore, at least part of having directors is a monitoring cost.
+
+Agents incur bonding costs to assure principals that they will act in their best interest. The name comes from the agent's promise or bond to take specific actions. A manager may enter into a contract that requires him or her to stay with the firm even though another company acquires it; an implicit cost is then incurred by the manager, who foregoes other employment opportunities.
+
+Even when monitoring and bonding devices are used, there may be some divergence between the interests of principals and those of agents. The resulting cost, called the residual loss, is the implicit cost because the principal's and the agent's interests cannot be perfectly aligned even when monitoring and bonding costs are incurred.
+
+Please read `Tirole, chapter 1` for more information on agency conflicts. This is ONE of THREE reading assignments that you take in the course.
+
+## REVIEW QUESTIONS
+
+   1. In most large corporations, ownership and management are separated. What are the main implications of this separation? (8 mks)
+   2. What are agency costs, and what causes them? How can agency conflicts be minimised? (Need further reading here) (4 mks)
+   3. Discuss the scope of financial management (8 mks).
+   
+## Reading Assignments
+
+- Tirole, Chapter 1 (see the course outline for the reference).
+- Features of Health Care Financing.
+- The Public Financial Management Act, 2012.

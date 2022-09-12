@@ -1,0 +1,463 @@
+---
+title: 'BHR 210: Statistics Marking Scheme, June 2021 Examinations'
+author: "John Karuitha"
+date: "7/10/2021"
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{center}
+    \includegraphics[width=2in,height=2in]{logo.png}\LARGE\\}
+  - \posttitle{\end{center}}
+  - \usepackage[utf8]{inputenc}
+  - \usepackage{pdflscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+  - \usepackage{amsmath}
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+```
+
+\newpage
+
+\textbf{QUESTION ONE}
+
+\textbf{PART A}
+
+As part of the human resource department of Karatina University, you are tasked to summarize the maximum educational level attained by each of the 900 employees at the institution. From the records, you find that 200 have no college degree (None), 50- have a diploma (DIP), 200 have a bachelors degree (BA), 300 have a masters degree (MA), and 150 have a PhD. 
+
+a) Make a frequency table with two columns; Education Level and Number. \hfill\ (2 marks)
+
+
+_The frequency table should be as in Table 1 above (2 marks)_
+
+
+```{r}
+education_level <- c("No_college_degree", "Diploma", "Bachelors_degree", "Masters_degree", "PhD")
+
+num <- c(200,50,200,300,150)
+
+education_df <- data.frame(education_level, num)
+
+education_df %>% 
+  
+  knitr::kable(booktabs = TRUE, caption = "Education Levels of Employees at Karatina University") %>% 
+  
+  kable_styling(full_width = TRUE, bootstrap_options = "striped")
+```
+
+
+b) Make a relative frequency table. \hfill\ (2 Marks)
+
+
+_The relative frequency should be as in Table 2 above; can either be fractions, decimals or percentages. Accept any of these formats for representing proportions._ 
+
+
+```{r}
+education_df %>% 
+  
+  mutate(proportion = num/sum(num)) %>% 
+  
+  select(-num) %>% 
+  
+  knitr::kable(booktabs = TRUE, caption = "relative Education Levels of Employees at Karatina University") %>% 
+  
+  kable_styling(full_width = TRUE, bootstrap_options = "striped") %>% 
+  
+  add_footnote(label = "Also accept percentages like 22.22%, 5.56% and so on and also fractions like 200/900, 50/900, or 2/9, 5/90 and the like", notation = "symbol")
+```
+
+
+
+c) Is Education Level a quantitative or qualitative variable? Explain. \hfill\ (1 mark)
+
+
+_Education is qualitative or categorical as it puts the people into bins or categories and has no units._
+
+
+d) Is Number a quantitative or qualitative variable? Explain. \hfill\ (1 marks)
+
+
+_Number is quantitative and discrete as it has units but cannot take on fractions: NB: The student need NOT say it is discrete, quantitative is enough for full marks._
+
+
+e) Draw a bar-graph to represent the above information. \hfill\ (2 marks). 
+
+
+```{r}
+education_df %>% 
+  
+  ggplot(mapping = aes(x = fct_reorder(education_level, num), y = num, fill = factor(education_level))) + 
+  
+  geom_col() + 
+  
+  labs(x = "Education", y = "Number", title = "Education Levels of Staff at Karatina University") + 
+  
+  theme(legend.position = "bottom", 
+        
+        legend.title = element_blank())
+```
+
+
+NB: The x-xis should represent education level with number on the y-axis. 
+
+_Marks distribution: Getting the chart x and y axis right 1/2 mks
+Getting the bars right 1 mk. NB: The bars need NOT be ordered in ascending or descending order. The graph need NOT be colored. Titles and axis labels = 1/2 marks_
+
+
+f) What is the probability that an employee of Karatina University picked at random would be a holder of a diploma qualification? \hfill\ (1 mark)
+
+
+$\frac{50}{900} = \frac{5}{90}$ = 0.0556
+
+
+\textbf{PART B}
+
+The table below shows the corresponding height(in cm) and weight (in kilograms) of a sample of 10 traders at Karatina open air market. 
+
+\begin{center}
+\begin{tabular}{ c c c c c c c c c c c }
+ \textbf{Name} & Wairimu & Oloo & Kiptoo & Ann & Etyang & Paul1 & Jane & Joan & Paul & Carol \\ 
+ \textbf{Height} & 165 & 172 & 167 & 179 & 150 & 140 & 180 & 200 & 176 & 220 \\  
+ \textbf{Weight} & 67 & 73 & 69 & 75 & 64 & 50 & 78 & 84 & 80 & 90   
+\end{tabular}
+\end{center}
+
+
+
+```{r}
+names <- c("Wairimu", "Oloo", "Kiptoo", "Ann", "Etyang", "Pauli", "Jane", "Joan", "Paulo", "Carol")
+height <- c(165, 172, 167, 179, 150, 140, 180, 200, 176, 220)
+weight <- c(67, 73, 69, 75, 64, 50, 78, 84, 80, 90)
+
+guys <- data.frame(names, height, weight)
+```
+
+
+
+a) Compute the arithmetic mean for the height and weight of the traders. \hfill\ (1 mark)
+
+
+
+_The arithmetic mean is the sum of all the respective values divide by count._
+
+_mean of height is (165 + 172 + 167 + 179 + 150 + 140 + 180 + 200 + 176 + 220) / 10 = 174.9cm._
+
+_mean of weight is (67 + 73 + 69 + 75 + 64 + 50 + 78 + 84 + 80 + 90) / 10 = 73 kgs._
+
+
+
+b) Compute the median height and weight of the traders. \hfill\ (1 mark)
+
+
+_For the median, we first arrange the data in ascending or descending order and get the value in the middle._
+
+_Arranging height in ascending order, we get: 140, 150, 165, 167, 172, 176, 179, 180, 200, 220. The two middle values are 172 and 176. The mean of these gives us the median. (172+176)/10 = 174. (1/2 marks)._
+
+_Arranging height in ascending order, we get: 140, 150, 165, 167, 172, 176, 179, 180, 200, 220. The two middle values are 172 and 176. The mean of these gives us the median. (172+176)/10 = 174. (1/2 marks)._
+
+_Arranging height in ascending order, we get: 50, 64, 67, 69, 73, 75, 78, 80, 84, 90. The two middle values are 73 and 75. The mean of these gives us the median. (73+75)/10 = 74.` (1/2 marks)._
+
+
+c) When is the median an appropriate measure of center than the arithmetic mean? Explain. \hfill\ (1 mark)
+
+
+_The median is appropriate when the data has extreme values and/or is skewed._
+
+
+
+d) Draw a scatter plot of the height (x - axis) and weight (y -axis). \hfill\ (4 marks)
+
+_- Chart title and labels (1/2 mark each)._
+_- X and Y axis (1 mark)._
+_- Points in the chart (1.5 marks)._
+
+
+```{r, fig.cap = "Scatter Plot of Height versus Height"}
+guys %>% 
+  
+  ggplot(mapping = aes(x = height, y = weight, col = names)) + 
+  
+  geom_point() + 
+  
+  labs(x = "Height", y = "Weight", title = "Chart of Weight versus Height") + 
+  
+  theme(legend.position = "none")
+```
+
+
+\newpage
+\blandscape
+
+e) Compute the standard deviation for (i) height and (ii) weight of the traders. \hfill\ (2 marks)
+
+$s=\sqrt{\frac{1}{N-1}\sum_{i=1}^N(x_i-\bar{x})^2}$
+
+
+We have already computed the mean of height as 174.9 inches and weight as 73 kg above. let us denote mean of height as W and the mean of height as H we can do the table below`
+
+```{r}
+guys %>% 
+  
+  mutate(height_less_H = height - mean(height),
+         
+         height_less_H_sq = height_less_H^2,
+         
+         weight_less_W = weight - mean(weight),
+         
+         weight_less_W_sq = weight_less_W^2) %>% 
+  
+  knitr::kable() %>% 
+  
+  kable_styling(full_width = TRUE, bootstrap_options = "striped") %>% 
+  
+  add_footnote(label = "", notation = "symbol")
+```
+
+
+For height, we get the sum of height less the mean of height squared (height_less_H_sq), then we divide by N-1. (table- 1 mark, solution, 1 mark)
+
+```{r}
+guys <- guys %>% 
+  
+  mutate(height_less_H = height - mean(height),
+         
+         height_less_H_sq = height_less_H^2,
+         
+         weight_less_W = weight - mean(weight),
+         
+         weight_less_W_sq = weight_less_W^2)
+
+sqrt(sum(guys$height_less_H_sq) / (nrow(guys) - 1))
+```
+
+
+Likewise, for height, we get the sum of weight less the mean of weight squared (weight_less_H_sq), then we divide by N-1. (table 1 mark, solution 1 mark)
+
+```{r}
+guys <- guys %>% 
+  
+  mutate(height_less_H = height - mean(height),
+         
+         height_less_H_sq = height_less_H^2,
+         
+         weight_less_W = weight - mean(weight),
+         
+         weight_less_W_sq = weight_less_W^2)
+
+sqrt(sum(guys$weight_less_W_sq) / (nrow(guys) - 1))
+```
+
+
+
+f) Compute the correlation coefficient between height and weight of the traders. \hfill\ (3 marks) 
+
+We have already computed the standard deviations of height and weight. We also know the respective means. Hence we standardize both height and weight. using the formula. 
+
+$z_x = \frac{x -\bar{x}}{\sigma_{x}}$
+
+\newpage
+
+```{r}
+guys %>% 
+  
+  select(names, height, weight) %>% 
+  
+  mutate(z_height = (height - mean(height))/sd(height), 
+         
+         z_weight = (weight - mean(weight))/sd(weight))
+```
+
+We then multiply z_height with z_weight, as follows. We divide the sum of z_height_weight with standard deviation of X * standard deviation of Y. 
+
+$corr = \frac{\sum(Z_xZ_y)}{N-1}$
+
+```{r}
+guys2 <- guys %>% 
+  
+  select(names, height, weight) %>% 
+  
+  mutate(z_height = (height - mean(height))/sd(height), 
+         
+         z_weight = (weight - mean(weight))/sd(weight),
+         
+         z_height_weight = z_height * z_weight
+         
+         )
+
+guys2
+
+sum(guys2$z_height_weight)/(nrow(guys2) - 1)
+```
+
+- table 1.5 mark, solution 1.5 mark. NB: Students may use different formulaes. 
+
+g) Write a sample R code that you would use to capture the height of the traders. \hfill\ (2 marks)
+
+```
+height <- c(165, 172, 167, 179, 150, 140, 180, 200, 176, 220)
+```
+`NB: Some students may use = instead of <- and they are right. They may also use a different variable name` 
+
+h) Write a sample R code that you would use to compute the mean of the height \hfill\ (1 mark)
+
+```
+mean(height) or mean(c(165, 172, 167, 179, 150, 140, 180, 200, 176, 220))
+```
+
+\elandscape
+\newpage
+
+\textbf{QUESTION TWO}
+
+A tire manufacturer believes that the tread life of its snow tires can be described by a Normal
+model with a mean of 32,000 miles and a standard deviation of 2500 miles.
+
+a) Compute the z-score for a tire that lasts for 40,000 miles. \hfill\ (3 marks)
+
+$z_x = \frac{x -\bar{x}}{\sigma_{x}}$ (1 mark)
+
+```
+z = (40000-32000) / 2500 = 8000/2500 = 3.2 (2 marks)
+```
+
+b) Approximately what fraction of these tires can be expected to last less than 30,000 miles? \hfill\ (6 marks)
+
+```
+z = (30000-32000) / 2500 = -2000/2500 = -0.8 (3 marks)
+```
+
+The area less than -0.8 is equal to area over 0.8. 
+
+`From our table, the area between 0 and 0.8 is equal to the area between 0 and -0.8. That area is 0.2881`
+
+Hence, 0.5-0.2881 = 0.2119
+
+(3 marks)
+
+c) Approximately what fraction of these tires can be expected to last between 30,000 and 35,000 miles? \hfill\ (6 marks)
+
+```
+z = (30000-32000) / 2500 = -2000/2500 = -0.8 (2 marks)
+z = (35000-32000) / 3000 = 3000/2500 = 1.2 (2 marks)
+```
+
+As shown earlier the area between zero and -0.8 is 0.2881. The area between zero and 1.2 is 0.3849. We add the two to get 0.673. (2 marks). 
+
+
+\textbf{QUESTION THREE}
+
+A recent study of Kenya Revenue Authority (KRA) audits showed that, for estates worth less than 15 million, about 1 out of 7 of all estate tax returns are audited, but that probability increases to 0.5 for estates worth over Ksh. 15 million. Suppose a tax accountant has three clients who have recently filed returns for estates worth more than Ksh. 15 million. What are the probabilities that:
+
+a) All three will be audited? \hfill\ (3 marks)
+
+```
+We use the multiplication rule assuming independence. 
+
+0.5*0.5*0.5 = 0.125
+```
+
+b) None will be audited? \hfill\ (3 marks)
+
+```
+We use the complement rule 
+
+1 - 0.125 = 0.875
+```
+
+c) At least one will be audited? \hfill\ (5 marks)
+
+```
+Here, we examine 3 probabilities
+
+P(1 is audited) + p(2 are audited) + p(3 are audited) (1 Mark)
+
+0.5 + (0.5*0.5) + (0.5*0.5*0.5) = 0.875 (4 Marks)
+```
+
+d) What did you assume in calculating these probabilities? \hfill\ (4 marks)
+
+- Independence
+
+
+\textbf{QUESTION FOUR}
+
+Is there a relationship between total team salary and the performance of teams in the Kenya National Soccer League (NFL)? For the 2019–2020 season, a linear model predicting Wins (out of 16 regular season games) from
+the total team Salary (Ksh. millions) for the 20 teams in the league is:
+
+Wins = -16.32 + 0.219Salary
+
+a) What is the explanatory or independent variable? \hfill\ (1 mark)
+
+```
+Salary
+```
+
+b) What is the response or dependent variable? \hfill\ (1 mark)
+
+```
+Wins
+```
+
+c) What does the slope mean in this context? \hfill\ (2 marks)
+
+
+_for a unit increase in salary, Wins/perfromance increase by 0.219 units (2 marks)._
+
+
+d) What does the y-intercept mean in this context? Is it meaningful? Explain. \hfill\ (4 marks)
+
+
+_At zero salary, the performance would be -16.32. In other words the team would loose all matches as we have 16 of them. It is meaningful as no team would exist without spending. (4 marks)._
+
+
+e) If one team spends Ksh. 10 million more than another on salary, how many more games on average would you predict them to win? \hfill\ (3 marks)
+
+
+_Assume a team A spends zero, winning -16.32 matches or losing 16.32 matches, and team B spends 10 million (in this case we use 10 as figures are in millions), wining -16.32 + 0.219*10 = -16.32 + 2.19 = -14.13 matches (or losing 14.23 matches). The difference is -14.23--16.32 = 2.09. Approximately 2 matches. (3 marks)._
+
+f) If a team spent ksh. 120 million on salaries and won 8 games, would they have done better or worse than predicted? \hfill\ (4 marks). 
+
+_At 120 million (120), they should win -16.32+0.219*120 = 9.96. (3 marks)
+Having won 8 games, they are under performing. (1 mark)._
+
+\textbf{QUESTION FIVE}
+
+a) Distinguish between a sample and population. \hfill\ (3 marks)
+
+_Sample: Subset of a population._
+_Population: Large collection of individuals or objects that are the main focus of scientific enquiry._ 
+
+_NB: language may vary:_
+
+
+b) Compare and contrast the arithmetic mean and the geometric mean, giving situations where each is a more appropriate measure of center. \hfill\ (4 marks). 
+
+
+_-The computation is different. Mean is the sum of the quantities of interest divided by the count of these subjects. (A fromula definition is also fine)._ 
+
+_- The geometric mean is the nth root of the product of the quantities of interest, where n is the count of these quantities._
+
+
+$Arithmetic_mean =\frac{\sum{x}}{N}$
+
+$geometric_mean = \sqrt[n](X_{1}*X_{2}*......*X_{n})$
+
+c) List and discuss four sampling techniques that researchers use to select a sample from the population \hfill\ (8 marks). (1 mark for listing and one for explaining)
+
+```
+- random sampling
+- Convinience
+- Snowballing
+- Stratification
+- Clustering
+-   etc
+```
+\end{flushleft}
+

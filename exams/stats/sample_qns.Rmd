@@ -1,0 +1,56 @@
+---
+title: "Statistics Sample Revision Questions"
+author: "John Karuitha"
+date: "5/12/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(tidyverse)
+```
+
+# **QUESTION ONE**
+## The Data
+
+You are provided with the following dataset for the average amount of meat in kgs and the weight for 10 individuals. 
+
+```{r}
+Individual <- 1:10
+Meat_intake <- c(5, 7.5, 2, 0, 15, 10, 3, 20, 4, 12)
+Weight <- c(57, 60, 55, 58, 100, 80, 48, 120, 50, 48)
+
+my_data <- data.frame(Individual, Meat_intake, Weight)
+my_data %>% knitr::kable(booktabs = TRUE, caption = "Height vs Meat Intake for 10 Individuals") %>% 
+  
+  kableExtra::kable_styling(bootstrap_options = "striped", full_width = FALSE) %>% 
+  
+  kableExtra::add_footnote(label = "This is a fictitious dataset and should not be taken as medical proof", notation = "symbol")
+```
+
+REQUIRED: 
+
+1. A scatter plot of weight (y-axis) versus meat intake (x -axis). 
+2. A comment on the relationship between weight and meat intake. 
+3. The arithmetic mean, geometric mean and harmonic mean of weight and meat intake. When is each of these means appropriate?
+3. The median, Q1, Q3, and Interquantile range for weight and meat intake. 
+4. The variance, standard deviation of weight and meat intake.
+3. The correlation coefficient between weight and meat intake. 
+4. A regression equation with weight as the dependent variable (y) and meat intake as the independent variable x. 
+    - $y = \beta_{0} + \beta_{1}x$. 
+    - $weight = \beta_{0} + \beta_{1}Meat_intake$. 
+4. Standardize both the weight and meat intake variables (z-scores). 
+3. 3 separate lines of R code that capture individual, Weight and meat intake using the `c` function. 
+4. Use the data.frame function to combine the three variables above into a data table. 
+5. Use R to compute the metrics you have manually computed in questions 1-7. 
+
+# **QUESTION TWO**
+People who eat a lot of meat have a high risk of developing heart disease. A person who eats 500g of meat daily has a 70% (0.5) chance of getting heart disease. A doctor meets 3 patients in a day each of whom consumes 500g of meat daily. What is the probability that the three will develop heart disease? What assumption did you make?
+
+# **QUESTION THREE**
+Suppose you take the average score in the statistics exam for a group of students. You find that the data is normally distributed with the average score at 60 marks with a standard deviation of 10 marks. What is the probability that a student picked at random will have more than 70 marks? What is the probability that a student picked at random fails, that is, scores less than 40 marks?
+
+# **QUESTION FOUR**
+Be sure to comfortable with the theory and definitions over and above the computations and their interpretations. 

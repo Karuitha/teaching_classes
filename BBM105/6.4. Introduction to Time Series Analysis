@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<script type="text/javascript" id="www-widgetapi-script" src="6.4_files/www-widgetapi.js" async=""></script><script src="6.4_files/iframe_api.es"></script><script async="" src="6.4_files/analytics.js"></script><script async="" type="text/javascript" id="_fed_an_ua_tag" src="6.4_files/Universal-Federated-Analytics-Min.js">
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="GENERATOR" content="Mozilla/4.05 [en] (WinNT; U) [Netscape]">
+<title>6.4. Introduction to Time Series Analysis</title>
+<link rel="stylesheet" href="6.4_files/nist-combined.css">
+<script src="6.4_files/jquery-1.9.0.min.js" type="text/javascript" defer="defer"></script>
+<script src="6.4_files/nist-header-footer.js" type="text/javascript" defer="defer"></script>
+</head>
+
+<body data-new-gr-c-s-check-loaded="8.902.0" data-gr-ext-installed="" bgcolor="FFFFCC"><div id="nistheadergoeshere"><header class="nist-header" id="nist-header" role="banner">
+
+  <a target="_parent" href="https://www.nist.gov/" title="National Institute of Standards and Technology" class="nist-header__logo-link" rel="home">
+    <svg aria-hidden="true" class="nist-header__logo-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="32" viewBox="0 0 24 32">
+      <path d="M20.911 5.375l-9.482 9.482 9.482 9.482c0.446 0.446 0.446 1.161 0 1.607l-2.964 2.964c-0.446 0.446-1.161 0.446-1.607 0l-13.25-13.25c-0.446-0.446-0.446-1.161 0-1.607l13.25-13.25c0.446-0.446 1.161-0.446 1.607 0l2.964 2.964c0.446 0.446 0.446 1.161 0 1.607z"></path>
+    </svg>
+    <svg class="nist-header__logo-image" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-237 385.7 109.7 29.3">
+      <title>National Institute of Standards and Technology</title>
+      <g>
+        <path class="st0" d="M-231,415h-6v-23.1c0,0,0-4.4,4.4-5.8c4-1.3,6.6,1.3,6.6,1.3l19.7,21.3c1,0.6,1.4,0,1.4-0.6v-22h6.1V409
+          c0,1.9-1.6,4.4-4,5.3c-2.4,0.9-4.9,0.9-7.9-1.7l-18.5-20c-0.5-0.5-1.8-0.6-1.8,0.4L-231,415L-231,415z"></path>
+        <path class="st0" d="M-195,386.1h6.1v20.7c0,2.2,1.9,2.2,3.6,2.2h26.8c1.1,0,2.4-1.3,2.4-2.7c0-1.4-1.3-2.8-2.5-2.8H-176
+          c-3,0.1-9.2-2.7-9.2-8.5c0-7.1,5.9-8.8,8.6-9h49.4v6.1h-12.3V415h-6v-22.9h-30.2c-2.9-0.2-4.9,4.7-0.2,5.4h18.6
+          c2.8,0,7.4,2.4,7.5,8.4c0,6.1-3.6,9-7.5,9H-185c-4.5,0-6.2-1.1-7.8-2.5c-1.5-1.5-1.7-2.3-2.2-5.3L-195,386.1
+          C-194.9,386.1-195,386.1-195,386.1z"></path>
+      </g>
+    </svg>
+  </a>
+
+</header>
+</div>
+
+<img src="6.4_files/nvgtbr.gif" valign="TOP" ismap="ismap" usemap="#MenuBar" border="0">
+<map name="MenuBar">
+<area shape="rect" alt="Next Page" href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc41.htm" coords="463,27,504,45">
+<area shape="rect" alt="Previous Page" href="https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc343.htm" coords="417,28,459,45">
+<area shape="rect" alt="Home" href="https://www.itl.nist.gov/div898/handbook/index.htm" coords="52,0,100,43">
+<area shape="rect" alt="Tools &amp; Aids" href="https://www.itl.nist.gov/div898/handbook/toolaids.htm" coords="165,27,264,46">
+<area shape="rect" alt="Search Handbook" href="https://www.itl.nist.gov/div898/handbook/search.htm" coords="307,28,366,44">
+<area shape="default" nohref="">
+</map>
+<br>
+
+<table width="540" cellspacing="20" cellpadding="0">
+
+<tbody><tr>
+<td colspan="2" valign="TOP">
+<font size="-1">
+<font color="#D60021">6.</font>
+<font color="#00105A"><a href="https://www.itl.nist.gov/div898/handbook/pmc/pmc.htm">Process or Product Monitoring and Control</a></font>
+<br>
+</font>
+<br>
+<table>
+<tbody><tr>
+<td valign="top">
+<h2><font color="#D60021">6.4.</font></h2>
+</td>
+<td valign="top">
+<h2>Introduction to Time Series Analysis</h2>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+
+
+
+
+
+<!-- begin paragraph -->
+<tr>
+<td width="15%" valign="top">
+<!-- Add marginal notes below -->
+<i>Time series methods take into account possible
+internal structure in the data</i>
+</td>
+<td width="85%" valign="TOP">
+<!-- Add main text below -->
+Time series data often arise when monitoring industrial processes or
+tracking corporate business metrics. The essential difference between
+modeling data via time series methods or using the process monitoring
+methods discussed earlier in this chapter is the following:
+<blockquote>
+<i>Time series analysis accounts for the fact that data points taken
+over time may have an internal structure (such as autocorrelation, trend
+or seasonal variation) that should be accounted for.</i>
+</blockquote>
+This section will give a brief overview of some of the more widely
+used techniques in the rich and rapidly growing field of time series
+modeling and analysis.
+
+</td>
+</tr>
+<!-- end paragraph -->
+
+<tr>
+<td width="15%" valign="TOP">
+<i>Contents for this section</i>
+</td>
+
+<td width="85%" valign="TOP">
+Areas covered are:
+<blockquote>
+<ol>
+   <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc41.htm">Definitions, Applications and
+       Techniques</a></li>
+   <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc42.htm">What are Moving Average or Smoothing
+       Techniques?</a></li>
+       <ol>
+          <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc421.htm">Single Moving Average</a></li>
+          <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc422.htm">Centered Moving Average</a></li>
+       </ol>
+   <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc43.htm">What is Exponential Smoothing?</a></li>
+       <ol>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc431.htm">Single Exponential
+             Smoothing</a></li>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc432.htm">Forecasting with Single
+             Exponential&nbsp;&nbsp; Smoothing</a></li>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc433.htm">Double Exponential
+             Smoothing</a></li>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc434.htm">Forecasting with Double Exponential
+             Smoothing</a></li>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc435.htm">Triple Exponential
+             Smoothing</a></li>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc436.htm">Example of Triple Exponential
+             Smoothing</a></li>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc437.htm">Exponential Smoothing
+             Summary</a></li>
+      </ol>
+   <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc44.htm">Univariate Time Series Models</a></li>
+      <ol>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc441.htm">Sample Data Sets</a></li>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc442.htm">Stationarity</a></li>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc443.htm">Seasonality</a></li>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc444.htm">Common Approaches</a></li>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc445.htm">Box-Jenkins Approach</a></li>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc446.htm">Box-Jenkins Model
+             Identification</a></li>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc447.htm">Box-Jenkins Model
+             Estimation</a></li>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc448.htm">Box-Jenkins Model
+             Validation</a></li>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc449.htm">Example of Univariate
+             Box-Jenkins Analysis</a></li>
+         <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc44a.htm">Box-Jenkins Model Analysis on 
+             Seasonal Data</a></li>
+      </ol>
+   <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc45.htm">Multivariate Time Series Models</a></li>
+       <ol>
+          <li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc451.htm">Example of Multivariate Time
+              Series Analysis</a></li>
+      </ol>
+</ol>
+</blockquote>
+</td>
+</tr>
+
+   
+
+   
+</tbody></table>
+
+<img src="6.4_files/nvgbrbtm.gif" usemap="#nvbar.nvbar" border="0">
+<map name="nvbar.nvbar">
+<area shape="rect" href="http://www.nist.gov/" coords="22,6,67,20">
+<area shape="rect" href="http://www.sematech.org/" coords="3,23,92,40">
+<area shape="rect" alt="Home" href="https://www.itl.nist.gov/div898/handbook/index.htm" coords="114,12,165,31">
+<area shape="rect" alt="Tools &amp; Aids" href="https://www.itl.nist.gov/div898/handbook/toolaids.htm" coords="190,12,290,31">
+<area shape="rect" alt="Search Handbook" href="https://www.itl.nist.gov/div898/handbook/search.htm" coords="318,14,376,30">
+<area shape="rect" alt="Previous Page" href="https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc343.htm" coords="428,15,471,29">
+<area shape="rect" alt="Next Page" href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc41.htm" coords="476,15,517,30">
+<area shape="default" nohref="">
+</map>
+   
+
+
+
+<div id="nistfootergoeshere"><footer class="nist-footer">
+  <div class="nist-footer__inner">
+    <div class="nist-footer__menu" role="navigation">
+      <ul>
+        <li class="nist-footer__menu-item">
+          <a target="_parent" href="https://www.nist.gov/privacy-policy">Site Privacy</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a target="_parent" href="https://www.nist.gov/oism/accessibility">Accessibility</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a target="_parent" href="https://www.nist.gov/privacy">Privacy Program</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a target="_parent" href="https://www.nist.gov/oism/copyrights">Copyrights</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a target="_parent" href="https://www.commerce.gov/vulnerability-disclosure-policy">Vulnerability Disclosure</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a target="_parent" href="https://www.nist.gov/no-fear-act-policy">No Fear Act Policy</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a target="_parent" href="https://www.nist.gov/foia">FOIA</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a target="_parent" href="https://www.nist.gov/environmental-policy-statement">Environmental Policy</a>
+        </li>
+        <li class="nist-footer__menu-item ">
+          <a target="_parent" href="https://www.nist.gov/summary-report-scientific-integrity">Scientific Integrity</a>
+        </li>
+        <li class="nist-footer__menu-item ">
+          <a target="_parent" href="https://www.nist.gov/nist-information-quality-standards">Information Quality Standards</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a target="_parent" href="https://www.commerce.gov/">Commerce.gov</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a target="_parent" href="https://www.science.gov/">Science.gov</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a target="_parent" href="https://www.usa.gov/">USA.gov</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a target="_parent" href="https://vote.gov/">Vote.gov</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="nist-footer__logo">
+    <a target="_parent" href="https://www.nist.gov/" title="National Institute of Standards and Technology" class="nist-footer__logo-link" rel="home">
+      <img src="6.4_files/nist_logo_centered_rev.svg" alt="National Institute of Standards and Technology logo">
+    </a>
+  </div>
+</footer>
+</div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

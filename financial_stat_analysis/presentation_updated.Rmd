@@ -1,0 +1,314 @@
+---
+title: "**Ratio Analysis**"
+subtitle: "*Drilling Down on Financial Statements*"
+author: "John Karuitha"
+institute: "Karatina University, Kenya"
+date: "2021/11/25 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+background-image: url(http://www.aafmindia.co.in/blogimg/financialStatement/images/framework.jpg)
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+???
+
+Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
+
+---
+class: left, middle
+
+# Background
+
+### Common size analysis key to understand financial statements. 
+
+### Ratio analysis is another key concept.
+
+### After common size analysis, drill down on identified patterns using ratio analysis. 
+
+### This topic covers:
+
+  - Accounting ratios.
+  - The DuPont identity. 
+  
+---
+class: left, middle
+
+# Ratio analysis
+
+### Comparison of financial ratios. 
+
+### The ratios are computed from financial data.
+
+### The ratios give us insights into business performance. 
+
+---
+class: left, middle
+
+# Why Ratio analysis
+
+### Helps answer key questions:
+
+        - Why is one business more profitable than another?
+
+        - What returns are being earned by the business owners?
+
+        - Is the business solvent?
+
+        - How effectively is a business using its assets?
+
+---
+class: left, middle
+
+# Why ratio analysis
+
+### Ratio analysis gives insights.
+
+### Ratio analysis does not necessarily lead to solutions to business problems.
+
+---
+class: left, middle
+
+# Sources of Data for Ratio Analysis.
+
+### Two main sources of data for financial analysis.
+
+### Financial statements;
+
+        - Statement of Financial posisition.
+        
+        - Statement of Comprehensive incomes. 
+
+---
+class: left, middle
+
+# Sources of Data for Ratio Analysis.
+
+### Statement of Financial posisition.
+
+        - Current assets.
+        - Current liabilities.
+        - Inventories.
+        - Trade receivables & payables.
+        - Long term liabilities.
+        - Capital & reserves.
+        
+---
+class: left, middle
+
+# Sources of Data for Ratio Analysis.
+
+### Statement of Comprehensive incomes. 
+
+        - Revenues.
+        - Cost of sales.
+        - Gross profit.
+        - Operating profit.
+        - Net profit.
+        
+
+---
+class: inverse, center, middle
+
+# The Steps in Ratio Analysis
+
+---
+class: left, middle
+
+# Steps in Doing Ratio Analysis
+
+### The following key steps
+
+        - Gather data.
+        - Calculate the ratios.
+        - Interpret results.
+        - Take action.
+
+---
+class: left, middle
+
+class: inverse, center, middle
+
+# Main Groups of Ratios
+
+---
+class: left, middle
+
+# Main Groups of Ratios
+
+### Profitability ratios:
+### Returns/ profits earned by business. 
+
+        - Gross profit margin.
+        - Operating profit margin.
+        - Return on capital employed (ROCE).
+
+---
+
+class: left, middle
+
+# Main Groups of Ratios
+
+### Liquidity ratios
+### Can the business meet its obligations. 
+        
+        - Current ratio.
+        - Acid test ratio. 
+---
+class: left, middle
+
+# Main Groups of Ratios
+
+### Financial efficiency ratios. 
+### How well the business uses its assets. 
+
+        - Payable days.
+        - Receivables days.
+        - Inventory turnover.
+        
+---
+class: left, middle
+
+# Main Groups of Ratios
+
+### Leverage ratios. 
+### Indicates the level of debt incurred by a business
+### Ability of a firms to meet its financial obligations. 
+
+        - Debt ratio (Debt to assets ratio).
+        - Dent to equity ratio.
+        - Debt to capital ratio.
+        - Assets to equity ratio.
+
+---
+
+class: left, middle
+
+# Key Users of Ratios.
+
+### The key users are:
+
+        - Shareholders.
+        _ Governments.
+        - Competitors.
+        - Employees.
+        - Lenders.
+        - Suppliers.
+
+---
+class: left, middle
+
+class: inverse, center, middle
+
+# Computing the Ratios
+---
+
+class: left, middle
+
+# Liquidity Ratios
+
+### The current ratio is among the most useful in this area. 
+
+### Reflects abililty of a firm to pay its obligations in the short term. 
+
+$Current Ratio = \frac{Current Assets}{Current Liabilities}$
+
+- A current ratio of at least 2 is healthy.
+
+- However, the threshold may vary by industry. 
+
+---
+class: left, middle
+
+# Leverage Ratios
+
+### Debt ratio
+
+$Debt Ratio = \frac{Total Liabilties}{Total Assets}$
+
+- A debt ratio of between 50 and 60% is standard.
+- Again, this varies by industry and other factors. 
+
+---
+
+# Summary of Independent variables 
+
+![](summary_stats_indepe.png)
+
+
+---
+
+# Fixed effects model
+
+![](women_borrowers_fixed_effects.png)
+
+
+
+---
+
+# Random effects
+
+![](women_borrowers_random_effects.png)
+
+---
+
+# Main Take Aways from the Regression
+- NGOs reach more women than other legal forms.
+- NGOs have lower average loan balance per borrower.
+- Lower average loan balance means deeper outreach.
+- NGOs have high gross loans just below commercial banks.
+- Education and operating expenses the major +ve drivers of outreach to women.
+- Size and age of MFI the central determinants of average loan balance per borrower.
+- Large MFIs have higher average loan sizes. 
+- Older MFIs have smaller average loan balances.
+---
+# Main Take Aways from the Regression
+
+- Age, operating expenses to assets ratio, donations to assets ratio, asset structure and size are the key drivers of gross loans to assets ratio.
+
+- Older MFIs have higher gross loans to assets ratio.
+
+- Operating expenses relates positively with gross loans to assets ratios.
+
+- Donations have a negative relationship with gross loans to assets.
+
+- Both asset structure and size of an MFI have negative relationship with the size of an MFI. 
+
+---
+
+# Conclusion
+
+### The conversion of MFIs could negatively affect financial inclusion in Africa.
+
+### NGOs have reach more women borrowers than banks, NBFIs, rural banks and credit unions.
+
+### NGOs have lower average loan balance per borrower than other MFI legal forms.
+
+### NGOs the second highest median gross loans behind credit unions.
+
+---
+
+class: center
+
+# Any Questions or Comments Welcome!!
+
+
+![](https://upload.wikimedia.org/wikipedia/commons/7/7e/Mudra-Naruto-KageBunshin.svg)
+
+---
+
+class: center, middle
+
+# Thanks!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](https://yihui.org/knitr/), and [R Markdown](https://rmarkdown.rstudio.com).

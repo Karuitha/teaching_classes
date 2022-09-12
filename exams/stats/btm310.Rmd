@@ -1,0 +1,184 @@
+---
+title: "**KARATINA UNIVERSITY**"
+subtitle: "**School of Business**"
+author: ""
+date: ""
+output: 
+  pdf_document:
+    fig_height: 3
+    fig_width: 5
+  html_document:
+    fig_height: 3
+    fig_width: 5
+  word_document:
+    fig_height: 3
+    fig_width: 5
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{center}
+    \includegraphics[width=2in,height=2in]{logo.png}\LARGE\\}
+  - \posttitle{\end{center}}
+  - \usepackage[utf8]{inputenc}
+  - \usepackage{pdflscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+  - \usepackage{amsmath}
+params:
+  year: 2021
+  month: June_25
+  academic_year: 2020/2021
+  course_code:  BTM 310
+  course_title: Statistics
+  time: 1400 to 1700 hrs
+  degree: BACHELOR OF TOURISM/ HOSPITALITY MANAGEMENT
+---
+
+```{r, setup, include=FALSE}
+require(mosaic)   # Load additional packages here 
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="small")   # slightly smaller font for code
+```
+
+```{r, include=FALSE}
+# copy the R logo to the current directory
+file.copy(file.path(R.home("doc"), "html", "logo.png"), '.')
+```
+
+\center
+\textbf{UNIVERSITY EXAMINATIONS}
+
+\center
+
+\center
+`r params$degree`
+
+\center
+
+\vspace{15mm}
+
+`r params$academic_year` ACADEMIC YEAR
+
+\vspace{5mm} 
+
+\textbf{COURSE CODE}: `r params$course_code`
+
+\vspace{5mm} 
+
+\textbf{COURSE TITLE}: `r params$course_title`
+
+\vspace{35mm}
+
+\textbf{Exam Period}: `r paste(params$month, params$year)` \hfill\ **Time**: `r params$time`
+
+
+\vspace{10mm} 
+
+\begin{flushleft}
+
+Instructions: 
+
+1. Attempt \textbf{QUESTION ONE} and choose \textbf{THREE (3)} additional questions. 
+
+2. The examination is worth 70 percent of the total score. 
+
+3. During the exam, you must not have in your possession any item or material that has not been authorised for your exam. This includes books, notes, paper, electronic device(s), mobile phone, smart watch/device, calculator, pencil case, or writing on any part of your body. Items or materials on your desk, chair, in your clothing or otherwise on your person will be deemed to be in your possession.
+
+
+
+\newpage
+
+\textbf{QUESTION ONE}
+
+\textbf{PART A}
+
+As part of the marketing group at ABC Hotels LTD, you are asked to find out the age distribution of ABC's clients. With the help of 10 of your colleagues, you conduct exit interviews by randomly selecting people to
+question at 20 different days. You ask them to tell you if they are younger than 18 years old, 18 to 25 years old, 25 to 35 years old, 35 to 50 years old, or older than 50.
+
+From 470 responses, you find out that 45 are younger than 18, 83 are18 to 25 years old, 154 are 25 to 35, 18 are 35 to 50, and 170 are older than 50. For the age distribution:
+
+a) Make a frequency table with two columns; Age group and Number. \hfill\ (2 marks)
+
+b) Make a relative frequency table. \hfill\ (2 Marks)
+
+c) Is Age group Level a quantitative or qualitative variable? Explain. \hfill\ (1 mark)
+
+d) Is Number a quantitative or qualitative variable? Explain. \hfill\ (1 marks)
+
+e) Draw a bar-graph to represent the above information. \hfill\ (3 marks). 
+
+NB: The x-xis should represent age group with number on the y-axis. 
+
+f) What is the probability that a client of ABC hotel picked at random would be a over 50 years old? \hfill\ (2 mark)
+
+
+\textbf{PART B}
+
+According to Akamai’s 2013 State of the Internet report (www.akamai.com/stateoftheinternet/), 35% of observed attack traffic originated from China, 20% from Indonesia, 11% from the US, 5.2% from Taiwan and 2.6% from Russia.
+
+a) Make a bar chart to display the results and label it clearly. \hfill\ (5 marks)
+b) Would a pie chart be an effective way of communicating this information? Why or why not? \hfill\ (4 marks)
+
+\textbf{PART C}
+
+You are provided with the following observations regarding the income in a hotel for a week, beginning from a Monday to the following Sunday. 
+
+$100, 80, 70, 50, 175, 184, 49$
+
+g) Write a sample R code that you would use to this data. \hfill\ (3 marks)
+
+h) Write a sample R code that you would use to compute the mean of the data \hfill\ (2 mark)
+
+\textbf{QUESTION TWO}
+
+Suppose you take the average score in the statistics exam for a group of students. You find that the data is normally distributed with the average score at 60 marks with a standard deviation of 10 marks. 
+
+a) Compute the z-score for a score of 70 marks. \hfill\ (3 marks)
+
+b) Approximately what fraction of students will score less than 40 marks? \hfill\ (6 marks)
+
+c) Approximately what fraction of students will score between 50 and 60 marks? \hfill\ (6 marks)
+
+
+\textbf{QUESTION THREE}
+
+A recent study of Kenya Revenue Authority (KRA) audits showed that, for estates worth less than 15 million, about 1 out of 7 of all estate tax returns are audited, but that probability increases to 0.5 for estates worth over Ksh. 15 million. Suppose a tax accountant has three clients who have recently filed returns for estates worth more than Ksh. 15 million. What are the probabilities that:
+
+a) All three will be audited? \hfill\ (3 marks)
+
+b) None will be audited? \hfill\ (3 marks)
+
+c) At least one will be audited? \hfill\ (5 marks)
+
+d) What did you assume in calculating these probabilities? \hfill\ (4 marks)
+
+
+\textbf{QUESTION FOUR}
+
+A regression of Total Revenue on Ticket Sales by the concert production company of Exercises 2 and 4 finds the model
+
+$Revenue = -14,228 + 36.87TicketSales$
+
+a) What is the explanatory or independent variable? \hfill\ (2 mark)
+
+b) What is the response or dependent variable? \hfill\ (2 mark)
+
+c) What does the slope mean in this context? \hfill\ (2 marks)
+
+d) Management is considering adding a stadium-style venue that would seat 10,000. What does this model predict that revenue would be if the new venue were to sell out? \hfill\ (6 marks)
+
+e) Why would it be a poor business decision to assume that this model accurately predicts revenue for the situation in part (d)? \hfill\ (3 marks)
+
+
+\textbf{QUESTION FIVE}
+
+a) Distinguish between a sample and population. \hfill\ (3 marks)
+
+b) Compare and contrast the arithmetic mean and the geometric mean, giving situations where each is a more appropriate measure of center. \hfill\ (4 marks). 
+
+c) List and discuss four sampling techniques that researchers use to select a sample from the population \hfill\ (8 marks). 
+
+
+
+\end{flushleft}
+

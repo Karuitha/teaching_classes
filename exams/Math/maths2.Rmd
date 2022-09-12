@@ -1,0 +1,205 @@
+---
+title: "**KARATINA UNIVERSITY**"
+subtitle: "**School of Business**"
+author: ""
+date: ""
+output: 
+  pdf_document:
+    fig_height: 3
+    fig_width: 5
+  word_document:
+    fig_height: 3
+    fig_width: 5
+  html_document:
+    fig_height: 3
+    fig_width: 5
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{center}
+    \includegraphics[width=2in,height=2in]{logo.png}\LARGE\\}
+  - \posttitle{\end{center}}
+  - \usepackage[utf8]{inputenc}
+  - \usepackage{pdflscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+  - \usepackage{amsmath}
+params:
+  year: 2021
+  month: June_21
+  academic_year: 2020/2021
+  course_code:  ECO 113
+  course_title: Introduction to Mathematics II
+  time: 1400 to 1700 hrs
+  degree: BACHELOR OF ECONOMICS
+---
+
+```{r, setup, include=FALSE}
+require(mosaic)   # Load additional packages here 
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="small")   # slightly smaller font for code
+```
+
+```{r, include=FALSE}
+# copy the R logo to the current directory
+file.copy(file.path(R.home("doc"), "html", "logo.png"), '.')
+```
+
+\center
+\textbf{UNIVERSITY EXAMINATIONS}
+
+\center
+
+\center
+
+`r params$degree`
+
+\center
+
+
+\vspace{15mm}
+
+`r params$academic_year` ACADEMIC YEAR
+
+\vspace{5mm} 
+
+\textbf{COURSE CODE}: `r params$course_code`
+
+\vspace{5mm} 
+
+\textbf{COURSE TITLE}: `r params$course_title`
+
+\vspace{35mm}
+
+\textbf{Exam Period}: `r paste(params$month, params$year)` \hfill\ **Time**: `r params$time`
+
+
+\vspace{10mm} 
+
+\begin{flushleft}
+
+Instructions: 
+
+1. Attempt \textbf{QUESTION ONE} and choose \textbf{THREE (3)} additional questions. 
+
+2. The examination is worth 70 percent of the total score. 
+
+3. During the exam, you must not have in your possession any item or material that has not been authorised for your exam. This includes books, notes, paper, electronic device(s), mobile phone, smart watch/device, calculator, pencil case, or writing on any part of your body. Items or materials on your desk, chair, in your clothing or otherwise on your person will be deemed to be in your possession.
+
+
+
+\newpage
+
+\textbf{QUESTION ONE}
+
+\textbf{PART A}
+
+The total cost function for a product is c(x) = 30x + 1200, and the total revenue is R(x) = 38x, where x is the number of units produced and sold.
+
+a) Determine the domain of the function c(x) \hfill\ (2 mark)
+
+b) Find the marginal cost. \hfill\ (3 mark)
+		 
+c) Find the profit function. \hfill\ (4 marks)
+		 
+d) Find the number of units that gives the break-even point. \hfill\ (3 marks)
+		 
+e) Find the marginal profit and explain what it means. \hfill\ (3 marks)
+
+
+\textbf{PART B}
+
+a) Define the following terms, citing example (i) Square matrix, (ii) Singular matrix. \hfill\ (4 marks)
+
+b) An inferior product with an extensive advertising campaign does well when it is released, but sales decline as people discontinue use of the product. If the sales S (in thousands of dollars) after t weeks are given by
+
+$s = {200t^2 + 1000}$
+
+Determine the instantaneous rate of change when t = 9 and interpret your result. \hfill\ (6 marks)
+
+\vspace{15mm}
+
+\textbf{QUESTION TWO}
+
+a) Define the term function. \hfill\ (2 marks)
+
+b) Use the crammers rule to solve the following systems of equations; \hfill\ (4 marks)
+
+2x + 4y = 12
+
+3x + y = 6
+
+c) Suppose that an economy has three industries, fishing (F), agriculture (A), and mining (M), and that matrix A is the technology matrix for this economy.
+
+\[
+{\begin{bmatrix}
+A       \\
+            \end{bmatrix}
+            }
+            =
+{\begin{bmatrix}
+F & A & M & \\
+0.5  & 0.1 & 0.1 & Fishing  \\
+0.3 & 0.5 & 0.2 & Agriculture    \\
+0.1 & 0.3 & 0.4 & Mining
+            \end{bmatrix}
+            }
+\]
+
+If surpluses of 110 units of fishing output and 50 units each of agricultural and mining goods are desired, find the gross production of each industry. \hfill\ (9 marks)
+
+\vspace{15mm}
+
+\textbf{QUESTION THREE}
+
+Suppose a company has fixed costs of Ksh 28,000 and variable cost per unit of $\frac{2}{5}x + 222$ shillings, where x is the total number of units produced. Suppose further that the selling price of its product is $1250 - \frac{3}{5}x$ shillings per unit.
+
+a) What is the total cost of producing x units. \hfill\ (3 marks)
+
+b) What is the total revenue function from selling x units. \hfill\ (3 marks)
+
+c) Find the break-even points. \hfill\ (3 marks)
+
+d) Find the maximum revenue. \hfill\ (3 marks)
+
+e) What price will maximize the profit? \hfill\ (3 marks)
+
+\vspace{15mm}
+
+\textbf{QUESTION FOUR}
+
+a) Evaluate the following integrals
+
+i) $\int_{0}^{10} (x^3 + 4) \,dx$ \hfill\ (4 marks)
+
+ii) $\int_{0}^{2} \frac{x^2}{4} \,dx$ \hfill\ (4 marks)
+
+b) Suppose that the proportion P of voters who recognize a candidate’s name t months after the start of the campaign is given by
+
+$p = \frac{13t}{t^2+100}$
+
+i) What value of t maximizes p. \hfill\ (7 marks)
+
+\vspace{15mm}
+
+\textbf{QUESTION FIVE}
+
+a) Find the market equilibrium point for the following demand and supply functions. \hfill\ (4 marks)
+
+Demand, $p = -2q + 320$
+
+Supply, $p = 8q + 2$
+
+
+b) A produc has the following demand and supply functions
+
+Demand, $60p + q = 2100$
+
+Supply, $120p - q = 540$
+
+A ksh. 0.80 tax is levied on the product. The supplier passes on this tax to the consumer. Find the equilibrium quantity and price after the tax. \hfill\ (6 marks)
+
+c) Find the area under $y = x^2$ (and above the x-axis) from x = 0 to x = 1. (5 marks)
+
+\end{flushleft}
+

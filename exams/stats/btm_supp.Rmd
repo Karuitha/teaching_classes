@@ -1,0 +1,211 @@
+---
+title: "**KARATINA UNIVERSITY**"
+subtitle: "**School of Business**"
+author: ""
+date: ""
+output: 
+  pdf_document:
+    fig_height: 3
+    fig_width: 5
+  html_document:
+    fig_height: 3
+    fig_width: 5
+  word_document:
+    fig_height: 3
+    fig_width: 5
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{center}
+    \includegraphics[width=2in,height=2in]{logo.png}\LARGE\\}
+  - \posttitle{\end{center}}
+  - \usepackage[utf8]{inputenc}
+  - \usepackage{pdflscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+  - \usepackage{amsmath}
+params:
+  year: 2022
+  month: 16 June
+  academic_year: 2021/2022
+  course_code:  BTM 310
+  course_title: Statistics for Researchers
+  time: 0900 to 1200 hrs
+  degree: BACHELOR OF HOSPITALITY MANAGEMENT
+---
+
+```{r, setup, include=FALSE}
+require(mosaic)   # Load additional packages here 
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="small")   # slightly smaller font for code
+```
+
+```{r, include=FALSE}
+# copy the R logo to the current directory
+file.copy(file.path(R.home("doc"), "html", "logo.png"), '.')
+```
+
+\center
+\textbf{UNIVERSITY EXAMINATIONS}
+
+\center
+
+\center
+`r params$degree`
+
+\center
+
+\vspace{15mm}
+
+`r params$academic_year` ACADEMIC YEAR
+
+\vspace{5mm} 
+
+\textbf{COURSE CODE}: `r params$course_code`
+
+\vspace{5mm} 
+
+\textbf{COURSE TITLE}: `r params$course_title`
+
+\vspace{35mm}
+
+\textbf{Exam Period}: `r paste(params$month, params$year)` \hfill\ **Time**: `r params$time`
+
+
+\vspace{10mm} 
+
+\begin{flushleft}
+
+Instructions: 
+
+1. Attempt \textbf{QUESTION ONE} and choose \textbf{THREE (3)} additional questions. 
+
+2. The examination is worth 70 percent of the total score. 
+
+3. During the exam, you must not have in your possession any item or material that has not been authorised for your exam. This includes books, notes, paper, electronic device(s), mobile phone, smart watch/device, calculator, pencil case, or writing on any part of your body. Items or materials on your desk, chair, in your clothing or otherwise on your person will be deemed to be in your possession.
+
+
+
+\newpage
+
+\textbf{QUESTION ONE}
+
+\textbf{PART A}
+
+As part of the human resource department of Karatina University, you are tasked to summarize the maximum educational level attained by each of the 900 employees at the institution. From the records, you find that 200 have no college degree (None), 50- have a diploma (DIP), 200 have a bachelors degree (BA), 300 have a masters degree (MA), and 150 have a PhD. 
+
+a) Make a frequency table with two columns; Education Level and Number. \hfill\ (2 marks)
+
+b) Make a relative frequency table. \hfill\ (2 Marks)
+
+c) Is Education Level a quantitative or qualitative variable? Explain. \hfill\ (1 mark)
+
+d) Is Number a quantitative or qualitative variable? Explain. \hfill\ (1 marks)
+
+e) Draw a bar-graph to represent the above information. \hfill\ (2 marks). 
+
+NB: The x-xis should represent education level with number on the y-axis. 
+
+f) What is the probability that an employee of Karatina University picked at random would be a holder of a diploma qualification? \hfill\ (1 mark)
+
+
+\textbf{PART B}
+
+The table below shows the corresponding height(in cm) and weight (in kilograms) of a sample of 10 traders at Karatina open air market. 
+
+\begin{center}
+\begin{tabular}{ c c c c c c c c c c c }
+ \textbf{Name} & Wairimu & Oloo & Kiptoo & Ann & Etyang & Paul & Jane & Joan & Paul & Carol \\ 
+ \textbf{Height} & 165 & 172 & 167 & 179 & 150 & 140 & 180 & 200 & 176 & 220 \\  
+ \textbf{Weight} & 67 & 73 & 69 & 75 & 64 & 50 & 78 & 84 & 80 & 90   
+\end{tabular}
+\end{center}
+
+
+a) Compute the arithmetic mean for the height and weight of the traders. \hfill\ (1 mark)
+
+b) Compute the median height and weight of the traders. \hfill\ (1 mark)
+
+c) When is the median an appropriate measure of center than the arithmetic mean? Explain. \hfill\ (1 mark)
+
+d) Draw a scatter plot of the height (x - axis) and weight (y -axis). \hfill\ (4 marks)
+
+e) Compute the standard deviation for (i) height and (ii) weight of the traders. \hfill\ (2 marks)
+
+f) Compute the correlation coefficient between height and weight of the traders. \hfill\ (3 marks) 
+
+g) Write a sample R code that you would use to capture the height of the traders. \hfill\ (2 marks)
+
+h) Write a sample R code that you would use to compute the mean of the height \hfill\ (1 mark)
+
+\textbf{QUESTION TWO}
+
+A tire manufacturer believes that the tread life of its snow tires can be described by a Normal
+model with a mean of 32,000 miles and a standard deviation of 2500 miles.
+
+a) Compute the z-score for a tire that lasts for 40,000 miles. \hfill\ (3 marks)
+
+b) Approximately what fraction of these tires can be expected to last less than 30,000 miles? \hfill\ (6 marks)
+
+c) Approximately what fraction of these tires can be expected to last between 30,000 and 35,000 miles? \hfill\ (6 marks)
+
+
+\textbf{QUESTION THREE}
+
+A recent study of Kenya Revenue Authority (KRA) audits showed that, for estates worth less than 15 million, about 1 out of 7 of all estate tax returns are audited, but that probability increases to 0.5 for estates worth over Ksh. 15 million. Suppose a tax accountant has three clients who have recently filed returns for estates worth more than Ksh. 15 million. What are the probabilities that:
+
+a) All three will be audited? \hfill\ (3 marks)
+
+b) None will be audited? \hfill\ (3 marks)
+
+c) At least one will be audited? \hfill\ (5 marks)
+
+d) What did you assume in calculating these probabilities? \hfill\ (4 marks)
+
+
+\textbf{QUESTION FOUR}
+
+Is there a relationship between total team salary and the performance of teams in the Kenya National Soccer League (NFL)? For the 2019–2020 season, a linear model predicting Wins (out of 16 regular season games) from
+the total team Salary (Ksh. millions) for the 20 teams in the league is:
+
+Wins = -16.32 + 0.219Salary
+
+a) What is the explanatory or independent variable? \hfill\ (1 mark)
+
+b) What is the response or dependent variable? \hfill\ (1 mark)
+
+c) What does the slope mean in this context? \hfill\ (2 marks)
+
+d) What does the y-intercept mean in this context? Is it meaningful? Explain. \hfill\ (4 marks)
+
+e) If one team spends Ksh. 10 million more than another on salary, how many more games on average would you predict them to win? \hfill\ (3 marks)
+
+f) If a team spent ksh. 120 million on salaries and won 8 games, would they have done better or worse than predicted? \hfill\ (4 marks)
+
+
+\textbf{QUESTION FIVE}
+
+a) Distingusih between a sample and population. \hfill\ (3 marks)
+
+b) Compare and contrast the arithmetic mean and the geometric mean, giving situations where each is a more appropriate measure of center. \hfill\ (4 marks). 
+
+c) List and discuss four sampling techniques that researchers use to select a sample from the population \hfill\ (8 marks). 
+
+\textbf{QUESTION SIX}
+
+a) Distinguish between the following terms.
+
+- Statistic and parameter. \hfill\ (2 marks)
+
+- Sample and Population \hfill\ (2 marks)
+
+- Ordinal and nominal variables. \hfill\ (2 marks)
+
+b) your company wants to improve sales. Past sales data indicate that the average sale was Ksh 100 per transaction. After training your sales force, recent sales data (taken from a sample of 25 salesmen) indicates an average sale of Ksh 130, with a standard deviation of Ksh 15. 
+
+Did the training work? 
+
+Test your hypothesis at a 0.05 alpha level. \hfill\ (9 marks).
+
+\end{flushleft}
+

@@ -1,0 +1,4275 @@
+BODY {
+	margin: 0px; padding: 0px;
+}
+DIV {
+	margin: 0px; padding: 0px;
+}
+DL {
+	margin: 0px; padding: 0px;
+}
+DT {
+	margin: 0px; padding: 0px;
+}
+DD {
+	margin: 0px; padding: 0px;
+}
+UL {
+	margin: 0px; padding: 0px;
+}
+OL {
+	margin: 0px; padding: 0px;
+}
+LI {
+	margin: 0px; padding: 0px;
+}
+H1 {
+	margin: 0px; padding: 0px;
+}
+H2 {
+	margin: 0px; padding: 0px;
+}
+H3 {
+	margin: 0px; padding: 0px;
+}
+H4 {
+	margin: 0px; padding: 0px;
+}
+H5 {
+	margin: 0px; padding: 0px;
+}
+H6 {
+	margin: 0px; padding: 0px;
+}
+PRE {
+	margin: 0px; padding: 0px;
+}
+FORM {
+	margin: 0px; padding: 0px;
+}
+FIELDSET {
+	margin: 0px; padding: 0px;
+}
+INPUT {
+	margin: 0px; padding: 0px;
+}
+TEXTAREA {
+	margin: 0px; padding: 0px;
+}
+P {
+	margin: 0px; padding: 0px;
+}
+BLOCKQUOTE {
+	margin: 0px; padding: 0px;
+}
+TH {
+	margin: 0px; padding: 0px;
+}
+TD {
+	margin: 0px; padding: 0px;
+}
+TABLE {
+	clear: both; border-collapse: collapse; border-spacing: 0;
+}
+FIELDSET {
+	border: 0px;
+}
+IMG {
+	border: 0px;
+}
+ADDRESS {
+	font-style: normal; font-weight: normal;
+}
+CAPTION {
+	font-style: normal; font-weight: normal;
+}
+CITE {
+	font-style: normal; font-weight: normal;
+}
+CODE {
+	font-style: normal; font-weight: normal;
+}
+DFN {
+	font-style: normal; font-weight: normal;
+}
+EM {
+	font-style: normal; font-weight: normal;
+}
+STRONG {
+	font-style: normal; font-weight: normal;
+}
+TH {
+	font-style: normal; font-weight: normal;
+}
+VAR {
+	font-style: normal; font-weight: normal;
+}
+Q::before {
+	content: "";
+}
+Q::after {
+	content: "";
+}
+ABBR {
+	border: 0px 0px 1px none none dotted   rgb(0, 0, 0); cursor: help;
+}
+ACRONYM {
+	border: 0px 0px 1px none none dotted   rgb(0, 0, 0); cursor: help;
+}
+BODY.portal-popup {
+	padding: 10px;
+}
+BODY.portal-iframe {
+	padding: 0px;
+}
+BODY.html-editor {
+	background: rgb(255, 255, 255); color: rgb(0, 0, 0);
+}
+TH {
+	font-weight: bold;
+}
+CAPTION {
+	text-align: center; margin-bottom: 0.5em;
+}
+STRONG {
+	font-weight: bold;
+}
+B {
+	font-weight: bold;
+}
+CODE {
+	font-family: "Courier New",Courier,monospace; white-space: pre;
+}
+PRE {
+	font-family: "Courier New",Courier,monospace; white-space: pre;
+}
+.important {
+	font-weight: bold;
+}
+.staging.portal-iframe {
+	
+}
+.portal-iframe #content-wrapper {
+	width: 100%;
+}
+#banner .logo {
+	margin: 0px;
+}
+.current-community {
+	display: none;
+}
+.alert-background {
+	background: rgb(0, 0, 0);
+}
+.popup-alert-notice {
+	border-bottom-color: rgb(255, 204, 0); background-color: rgb(255, 255, 204);
+}
+.popup-alert-warning {
+	border-bottom-color: rgb(255, 0, 0); background-color: rgb(255, 221, 221);
+}
+.portal-add-content {
+	background: rgb(255, 255, 255); text-align: left; z-index: 20;
+}
+.portal-add-content A {
+	text-decoration: none;
+}
+.portal-tool-tip {
+	background: url(../images/forms/button.png) repeat-x 0px 100% rgb(255, 255, 255); padding: 6px 4px; border: 1px solid rgb(222, 222, 222) rgb(191, 191, 191) rgb(191, 191, 191) rgb(222, 222, 222); color: rgb(30, 37, 41); max-width: 200px;
+}
+.loading-animation {
+	background: url(../images/progress_bar/loading_animation.gif) no-repeat center top; text-align: left; padding-top: 40px; margin-top: 10px;
+}
+.update-available {
+	padding: 2px; text-align: left; margin-top: 10px;
+}
+.highlight {
+	background: rgb(255, 255, 204); padding: 0px 1px; font-weight: bold;
+}
+#navigation {
+	background: url(../images/custom/navigation_bg.gif) rgb(234, 231, 223); height: 41px;
+}
+#navigation UL {
+	float: left;
+}
+#add-page {
+	float: left;
+}
+#navigation A {
+	font: bold 13px 41px Tahoma, sans-serif; padding: 0px 14px; color: rgb(85, 85, 51); text-decoration: none; border-right-color: rgb(201, 198, 179); border-right-width: 1px; border-right-style: solid; display: block;
+}
+#navigation A:hover {
+	background: url(../images/custom/navigation_bg.gif) left bottom; color: rgb(34, 34, 17);
+}
+#navigation .enter-page A {
+	float: none; display: inline;
+}
+#navigation .enter-page A.cancel-page {
+	display: none;
+}
+#navigation .save-page {
+	float: none; display: inline;
+}
+.ie7 .save-page {
+	top: -3px; position: relative;
+}
+#navigation .cancel-page {
+	display: none;
+}
+.portlet-calendar .calendar-day .day-text {
+	background: rgb(232, 229, 221);
+}
+.portlet-calendar .results-header {
+	background: rgb(232, 229, 221);
+}
+.portlet-calendar .calendar-day .day-text {
+	color: rgb(17, 17, 17);
+}
+.portlet-calendar .results-header TH {
+	color: rgb(17, 17, 17);
+}
+.portlet-calendar .results-header TD {
+	color: rgb(17, 17, 17);
+}
+.ui-tabs {
+	border-bottom-color: rgb(232, 229, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ui-tabs LI A {
+	background: rgb(207, 204, 196); margin: 0px 0px 0px -1px; padding: 8px 12px; border: 1px solid rgb(232, 229, 221); color: rgb(51, 51, 51);
+}
+.ui-tabs LI.current A {
+	background: rgb(207, 204, 196); margin: 0px 0px 0px -1px; padding: 8px 12px; border: 1px solid rgb(232, 229, 221); color: rgb(51, 51, 51);
+}
+.ui-tabs LI A:hover {
+	background: rgb(207, 204, 196); margin: 0px 0px 0px -1px; padding: 8px 12px; border: 1px solid rgb(232, 229, 221); color: rgb(51, 51, 51);
+}
+.ui-tabs LI SPAN {
+	background: rgb(207, 204, 196); margin: 0px 0px 0px -1px; padding: 8px 12px; border: 1px solid rgb(232, 229, 221); color: rgb(51, 51, 51);
+}
+.ui-tabs LI.current SPAN {
+	background: rgb(207, 204, 196); margin: 0px 0px 0px -1px; padding: 8px 12px; border: 1px solid rgb(232, 229, 221); color: rgb(51, 51, 51);
+}
+.ui-tabs LI SPAN:hover {
+	background: rgb(207, 204, 196); margin: 0px 0px 0px -1px; padding: 8px 12px; border: 1px solid rgb(232, 229, 221); color: rgb(51, 51, 51);
+}
+.ui-tabs LI A:hover {
+	background: rgb(232, 229, 220); color: rgb(0, 0, 0); text-decoration: none;
+}
+.ui-tabs LI SPAN:hover {
+	background: rgb(232, 229, 220); color: rgb(0, 0, 0); text-decoration: none;
+}
+.ui-tabs LI.current A {
+	background: url(../images/custom/navigation_hover_bg.gif) -56px -34px; color: rgb(0, 0, 0); font-weight: normal;
+}
+.ui-tabs LI.current SPAN {
+	background: url(../images/custom/navigation_hover_bg.gif) -56px -34px; color: rgb(0, 0, 0); font-weight: normal;
+}
+.ui-tabs LI.current A:hover {
+	font-weight: normal;
+}
+.ui-tabs LI.current SPAN:hover {
+	font-weight: normal;
+}
+.ui-tabs LI.current:hover {
+	
+}
+.ui-wrapper {
+	border: 2px solid rgb(130, 143, 149);
+}
+.ui-wrapper INPUT {
+	border: 0px;
+}
+.ui-wrapper TEXTAREA {
+	border: 0px;
+}
+.ui-dialog-overlay {
+	background: rgb(0, 0, 0); z-index: 400; opacity: 0.8;
+}
+.ie .ui-dialog-overlay {
+	filter: alpha(opacity=80);
+}
+.results-grid {
+	padding: 5px 0px; border: 1px medium solid none rgb(222, 222, 222) ;
+}
+.results-header {
+	background: rgb(114, 124, 129);
+}
+.results-header TH {
+	padding: 5px 10px; color: rgb(255, 255, 255);
+}
+.results-header TD {
+	padding: 5px 10px; color: rgb(255, 255, 255);
+}
+.results-header TH A {
+	color: rgb(255, 255, 255);
+}
+.results-header TD A {
+	color: rgb(255, 255, 255);
+}
+.results-header .sort-column .result-column-name {
+	background: url(../images/arrows/06_up.png) no-repeat 100% 50%; padding-right: 15px; font-style: italic;
+}
+.results-header .sort-desc .result-column-name {
+	background-image: url("../images/arrows/06_down.png");
+}
+.ui-autocomplete-even {
+	background: rgb(240, 245, 247); padding: 5px 10px;
+}
+.results-row TD {
+	background: rgb(240, 245, 247); padding: 5px 10px;
+}
+.ui-autocomplete-odd {
+	background: rgb(211, 218, 221);
+}
+.alt.results-row TD {
+	background: rgb(211, 218, 221);
+}
+.ui-autocomplete-over {
+	background: rgb(168, 214, 237);
+}
+.hover.results-row TD {
+	background: rgb(168, 214, 237);
+}
+.breadcrumbs {
+	margin-bottom: 1.5em;
+}
+.breadcrumbs .last {
+	font-size: 1.6em; font-weight: bold; margin-top: 0.2em; display: block;
+}
+.ui-proxy {
+	position: relative; cursor: move; opacity: 0.65;
+}
+.ie .ui-proxy {
+	filter: alpha(opacity=65);
+}
+.generic-portlet.ui-proxy {
+	width: 300px; height: 200px;
+}
+.generic-portlet.ui-proxy .portlet-title {
+	padding: 10px;
+}
+.not-intersecting.ui-proxy .forbidden-action {
+	background: url(../images/application/forbidden_action.png) no-repeat; top: -15px; width: 32px; height: 32px; right: -15px; display: block; position: absolute;
+}
+.ie .not-intersecting.ui-proxy .forbidden-action {
+	top: 2px; right: 2px;
+}
+.ui-resizable-proxy {
+	border: 1px dashed rgb(130, 143, 149);
+}
+.navigation-sort-helper {
+	background: rgb(114, 124, 129); margin-top: 1px;
+}
+.ui-resizable {
+	position: relative;
+}
+.ui-resizable-handle {
+	background: no-repeat 50% 50%; font-size: 0.1px; display: none; position: absolute;
+}
+.ui-resizable .ui-resizable-handle {
+	display: block;
+}
+.js .ui-resizable-disabled .ui-resizable-handle {
+	display: none;
+}
+.js .ui-resizable-autohide .ui-resizable-handle {
+	display: none;
+}
+.ui-resizable-n {
+	left: 0px; height: 14px; right: 0px; background-image: url("../images/application/handle_horizontal.png");
+}
+.ui-resizable-s {
+	left: 0px; height: 14px; right: 0px; background-image: url("../images/application/handle_horizontal.png");
+}
+.ui-resizable-n {
+	top: 0px; cursor: n-resize;
+}
+.ui-resizable-s {
+	bottom: 0px; cursor: s-resize;
+}
+.ui-resizable-e {
+	background-position: center center; top: 0px; width: 14px; bottom: 0px; background-image: url("../images/application/handle_vertical.png");
+}
+.ui-resizable-w {
+	background-position: center center; top: 0px; width: 14px; bottom: 0px; background-image: url("../images/application/handle_vertical.png");
+}
+.ui-resizable-e {
+	right: 0px; cursor: e-resize;
+}
+.ui-resizable-w {
+	left: 0px; cursor: w-resize;
+}
+.ui-resizable-ne {
+	top: 0px; width: 14px; height: 14px;
+}
+.ui-resizable-nw {
+	top: 0px; width: 14px; height: 14px;
+}
+.ui-resizable-ne {
+	right: 0px; cursor: ne-resize; background-image: url("../images/application/handle_ne.png");
+}
+.ui-resizable-nw {
+	left: 0px; cursor: nw-resize; background-image: url("../images/application/handle_nw.png");
+}
+.ui-resizable-se {
+	width: 14px; height: 14px; bottom: 0px;
+}
+.ui-resizable-sw {
+	width: 14px; height: 14px; bottom: 0px;
+}
+.ui-resizable-se {
+	right: 0px; cursor: se-resize; background-image: url("../images/application/handle_se.png");
+}
+.ui-resizable-sw {
+	left: 0px; cursor: sw-resize; background-image: url("../images/application/handle_sw.png");
+}
+.freeform .portlet-boundary .ui-resizable-handle {
+	margin: 3px;
+}
+.ui-slider {
+	position: relative;
+}
+.ui-slider-handle {
+	position: absolute;
+}
+.ui-slider-disabled .ui-slider-handle {
+	opacity: 0.5;
+}
+.ie .ui-slider-disabled .ui-slider-handle {
+	filter: alpha(opacity=50);
+}
+.ui-slider-range {
+	background: rgb(30, 37, 41); width: 100%; height: 100%; position: absolute; opacity: 0.3;
+}
+.ie .ui-slider-range {
+	filter: alpha(opacity=30);
+}
+.ui-tabs {
+	margin: 0px 0px 18px; padding: 0px 0px 0px 10px; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ui-tabs::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.ie .ui-tabs {
+	overflow: hidden;
+}
+.ie6 .ui-tabs {
+	height: 1%;
+}
+.ui-tabs LI {
+	padding: 0px; line-height: 1; text-decoration: none; float: left; display: inline;
+}
+.ui-tabs LI.last {
+	border-right-color: ; border-right-width: medium; border-right-style: none;
+}
+.ui-tabs LI A {
+	background: url(../images/application/tabs_bg.png) repeat-x 0px 100% rgb(135, 143, 147); padding: 10px; top: 1px; color: rgb(255, 255, 255); text-decoration: none; border-right-color: rgb(48, 64, 73); border-right-width: 1px; border-right-style: solid; float: left; display: block; position: relative;
+}
+.tabs LI SPAN {
+	background: url(../images/application/tabs_bg.png) repeat-x 0px 100% rgb(135, 143, 147); padding: 10px; top: 1px; color: rgb(255, 255, 255); text-decoration: none; border-right-color: rgb(48, 64, 73); border-right-width: 1px; border-right-style: solid; float: left; display: block; position: relative;
+}
+.ie6 .ui-tabs LI A {
+	padding-bottom: 7px; border-bottom-color: rgb(48, 64, 73); border-bottom-width: 3px; border-bottom-style: solid; background-image: none;
+}
+.ie6 .tabs LI SPAN {
+	padding-bottom: 7px; border-bottom-color: rgb(48, 64, 73); border-bottom-width: 3px; border-bottom-style: solid; background-image: none;
+}
+.ui-tabs LI A:hover {
+	text-decoration: underline;
+}
+.ui-tabs LI A:hover {
+	background: rgb(30, 37, 41); color: rgb(158, 186, 200);
+}
+.ui-tabs LI SPAN:hover {
+	background: rgb(30, 37, 41); color: rgb(158, 186, 200);
+}
+.ui-tabs LI.current A {
+	background: rgb(255, 255, 255); border: 1px 1px medium solid solid none rgb(222, 222, 222) rgb(222, 222, 222) ; color: rgb(51, 102, 153); font-weight: bold;
+}
+.ui-tabs LI.current SPAN {
+	background: rgb(255, 255, 255); border: 1px 1px medium solid solid none rgb(222, 222, 222) rgb(222, 222, 222) ; color: rgb(51, 102, 153); font-weight: bold;
+}
+.ie6 .ui-tabs LI.current A {
+	padding-bottom: 10px;
+}
+.ie6 .ui-tabs LI.current SPAN {
+	padding-bottom: 10px;
+}
+.ui-tabs LI.current:hover {
+	background-color: rgb(255, 255, 255);
+}
+.ui-tabs LI.current A:hover {
+	background-color: rgb(255, 255, 255);
+}
+.ui-tabs .ui-tabs-disabled A {
+	cursor: text;
+}
+.ui-tabs-disabled {
+	opacity: 0.4;
+}
+.ie .ui-tabs-disabled {
+	filter: alpha(opacity=40);
+}
+.ui-tabs .ui-tabs-disabled A:link {
+	color: rgb(0, 0, 0);
+}
+.ui-tabs .ui-tabs-disabled A:visited {
+	color: rgb(0, 0, 0);
+}
+.ui-tabs-hide {
+	display: none;
+}
+.ui-tabs .toggle.last {
+	float: right;
+}
+.ui-dialog {
+	padding: 4px; border: 2px solid rgb(130, 143, 149); background-color: rgb(255, 255, 255);
+}
+.ui-dialog .ui-dialog-titlebar {
+	background: rgb(30, 37, 41); padding: 0px; color: rgb(255, 255, 255); font-size: 14px; font-weight: bold; position: relative; z-index: 1; min-height: 28px;
+}
+.ie .ui-dialog .ui-dialog-container {
+	z-index: 1;
+}
+.ie6 .ui-dialog .ui-dialog-titlebar {
+	height: 29px;
+}
+.ui-draggable.ui-dialog .ui-dialog-titlebar {
+	cursor: move;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+	background: url(../images/application/close.png) no-repeat; top: 6px; width: 16px; height: 16px; right: 5px; position: absolute;
+}
+.ui-dialog .ui-dialog-titlebar-close SPAN {
+	display: none;
+}
+.has-title.ui-dialog .ui-dialog-title {
+	background: url(../images/arrows/04_right.png) no-repeat 7px 50%; padding: 5px 5px 5px 20px; font-weight: bold; display: block;
+}
+.ui-resizable.ui-dialog .ui-dialog-content {
+	padding: 14px;
+}
+.ui-resizable-disabled.ui-dialog .ui-dialog-content {
+	padding: 7px;
+}
+.ui-dialog .ui-dialog-buttonpane {
+	width: 100%; text-align: right; right: 12px; bottom: 8px; position: absolute;
+}
+.ui-dialog .ui-dialog-buttonpane BUTTON {
+	margin: 6px;
+}
+#ui-datepicker-div {
+	background: rgb(255, 255, 255); padding: 3px; border: 2px solid rgb(130, 143, 149); width: 185px;
+}
+.ui-datepicker-inline {
+	background: rgb(255, 255, 255); padding: 3px; border: 2px solid rgb(130, 143, 149); width: 185px;
+}
+#ui-datepicker-div {
+	display: none;
+}
+.ui-datepicker-inline {
+	border: 0px; float: left; display: block;
+}
+.ui-datepicker-dialog {
+	padding: 5px !important;
+}
+IMG.ui-datepicker-trigger {
+	margin: 2px; vertical-align: middle;
+}
+.ui-datepicker-prompt {
+	padding: 2px; color: rgb(0, 0, 0); float: left;
+}
+.ie6 .ui-datepicker-prompt {
+	width: 185px;
+}
+.ui-datepicker-control {
+	width: 100%; clear: both; float: left;
+}
+.ui-datepicker-links {
+	width: 100%; clear: both; float: left;
+}
+.ui-datepicker-header {
+	width: 100%; clear: both; float: left;
+}
+.ui-datepicker {
+	width: 100%; clear: both; float: left;
+}
+.ui-datepicker-control {
+	background: rgb(211, 218, 221); margin-bottom: 2px; border-bottom-color: rgb(174, 184, 188); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ui-datepicker-links {
+	background: rgb(114, 124, 129); padding: 5px 0px; margin-bottom: 1px;
+}
+.ui-datepicker-links A {
+	margin: 0px 5px; color: rgb(255, 255, 255); display: block;
+}
+.ui-datepicker-control {
+	letter-spacing: 1px; font-weight: bold;
+}
+.ui-datepicker-links {
+	letter-spacing: 1px; font-weight: bold;
+}
+.ui-datepicker-links LABEL {
+	padding: 2px 5px;
+}
+.ui-datepicker-clear {
+	width: 34%; float: left;
+}
+.ui-datepicker-prev {
+	width: 34%; float: left;
+}
+.ui-datepicker-prev A {
+	background: no-repeat; width: 16px; height: 16px; line-height: 0; text-indent: -9999em; font-size: 0px;
+}
+.ui-datepicker-next A {
+	background: no-repeat; width: 16px; height: 16px; line-height: 0; text-indent: -9999em; font-size: 0px;
+}
+.ui-datepicker-prev A {
+	background-image: url("../images/application/datepicker_previous.png");
+}
+.ui-datepicker-next A {
+	background-image: url("../images/application/datepicker_next.png");
+}
+.ui-datepicker-current {
+	width: 30%; text-align: center; line-height: 1.3; float: left;
+}
+.ui-datepicker-close A {
+	background: url(../images/application/close.png) no-repeat; margin: 5px 5px 5px 0px; width: 16px; height: 16px; text-indent: -9999em; float: right; display: block;
+}
+.ui-datepicker-next {
+	text-align: right; float: right;
+}
+.ui-datepicker-header {
+	padding: 5px 0px 6px; text-align: center; font-weight: bold; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ui-datepicker-header SELECT {
+	background: rgb(114, 124, 129); border: 0px; color: rgb(255, 255, 255); font-weight: bold;
+}
+.ui-datepicker-header .ui-datepicker-new-month {
+	margin-left: 5px; float: left;
+}
+.ui-datepicker-header .ui-datepicker-new-year {
+	margin-right: 5px; float: right;
+}
+.ui-datepicker {
+	width: auto; text-align: center;
+}
+.ui-datepicker A {
+	width: 23px; display: block;
+}
+.ui-datepicker .ui-datepicker-title-row A {
+	color: rgb(30, 37, 41); text-decoration: none;
+}
+.ui-datepicker .ui-datepicker-days-row {
+	background: rgb(255, 255, 255); color: rgb(114, 124, 129);
+}
+.ui-datepicker-week-col {
+	color: rgb(181, 191, 196);
+}
+.ui-datepicker-days-cell A {
+	background: rgb(240, 245, 247); border: 1px solid rgb(255, 255, 255);
+}
+.ui-datepicker-days-cell A:hover {
+	color: rgb(255, 255, 255); background-color: rgb(114, 124, 129);
+}
+.ui-datepicker-current-day A {
+	border: 1px solid rgb(114, 124, 129); color: rgb(51, 102, 153); background-color: rgb(255, 255, 255);
+}
+.ui-datepicker-current-day A:hover {
+	border-color: rgb(174, 184, 188); color: rgb(0, 102, 204); background-color: rgb(223, 244, 255);
+}
+.ui-datepicker .ui-datepicker-unselectable {
+	color: rgb(181, 191, 196);
+}
+#ui-datepicker-div A {
+	cursor: pointer;
+}
+.ui-datepicker-inline A {
+	cursor: pointer;
+}
+.ui-datepicker-one-month::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.ie .ui-datepicker-one-month {
+	height: 1%;
+}
+.ui-datepicker-new-row {
+	clear: left;
+}
+.ie6 .ui-datepicker-cover {
+	left: -4px; top: -4px; width: 193px; height: 200px; display: block; filter: mask(); position: absolute; z-index: -1;
+}
+.ui-colorpicker {
+	font: 11px normal Arial, Helvetica, sans-serif; width: 305px; height: 192px; position: relative; background-image: url("../images/color_picker/picker_container_bg.png");
+}
+.ui-colorpicker-color {
+	background-position: center 50%; left: 8px; top: 5px; width: 184px; height: 184px; position: absolute; background-image: url("../images/color_picker/picker_bg.png"); background-repeat: no-repeat; background-color: rgb(255, 0, 0);
+}
+.ui-colorpicker-color-handle {
+	width: 11px; height: 11px; position: absolute; background-image: url("../images/color_picker/select.png");
+}
+.ui-colorpicker-hue {
+	left: 200px; top: 3px; width: 18px; height: 186px; position: absolute; background-image: url("../images/color_picker/hue.png");
+}
+.ui-colorpicker-hue-handle {
+	width: 18px; height: 7px; position: absolute; background-image: url("../images/color_picker/color_indic.png");
+}
+.ui-colorpicker-current {
+	background: rgb(255, 255, 255); border: 2px solid rgb(114, 124, 129); top: 31px; width: 60px; height: 60px; right: 10px; position: absolute;
+}
+.ui-colorpicker-values {
+	left: 230px; top: 100px; width: 60px; position: absolute;
+}
+.ui-colorpicker-values TABLE {
+	width: 100%;
+}
+.ui-colorpicker-values TABLE INPUT {
+	padding: 3px 1px; width: 100%; margin-bottom: 1px;
+}
+.ui-colorpicker-rgbR {
+	width: 20px;
+}
+.ui-colorpicker-rgbG {
+	width: 20px;
+}
+.ui-colorpicker-rgbB {
+	width: 20px;
+}
+.ui-colorpicker-hex {
+	width: 40px;
+}
+.ui-colorpicker-close {
+	background: url(../images/color_picker/close.png) no-repeat 0px 0px; top: 3px; width: 23px; height: 23px; right: 3px; text-indent: -9999em; position: absolute; cursor: pointer;
+}
+.ui-autocomplete-results {
+	padding: 0px; border: 1px solid rgb(191, 191, 191) rgb(222, 222, 222) rgb(222, 222, 222) rgb(191, 191, 191); overflow: hidden; z-index: 300;
+}
+.ui-autocomplete-results UL {
+	list-style: none; margin: 0px; padding: 0px; width: 100%;
+}
+.ui-autocomplete-results LI {
+	margin: 0px; padding: 2px 5px; line-height: 16px; overflow: hidden; display: block; cursor: default;
+}
+.ui-autocomplete-loading {
+	background-position: right center; background-image: url("../images/application/loading_indicator.gif"); background-repeat: no-repeat;
+}
+.focus.ui-autocomplete-loading {
+	background-position: right center; background-image: url("../images/application/loading_indicator.gif"); background-repeat: no-repeat;
+}
+.ui-autocomplete-results LI STRONG {
+	color: rgb(0, 102, 204); font-weight: bold;
+}
+.ui-tags {
+	padding: 5px 0px 2px; display: block;
+}
+.ui-tags::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.ie .ui-tags {
+	height: 1%;
+}
+.empty.ui-tags {
+	display: none;
+}
+.ui-tags .ui-tag {
+	background: rgb(223, 244, 255); padding: 3px 20px 3px 6px; border: 1px solid rgb(167, 206, 223); margin-right: 3px; margin-bottom: 3px; float: left; position: relative;
+}
+.ui-tags .ui-tag:hover {
+	border-color: rgb(174, 184, 188);
+}
+.ui-tags .ui-tag-delete {
+	padding: 6px; top: 3px; right: 0px; display: block; position: absolute;
+}
+.ui-tags .ui-tag-delete SPAN {
+	background: url(../images/application/close_small.png) no-repeat 0px 0px; width: 7px; height: 7px; text-indent: -9999em; font-size: 0px; display: block; cursor: pointer;
+}
+.ui-tags .ui-tag-delete:hover SPAN {
+	background-position: 0px 100%;
+}
+.ui-tags-input {
+	width: 200px;
+}
+.tags-vocabulary-name SPAN {
+	padding-bottom: 3px; font-weight: bold;
+}
+.treeview {
+	cursor: pointer;
+}
+.treeview {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.treeview UL {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.treeview UL {
+	margin-top: 4px; background-color: rgb(255, 255, 255);
+}
+.treeview .hitarea {
+	background: url(../images/trees/treeview_bg.png) no-repeat -64px -25px; width: 16px; height: 16px; margin-top: 3px; margin-left: -16px; float: left; cursor: pointer;
+}
+.ie6 .hitarea {
+	display: inline;
+}
+.treeview LI {
+	background: url(../images/trees/treeview_line.png) no-repeat 0px 0px; margin: 0px; padding: 0px 0px 3px 16px; list-style-type: none;
+}
+.treeview A.selected {
+	background-color: rgb(238, 238, 238);
+}
+.treeview-control {
+	margin: 1em 0px; display: none;
+}
+.treeview .hover {
+	cursor: pointer;
+}
+.treeview LI.collapsable {
+	background-position: 0px -176px;
+}
+.treeview LI.expandable {
+	background-position: 0px -176px;
+}
+.treeview .expandable-hitarea {
+	background-position: -80px -3px;
+}
+.treeview LI.last {
+	background-position: 0px -1766px;
+}
+.treeview LI.lastCollapsable {
+	background-image: url("../images/trees/treeview_bg.png");
+}
+.treeview LI.lastExpandable {
+	background-image: url("../images/trees/treeview_bg.png");
+}
+.treeview LI.lastCollapsable {
+	background-position: 0px -111px;
+}
+.treeview LI.lastExpandable {
+	background-position: -32px -67px;
+}
+.treeview DIV.lastCollapsable-hitarea {
+	
+}
+.treeview DIV.lastExpandable-hitarea {
+	
+}
+.treeview .placeholder {
+	background: url(../images/application/loading_indicator.gif) no-repeat 0px 0px; width: 16px; height: 16px; display: block;
+}
+.treeview SPAN {
+	padding-left: 3px;
+}
+.filetree LI {
+	padding: 3px 0px 2px 16px;
+}
+.filetree SPAN.folder {
+	padding: 1px 0px 1px 16px; display: block;
+}
+.filetree SPAN.file {
+	padding: 1px 0px 1px 16px; display: block;
+}
+.filetree SPAN.folder {
+	background: url(../images/trees/minus.png) no-repeat 0px 0px;
+}
+.filetree LI.expandable SPAN.folder {
+	background: url(../images/trees/plus.png) no-repeat 0px 0px;
+}
+.filetree SPAN.file {
+	background: url(../images/trees/page.png) no-repeat 0px 0px;
+}
+.freeform .lfr-column {
+	position: relative;
+}
+#wrapper {
+	background: url(../images/qfinance/bg_wraper.jpg) repeat-y 10px 237px; margin: 0px auto; padding: 0px 10px; min-width: 970px; max-width: 1260px;
+}
+#banner {
+	background: url(../images/qfinance/bg_topnav_centered.jpg) no-repeat rgb(104, 33, 69); padding: 10px 0px 0px; height: auto !important; color: rgb(255, 255, 255); position: relative; min-height: 227px;
+}
+#qf-footer {
+	margin: 0px 0px 0px 198px; overflow: hidden; clear: right; border-top-color: rgb(104, 33, 69); border-top-width: 7px; border-top-style: solid; background-color: rgb(255, 255, 255);
+}
+.fullsize #col-content {
+	padding-right: 0px !important;
+}
+.fullsize {
+	background-image: url("../images/qfinance/bg_content_full.gif") !important;
+}
+.div-3-col {
+	background: url(../images/qfinance/bg_content.gif) repeat-y right top; margin: 0px; padding-left: 198px; clear: both; min-height: 1100px;
+}
+.div-3-col #col-content {
+	margin: 0px; height: 1%; overflow: hidden; padding-right: 316px;
+}
+.div-3-col #column-1 {
+	width: 198px; margin-left: -198px; float: left; display: inline;
+}
+.div-3-col #column-2 {
+	margin: 0px; width: 100%; float: left;
+}
+.div-3-col #column-3 {
+	width: 316px; margin-right: -316px; float: right; display: inline;
+}
+.div-3-col #column-4 {
+	margin: 0px; background-color: rgb(255, 255, 255);
+}
+.div-3-col #column-5 {
+	padding: 10px 0px 0px; overflow: hidden; background-color: rgb(255, 255, 255);
+}
+.div-3-col #column-5 #column-5-left {
+	width: auto; padding-left: 6px; float: left;
+}
+.div-3-col #column-5 #column-5-right {
+	padding: 0px 6px 0px 0px; width: 300px; text-align: right; color: rgb(102, 102, 102); font-size: 0.9em; float: right;
+}
+.div-3-col #column-6 {
+	margin: 0px; height: 1%; overflow: hidden; padding-right: 306px; background-color: rgb(255, 255, 255);
+}
+.div-3-col #column-6 #column-6-left {
+	margin: 0px; padding: 0px; width: 100%; float: left;
+}
+.div-3-col #column-6 #column-6-right {
+	width: 306px; margin-right: -306px; float: right; display: inline;
+}
+.div-3-col #column-1 #layout-column_column-1 {
+	padding: 1px 7px 0px 0px;
+}
+.div-3-col #column-2 #layout-column_column-2 {
+	padding: 10px 11px 20px 10px; line-height: 1.4em;
+}
+.div-3-col #column-3 #layout-column_column-3 {
+	padding: 10px 6px 20px 9px;
+}
+.div-3-col #column-4 #layout-column_column-4 {
+	padding: 6px 6px 0px; border-top-color: rgb(104, 33, 69); border-top-width: 1px; border-top-style: solid;
+}
+.div-3-col #column-5 #column-5-right #layout-column_column-5-right {
+	width: 300px;
+}
+.div-3-col #column-6 #column-6-left #layout-column_column-6-left {
+	padding: 0px 10px 0px 6px;
+}
+.div-3-col #column-6 #column-6-right #layout-column_column-6-right {
+	padding: 0px 6px 0px 0px;
+}
+.div-3-col #column-7 #layout-column_column-7 {
+	padding: 0px 6px; background-color: rgb(255, 255, 255);
+}
+#column-2 .home {
+	padding: 10px 11px 20px 6px;
+}
+#column-8 {
+	margin: 0px; word-spacing: -1em; position: relative;
+}
+#column-8 .col {
+	margin: 0px; width: 50%; word-spacing: normal; vertical-align: top; display: inline-block;
+}
+#column-8 #layout-column_column-8-left {
+	margin-right: 5px;
+}
+#column-8 #layout-column_column-8-right {
+	margin-left: 5px;
+}
+#column-8 .qf-nav-list UL {
+	height: auto !important; min-height: 175px;
+}
+#column-9 #layout-column_column-9 {
+	padding: 0px;
+}
+#column-10 {
+	margin: 0px; word-spacing: -1em; position: relative;
+}
+#column-10 .col {
+	margin: 0px; width: 50%; word-spacing: normal; vertical-align: top; display: inline-block;
+}
+#column-10 #layout-column_column-10-left {
+	margin-right: 5px;
+}
+#column-10 #layout-column_column-10-right {
+	margin-left: 5px;
+}
+* HTML #column-8 .col {
+	width: 49.8%; display: inline;
+}
+* + HTML #column-8 .col {
+	display: inline;
+}
+* HTML #column-10 .col {
+	width: 49.8%; display: inline;
+}
+* + HTML #column-10 .col {
+	display: inline;
+}
+BODY.staging .div-3-col #column-1 {
+	min-height: 200px;
+}
+BODY.staging .div-3-col #column-2 #layout-column_column-2 {
+	min-height: 200px;
+}
+BODY.staging .div-3-col #column-3 {
+	min-height: 200px;
+}
+BODY.staging .div-3-col #layout-column_column-4 {
+	min-height: 20px; min-width: 300px;
+}
+BODY.staging .div-3-col #column-5 #column-5-left {
+	min-height: 20px; min-width: 300px;
+}
+BODY.staging .div-3-col #column-5 #column-5-right {
+	min-height: 20px; min-width: 300px;
+}
+BODY.staging .div-3-col #column-6 #column-6-left {
+	min-height: 20px; min-width: 300px;
+}
+BODY.staging .div-3-col #column-6 #column-6-right {
+	min-height: 20px; min-width: 300px;
+}
+BODY.staging .div-3-col #column-7 #layout-column_column-7 {
+	min-height: 20px; min-width: 300px;
+}
+BODY.staging #column-9 #layout-column_column-9 {
+	min-height: 50px;
+}
+* HTML .lfr-grid {
+	width: auto;
+}
+.dragging.lfr-grid {
+	border: 1px dotted red; border-collapse: separate;
+}
+.drop-area {
+	min-height: 100px; background-color: rgb(211, 218, 221);
+}
+.active-area {
+	background: rgb(255, 255, 204); border-top-color: red; border-bottom-color: red; border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;
+}
+BODY.staging .div-3-col .active-area#column-1 {
+	background: url(../images/qfinance/portlets/column1.gif) no-repeat left top rgb(255, 255, 204);
+}
+BODY.staging .div-3-col .active-area#column-2 {
+	background: url(../images/qfinance/portlets/column2.gif) no-repeat left top rgb(255, 255, 204);
+}
+BODY.staging .div-3-col .active-area#column-3 {
+	background: url(../images/qfinance/portlets/column3.gif) no-repeat left top rgb(255, 255, 204);
+}
+BODY.staging .div-3-col .active-area#column-4 {
+	background: url(../images/qfinance/portlets/column4.gif) no-repeat left top rgb(255, 255, 204);
+}
+BODY.staging .div-3-col .active-area#column-5-left {
+	background: url(../images/qfinance/portlets/column5_left.gif) no-repeat left top rgb(255, 255, 204);
+}
+BODY.staging .div-3-col .active-area#column-5-right {
+	background: url(../images/qfinance/portlets/column5_right.gif) no-repeat left top rgb(255, 255, 204);
+}
+BODY.staging .div-3-col .active-area#column-6-left {
+	background: url(../images/qfinance/portlets/column6_left.gif) no-repeat left top rgb(255, 255, 204);
+}
+BODY.staging .div-3-col .active-area#column-6-right {
+	background: url(../images/qfinance/portlets/column6_right.gif) no-repeat left top rgb(255, 255, 204);
+}
+BODY.staging .div-3-col .active-area#column-7 {
+	background: url(../images/qfinance/portlets/column7.gif) no-repeat left top rgb(255, 255, 204);
+}
+BODY.staging .div-3-col .active-area#column-8-left {
+	background: url(../images/qfinance/portlets/column8_left.gif) no-repeat left top rgb(255, 255, 204);
+}
+BODY.staging .div-3-col .active-area#column-8-right {
+	background: url(../images/qfinance/portlets/column8_right.gif) no-repeat left top rgb(255, 255, 204);
+}
+BODY.staging .div-3-col .active-area#column-9 {
+	background: url(../images/qfinance/portlets/column9.gif) no-repeat left top rgb(255, 255, 204);
+}
+BODY.staging .div-3-col .active-area#column-10-left {
+	background: url(../images/qfinance/portlets/column10_left.gif) no-repeat left top rgb(255, 255, 204);
+}
+BODY.staging .div-3-col .active-area#column-10-right {
+	background: url(../images/qfinance/portlets/column10_right.gif) no-repeat left top rgb(255, 255, 204);
+}
+.js .interactive-mode {
+	top: 10px; right: 0px;
+}
+BODY.staging {
+	border: 5px solid rgb(255, 0, 0);
+}
+BODY.page-maximized {
+	background-image: none;
+}
+BODY.page-maximized #wrapper {
+	background: rgb(255, 255, 255);
+}
+BODY.staging #qf-ad1 {
+	display: none;
+}
+BODY.staging #qf-utility-nav {
+	margin-top: 70px;
+}
+BODY.staging #banner {
+	margin: 0px -10px;
+}
+#navigation UL {
+	margin: 0px auto;
+}
+#navigation UL::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.ie #navigation UL {
+	height: 1%;
+}
+.ie6 #navigation {
+	height: 2em; overflow: visible;
+}
+.ie6 #navigation UL {
+	height: 2em; overflow: visible;
+}
+#navigation LI {
+	float: left; list-style-type: none; position: relative;
+}
+#navigation .child-menu {
+	display: none;
+}
+.lfr-dock {
+	top: 10px; right: 0px !important; position: absolute;
+}
+.lfr-dock H2 {
+	background: url(../images/navigation/welcome_message.png) no-repeat 0px 50%; text-align: right; padding-left: 2em; font-family: Verdana,Arial,Helvetica,Geneva,sans-serif; font-size: 1.2em; margin-bottom: 0.5em;
+}
+.lfr-dock UL {
+	float: left; display: inline;
+}
+.lfr-dock LI {
+	margin-left: 15px; float: left; display: inline;
+}
+.lfr-dock LI A {
+	background: no-repeat 0px 50%; padding: 2px 0px 2px 20px;
+}
+.lfr-dock LI.home A {
+	background-image: url("../images/dock/home.png");
+}
+.lfr-dock LI.control-panel A {
+	background-image: url("../images/dock/control_panel.png");
+}
+.lfr-dock LI.my-account A {
+	background-image: url("../images/dock/my_account.png");
+}
+.lfr-dock LI.sign-in A {
+	background-image: url("../images/dock/sign_in.png");
+}
+.lfr-dock LI.sign-out A {
+	background-image: url("../images/dock/sign_out.png");
+}
+.lfr-dock LI.add-content A {
+	background-image: url("../images/dock/add_content.png");
+}
+.lfr-dock LI.layout A {
+	background-image: url("../images/dock/layout.png");
+}
+.lfr-dock LI.page-settings A {
+	background-image: url("../images/dock/page_settings.png");
+}
+.lfr-dock LI.staging A {
+	background-image: url("../images/dock/staging.png");
+}
+.lfr-dock LI.my-places A {
+	background-image: url("../images/dock/my_places.png");
+}
+.lfr-dock LI.my-places {
+	display: none;
+}
+.lfr-dock LI.toggle-controls {
+	display: none;
+}
+.js .interactive-mode {
+	background: url(../images/dock/center_bg.png) repeat-x rgb(2, 5, 9); position: absolute; min-width: 150px;
+}
+.js .interactive-mode H2 {
+	background: url(../images/dock/right_bg.png) no-repeat 100% 0px; margin: 0px; padding: 0px 37px 0px 0px; font-size: 1em; position: relative; z-index: 82;
+}
+.js .interactive-mode H2 SPAN {
+	background: url(../images/dock/left_bg.png) no-repeat 0px 0px; padding: 10px 20px 4px; height: 15px; color: rgb(255, 255, 255); line-height: 1; font-size: 1em; text-decoration: none; margin-bottom: 0px; border-right-color: rgb(52, 64, 79); border-right-width: 1px; border-right-style: solid; display: block;
+}
+.js .interactive-mode H2 A {
+	background: url(../images/dock/left_bg.png) no-repeat 0px 0px; padding: 10px 20px 4px; height: 15px; color: rgb(255, 255, 255); line-height: 1; font-size: 1em; text-decoration: none; margin-bottom: 0px; border-right-color: rgb(52, 64, 79); border-right-width: 1px; border-right-style: solid; display: block;
+}
+.js .interactive-mode H2 A:focus {
+	text-decoration: underline;
+}
+.js .interactive-mode H2 A:active {
+	text-decoration: underline;
+}
+.js .expanded.lfr-dock .lfr-dock-list-container {
+	top: -2px;
+}
+.js .interactive-mode UL {
+	background: rgb(255, 255, 255); border: 1px solid rgb(222, 222, 222) rgb(191, 191, 191) rgb(191, 191, 191) rgb(222, 222, 222); float: none; display: none;
+}
+.js .interactive-mode LI {
+	margin: 0px; padding: 2px; clear: both; border-top-color: rgb(222, 222, 222); border-top-width: 1px; border-top-style: solid; float: none; display: block;
+}
+.js .interactive-mode LI A {
+	background-position: 8px 50%; padding: 5px 0px; text-decoration: none; margin-left: 0px; display: block; background-repeat: no-repeat;
+}
+.js .interactive-mode LI A {
+	background-position: 8px 50%; padding-left: 30px;
+}
+.js .interactive-mode LI A:hover {
+	background-position: 8px 50%; padding-left: 30px;
+}
+.js .interactive-mode LI A:hover {
+	color: rgb(255, 255, 255);
+}
+.js .interactive-mode .my-places LI.current A:hover {
+	color: rgb(255, 255, 255);
+}
+.js .interactive-mode .lfr-dock-list LI.first {
+	border-top-color: ; border-top-width: medium; border-top-style: none;
+}
+.js .interactive-mode.lfr-dock .my-places LI A {
+	background-image: none;
+}
+.js .interactive-mode .my-places LI {
+	background-position: 5px 50%; background-repeat: no-repeat;
+}
+.js .interactive-mode.lfr-dock .has-children.lfr-flyout.my-places > UL {
+	margin-right: -1px;
+}
+.js .interactive-mode .my-places LI.current-community {
+	background-color: rgb(211, 218, 221);
+}
+.js .interactive-mode .my-places LI H3 {
+	margin: 0px; font-size: 1em; font-weight: normal;
+}
+.js .interactive-mode .has-children.lfr-flyout H3 {
+	min-width: 175px;
+}
+.js .interactive-mode.lfr-dock .my-places LI H3 A {
+	background-image: url("../images/dock/my_place.png");
+}
+.js .interactive-mode .has-children.lfr-flyout UL {
+	top: -1px; margin-left: 0px; display: none;
+}
+.js .interactive-mode .my-places LI.public A {
+	background-image: url("../images/dock/my_places_public.png");
+}
+.js .interactive-mode .my-places LI.private A {
+	background-image: url("../images/dock/my_places_private.png");
+}
+.js .interactive-mode .my-places LI.current {
+	background-color: rgb(223, 244, 255);
+}
+.js .interactive-mode .my-places LI.current A {
+	background: url(../images/dock/my_place_current.png) no-repeat 10px 50%; margin: 0px; padding-left: 35px;
+}
+.js .interactive-mode LI:hover {
+	background-color: rgb(130, 143, 149);
+}
+.js .interactive-mode .my-places LI:hover {
+	background-color: rgb(130, 143, 149);
+}
+.js .interactive-mode LI:hover A:hover {
+	color: rgb(255, 255, 255); background-color: rgb(130, 143, 149);
+}
+.js .interactive-mode LI:hover > A {
+	color: rgb(255, 255, 255); background-color: rgb(130, 143, 149);
+}
+.js .interactive-mode LI:hover > H3 > A {
+	color: rgb(255, 255, 255); background-color: rgb(130, 143, 149);
+}
+.js.ie6 .interactive-mode LI A:hover {
+	color: rgb(255, 255, 255); background-color: rgb(130, 143, 149);
+}
+.js .interactive-mode .my-places UL LI A.add-page {
+	top: 7px;
+}
+.js .interactive-mode .group-end {
+	border-bottom-color: rgb(222, 222, 222); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.js.ie6 .interactive-mode .taglib-my-places LI {
+	height: 24px;
+}
+.js.ie6 .interactive-mode.lfr-dock {
+	width: 150px; white-space: nowrap;
+}
+.js.ie6 .interactive-mode.lfr-dock LI {
+	width: 100%; height: 1%;
+}
+.js.ie6 .interactive-mode .has-children.lfr-flyout {
+	width: 150px;
+}
+.js .interactive-mode LI.toggle-controls {
+	display: block;
+}
+.js .interactive-mode LI.toggle-controls A {
+	background-image: url("../images/common/checked.png");
+}
+.js .controls-hidden .interactive-mode LI.toggle-controls A {
+	background-image: url("../images/common/unchecked.png");
+}
+.js .delete-tab {
+	background: url(../images/common/remove.png) no-repeat 42% 50%; top: 2px; width: 8px; height: 8px; right: 2px; text-indent: -9999em; display: block; position: absolute; cursor: pointer;
+}
+.nav-menu LI A.ancestor {
+	font-weight: bold;
+}
+.nav-menu LI A.selected {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.nav-menu UL {
+	padding-left: 10px;
+}
+.portlet {
+	text-align: left;
+}
+.freeform .portlet {
+	margin-bottom: 0px;
+}
+BODY.portlet {
+	
+}
+.portlet-topper {
+	background: rgb(248, 248, 248); border: 1px solid rgb(204, 204, 204); height: auto !important; min-height: 30px;
+}
+.portlet-title {
+	padding: 5px; font-size: 1.2em; font-weight: bold; float: left;
+}
+.portlet-title IMG {
+	vertical-align: middle;
+}
+.portlet-icons {
+	margin: 0px; padding: 5px; top: 5px;
+}
+.portlet-icons .nobr {
+	padding: 1px; float: left; display: inline-block;
+}
+.portlet-content {
+	padding: 12px 0px 10px;
+}
+.portlet-minimized .portlet-content-container {
+	padding: 12px 0px 10px;
+}
+.portlet-minimized .portlet-content {
+	padding: 0px;
+}
+.portlet-icon-back {
+	background: url(../images/arrows/01_left.png) no-repeat 0px 50%; padding: 3px 0px 3px 18px; font-weight: bold;
+}
+.lfr-panel-page {
+	width: 100%;
+}
+.lfr-panel-page .portlet-title {
+	font-size: 13px;
+}
+.lfr-panel-page #content-wrapper {
+	margin: 0px; width: auto;
+}
+.lfr-panel-page .lfr-add-content H2 SPAN {
+	background-color: rgb(211, 218, 221);
+}
+.portlet-msg-info {
+	background: url(../images/messages/info.png) no-repeat 6px 50% rgb(223, 244, 255); margin: 2px auto 14px; padding: 6px 6px 6px 30px; border: 1px solid rgb(167, 206, 223); text-align: left; color: rgb(52, 64, 79); font-weight: bold; display: block;
+}
+.pending.portlet-msg-info {
+	background-image: url("../images/common/time.png");
+}
+.portlet-msg-error {
+	padding: 0px 0px 10px 10px; text-align: left; color: red; font-weight: bold; display: block;
+}
+.portlet-msg-alert {
+	background: url(../images/messages/alert.png) no-repeat 6px 20% rgb(255, 255, 204); margin: 2px auto 14px; padding: 6px 6px 6px 30px; border: 1px solid rgb(255, 204, 0); text-align: left; font-weight: bold; display: block;
+}
+.portlet-msg-success {
+	background: url(../images/messages/success.png) no-repeat 6px 50% rgb(244, 253, 239); margin: 2px auto 14px; padding: 6px 6px 6px 30px; border: 1px solid rgb(172, 223, 167); text-align: left; color: rgb(56, 79, 52); font-weight: bold; display: block;
+}
+.portlet-section-selected {
+	background: rgb(114, 124, 129); color: rgb(255, 255, 255); font-weight: bold; text-decoration: none;
+}
+.portlet-section-selected A {
+	background: rgb(114, 124, 129); color: rgb(255, 255, 255); font-weight: bold; text-decoration: none;
+}
+.portlet-section-selected A:hover {
+	background-color: rgb(114, 124, 129);
+}
+.portlet-section-selected A:focus {
+	background-color: rgb(114, 124, 129);
+}
+.restricted {
+	background: rgb(255, 221, 221);
+}
+.restricted TD {
+	background: rgb(255, 221, 221);
+}
+.restricted.alt TD {
+	background-color: rgb(255, 192, 192);
+}
+.restricted.hover TD {
+	background-color: rgb(211, 189, 192);
+}
+.restricted * {
+	color: rgb(114, 124, 129);
+}
+.restricted TD.col-1 {
+	background-position: 5px 50%; padding-left: 28px; background-image: url("../images/messages/error.png"); background-repeat: no-repeat;
+}
+.restricted.alt TD.col-1 {
+	background-position: 5px 50%; padding-left: 28px; background-image: url("../images/messages/error.png"); background-repeat: no-repeat;
+}
+.lfr-role.results-row .col-1 {
+	background-position: 5px 50%; padding-left: 30px; background-image: none; background-repeat: no-repeat;
+}
+.lfr-role.hover.results-row .col-1 {
+	background-position: 5px 50%; padding-left: 30px; background-image: none; background-repeat: no-repeat;
+}
+.lfr-role-guest.results-row .col-1 {
+	background-image: url("../images/common/guest_icon.png");
+}
+.lfr-role-guest.hover.results-row .col-1 {
+	background-image: url("../images/common/guest_icon.png");
+}
+.lfr-role-regular.results-row .col-1 {
+	background-image: url("../images/common/user_icon.png");
+}
+.lfr-role-regular.hover.results-row .col-1 {
+	background-image: url("../images/common/user_icon.png");
+}
+.lfr-role-community.results-row .col-1 {
+	background-image: url("../images/common/community_icon.png");
+}
+.lfr-role-community.hover.results-row .col-1 {
+	background-image: url("../images/common/community_icon.png");
+}
+.lfr-role-organization.results-row .col-1 {
+	background-image: url("../images/common/organization_icon.png");
+}
+.lfr-role-organization.hover.results-row .col-1 {
+	background-image: url("../images/common/organization_icon.png");
+}
+.lfr-portlet-item {
+	font-size: 1em;
+}
+.lfr-portlet-item P A {
+	font-size: 1em;
+}
+.lfr-actions {
+	background: url(../images/forms/button.png) repeat-x 0px 100% rgb(255, 255, 255); border: 1px solid rgb(222, 222, 222) rgb(191, 191, 191) rgb(191, 191, 191) rgb(222, 222, 222);
+}
+.lfr-actions UL {
+	background: url(../images/forms/button.png) repeat-x 0px 100% rgb(255, 255, 255); border: 1px solid rgb(222, 222, 222) rgb(191, 191, 191) rgb(191, 191, 191) rgb(222, 222, 222);
+}
+.lfr-actions UL {
+	bottom: -1px;
+}
+.lfr-actions .lfr-trigger {
+	
+}
+.lfr-actions .lfr-trigger {
+	
+}
+.lfr-actions .lfr-trigger STRONG {
+	
+}
+.lfr-actions .lfr-trigger STRONG SPAN {
+	background: url(../images/common/action.png) no-repeat 5px 50%;
+}
+.left.lfr-actions .lfr-trigger STRONG SPAN {
+	background: url(../images/common/action_right.png) no-repeat 98% 50%;
+}
+.lfr-actions .lfr-trigger LI {
+	padding: 2px; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.lfr-actions .lfr-trigger LI A {
+	padding: 5px 10px 5px 25px;
+}
+.lfr-actions .lfr-trigger LI A:hover {
+	color: rgb(255, 255, 255); background-color: rgb(130, 143, 149);
+}
+.lfr-actions .lfr-trigger LI A IMG {
+	left: 3px; position: absolute;
+}
+.lfr-actions .lfr-trigger LI.last {
+	border-bottom-color: ; border-bottom-width: medium; border-bottom-style: none;
+}
+.portlet-options.lfr-actions {
+	float: left;
+}
+.portlet-options.lfr-actions .lfr-trigger {
+	padding: 0px;
+}
+.portlet-options.lfr-actions .lfr-trigger STRONG {
+	padding: 1px; min-width: 0px;
+}
+.portlet-options.lfr-actions .lfr-trigger STRONG SPAN {
+	padding: 0px; width: 16px; height: 16px; text-indent: -9999em; display: block; background-image: url("../images/portlet/options.png");
+}
+.portlet-options.visible .lfr-trigger STRONG SPAN {
+	background-image: url("../images/portlet/options_selected.png");
+}
+.taglib-calendar TR.portlet-section-header TH {
+	
+}
+.taglib-calendar TR TD {
+	
+}
+.taglib-calendar TR TD A {
+	padding: 5px 0px; border: 1px 1px medium medium solid solid none none rgb(255, 255, 255) rgb(255, 255, 255)  ; height: 15px; display: block; background-color: rgb(240, 245, 247);
+}
+.taglib-calendar TABLE TD {
+	border-width: 0px;
+}
+.taglib-calendar TR TD A:hover {
+	color: rgb(255, 255, 255); background-color: rgb(114, 124, 129);
+}
+.taglib-calendar .calendar-current-day {
+	background-color: rgb(255, 255, 255);
+}
+.taglib-calendar .calendar-current-day A {
+	background-color: rgb(255, 255, 255);
+}
+.taglib-calendar .calendar-current-day A {
+	border: 1px solid rgb(114, 124, 129); color: rgb(51, 102, 153); text-decoration: underline;
+}
+.taglib-calendar TR TD.calendar-inactive {
+	color: rgb(181, 191, 196); background-color: rgb(255, 255, 255);
+}
+.taglib-calendar TR TH {
+	border-bottom-color: rgb(215, 215, 215);
+}
+.ie .taglib-calendar TR TD.first A {
+	border-right-color: ; border-right-width: medium; border-right-style: none;
+}
+.js .qf-tabs .tabbody {
+	display: none;
+}
+.js #qf-search #sin {
+	display: none;
+}
+.js .renderHidden {
+	display: none;
+}
+.js .js-toggle UL {
+	display: none;
+}
+.js #qf-home-carousel .showJsOnly.carousel-tabs {
+	display: block;
+}
+BODY {
+	font: 0.72em normal Arial, Helvetica, Verdana, Geneva, sans-serif; margin: 0px; padding: 0px; color: rgb(0, 0, 0); background-color: rgb(104, 33, 69);
+}
+DIV {
+	margin: 0px; padding: 0px;
+}
+H1 {
+	margin: 0px; padding: 0px;
+}
+H2 {
+	margin: 0px; padding: 0px;
+}
+H3 {
+	margin: 0px; padding: 0px;
+}
+H4 {
+	margin: 0px; padding: 0px;
+}
+H5 {
+	margin: 0px; padding: 0px;
+}
+H6 {
+	margin: 0px; padding: 0px;
+}
+IMG {
+	margin: 0px; padding: 0px;
+}
+FORM {
+	margin: 0px; padding: 0px;
+}
+FIELDSET {
+	margin: 0px; padding: 0px;
+}
+P {
+	margin: 0px 0px 1.5em; padding: 0px;
+}
+IMG {
+	border: 0px;
+}
+FIELDSET {
+	border: 0px;
+}
+HR {
+	margin: 1em 0px; padding: 0px; border: 0px; height: 1px; color: rgb(104, 33, 69); display: block; background-color: rgb(104, 33, 69);
+}
+A:link {
+	color: rgb(135, 57, 104);
+}
+A:visited {
+	color: rgb(135, 57, 104);
+}
+A:active {
+	color: rgb(135, 57, 104); text-decoration: underline;
+}
+A:focus {
+	color: rgb(135, 57, 104); text-decoration: underline;
+}
+A:hover {
+	color: rgb(135, 57, 104); text-decoration: underline;
+}
+A:focus {
+	outline-width: medium; outline-style: none;
+}
+A:visited {
+	outline-width: medium; outline-style: none;
+}
+.accessibilityNav {
+	margin: 0px; padding: 0px;
+}
+.skip {
+	margin: 0px 0px 0px 5px; padding: 0px; text-align: left; font-size: 1em; display: none; position: absolute;
+}
+.skip {
+	display: block;
+}
+:root .skip {
+	display: block;
+}
+.skip A {
+	padding: 0px 0.5em; left: -300em; width: 20em; text-decoration: none; display: inline; position: absolute; z-index: 2;
+}
+.skip A:focus {
+	background: rgb(253, 246, 209); left: 0.5em; position: absolute;
+}
+.skip A:active {
+	background: rgb(253, 246, 209); left: 0.5em; position: absolute;
+}
+.skip A:hover {
+	cursor: default;
+}
+.clearing {
+	height: 0px; overflow: hidden; clear: both; display: block;
+}
+.hidden {
+	left: -300em; top: auto; width: 1px; height: 1px; overflow: hidden; position: absolute;
+}
+.hide {
+	display: none;
+}
+H1 {
+	padding: 0px 0px 1em; color: rgb(0, 0, 0); line-height: 1.15em; font-size: 2.25em; font-weight: lighter;
+}
+H2 {
+	padding: 0px 0px 0.8em; color: rgb(0, 0, 0); line-height: 1.2em; font-size: 1.6em; font-weight: lighter;
+}
+H3 {
+	padding: 0px 0px 0.8em; color: rgb(51, 51, 51); font-size: 1.3em; font-weight: bold;
+}
+H4 {
+	padding: 0px 0px 0.3em; color: rgb(0, 0, 0); font-size: 1.1em; font-weight: bold;
+}
+BLOCKQUOTE {
+	background: url(../images/qfinance/key_line_quote.gif) no-repeat 0px 0px; margin: 0px 7% 1.5em; padding: 15px 0px 0px; line-height: 1.2em; font-size: 1.3em;
+}
+BLOCKQUOTE DIV {
+	background: url(../images/qfinance/key_line_quote.gif) no-repeat left bottom; padding: 0px 10px 15px;
+}
+UL.qf-quotes {
+	margin: 0px 0px 1.5em; padding: 0px; list-style-type: none;
+}
+UL.qf-quotes LI {
+	padding: 1em 0px; color: rgb(102, 102, 102); border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+UL.qf-quotes LI.highlight {
+	padding: 1em; background-color: rgb(234, 234, 234);
+}
+UL.qf-quotes LI:last-child {
+	border-bottom-color: ; border-bottom-width: medium; border-bottom-style: none;
+}
+UL.qf-quotes DIV.quote {
+	margin: 0px; padding: 0px 0px 0.5em; color: rgb(51, 51, 51);
+}
+UL.qf-quotes DIV.quote SPAN {
+	font: 1.2em normal Georgia, "Times New Roman", Times, Verdana, sans-serif;
+}
+UL.qf-quotes DIV.quote STRONG EM {
+	font-style: italic; font-weight: bold;
+}
+OL {
+	margin: 0px; padding: 0px 0px 1.5em 3em;
+}
+OL LI {
+	padding-bottom: 0.6em;
+}
+UL LI {
+	padding-bottom: 0.6em;
+}
+UL {
+	margin: 0px; padding: 0px 0px 1.5em 2em;
+}
+UL UL {
+	margin: 0px; padding: 0px 0px 0px 2em;
+}
+OL UL {
+	margin: 0px; padding: 0px 0px 0px 2em;
+}
+OL OL {
+	margin: 0px; padding: 0px 0px 0px 3em;
+}
+.linkBtn {
+	text-align: right;
+}
+.linkBtn A {
+	background: url(../images/qfinance/bg_linkview.gif) repeat-x 0px 0px rgb(210, 211, 213); padding: 3px 10px; text-align: left; font-size: 0.95em; text-decoration: none; border-top-color: rgb(224, 224, 224); border-top-width: 1px; border-top-style: solid; display: inline-block;
+}
+.linkBtn A EM {
+	background: url(../images/qfinance/arrow_s1_right.gif) no-repeat 0px 50%; padding: 0px 0px 0px 10px;
+}
+.linkView {
+	background: url(../images/qfinance/bg_linkview.gif) repeat-x 0px 0px rgb(210, 211, 213); margin: 0px -9px; padding: 5px 9px; text-align: right; border-top-color: rgb(224, 224, 224); border-top-width: 1px; border-top-style: solid;
+}
+.linkView A {
+	background: url(../images/qfinance/arrow_s1_right.gif) no-repeat 0px 0.3em; padding: 0px 0px 0px 10px; text-decoration: none;
+}
+.top {
+	text-align: right;
+}
+.top A {
+	background: url(../images/qfinance/arrow_s1_up.gif) no-repeat 0px 0.5em; padding: 0px 0px 0px 15px; text-decoration: none;
+}
+.back {
+	background: url(../images/qfinance/arrow_s1_left.gif) no-repeat 0px 0.4em; padding: 0px 0px 0px 10px; text-decoration: none;
+}
+.back A {
+	text-decoration: none;
+}
+.infoblock .top {
+	font-weight: normal; margin-top: -1em;
+}
+.next {
+	margin: 0px;
+}
+.next A {
+	background: url(../images/qfinance/arrow_s1_right.gif) no-repeat 0px 0.3em; padding: 0px 0px 0px 10px; text-decoration: none;
+}
+.back A:hover {
+	text-decoration: underline;
+}
+.linkBtn A:hover {
+	text-decoration: underline;
+}
+.linkView A:hover {
+	text-decoration: underline;
+}
+.return A:hover {
+	text-decoration: underline;
+}
+.top A:hover {
+	text-decoration: underline;
+}
+.qf-rss A {
+	background: url(../images/qfinance/icon_rss.gif) no-repeat 0px 0px; padding: 0px 0px 7px 20px;
+}
+.qf-facebook A {
+	background: url(../images/qfinance/icon_facebook.gif) no-repeat 0px 0px; padding: 0px 0px 7px 20px;
+}
+.qf-linkedin A {
+	background: url(../images/qfinance/icon_linkedin.gif) no-repeat 0px 0px; padding: 0px 0px 7px 20px;
+}
+.qf-twitter A {
+	background: url(../images/qfinance/icon_twitter.gif) no-repeat 0px 0px; padding: 0px 0px 7px 20px;
+}
+A.qf-c {
+	background: url(../images/qfinance/icon_close.gif) no-repeat 100% 0.3em; padding: 0px 15px 0px 0px; color: rgb(135, 57, 104) !important; font-weight: bold; text-decoration: none;
+}
+H1 {
+	font-family: Georgia,"Times New Roman",Times,Verdana,sans-serif;
+}
+H2 {
+	font-family: Georgia,"Times New Roman",Times,Verdana,sans-serif;
+}
+H3 {
+	font-family: Georgia,"Times New Roman",Times,Verdana,sans-serif;
+}
+H4 {
+	font-family: Georgia,"Times New Roman",Times,Verdana,sans-serif;
+}
+H5 {
+	font-family: Georgia,"Times New Roman",Times,Verdana,sans-serif;
+}
+H6 {
+	font-family: Georgia,"Times New Roman",Times,Verdana,sans-serif;
+}
+.qf-article-header .title SPAN {
+	font-family: Georgia,"Times New Roman",Times,Verdana,sans-serif;
+}
+.librios-equation {
+	font-family: Georgia,"Times New Roman",Times,Verdana,sans-serif;
+}
+DL.section DT {
+	font-family: Georgia,"Times New Roman",Times,Verdana,sans-serif;
+}
+.img-hero P {
+	font-family: Georgia,"Times New Roman",Times,Verdana,sans-serif;
+}
+.pinned.myfav-items H2 {
+	font-family: Georgia,"Times New Roman",Times,Verdana,sans-serif;
+}
+#qf-ad1 {
+	margin: 0px auto 20px; padding: 0px; width: 100%; height: 100px; text-align: center; clear: both; border-bottom-color: rgb(229, 195, 107); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#qf-ad1 .wrap {
+	margin: 0px auto; width: 970px; text-align: center;
+}
+#qf-ad1 .left {
+	margin: 0px 10px 0px 0px; padding: 0px 0px 10px; width: 728px; float: left;
+}
+#qf-ad1 .right {
+	padding: 0px 0px 10px; width: 232px; float: right;
+}
+.qf-logo {
+	left: 0px; top: 155px; width: 265px; position: absolute;
+}
+.qf-logo A {
+	width: 265px; height: 45px; color: rgb(255, 255, 255); display: inline-block;
+}
+.qf-logo .logo-print {
+	left: -300em; top: auto; width: 1px; height: 1px; overflow: hidden; position: absolute;
+}
+#qf-utility-nav {
+	padding: 0px 0px 15px 290px; text-align: right; text-transform: uppercase; clear: both; font-size: 0.8em; font-weight: bold;
+}
+#qf-utility-nav UL {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+#qf-utility-nav UL LI {
+	display: inline;
+}
+#qf-utility-nav UL LI A {
+	padding: 0px 10px; color: rgb(255, 255, 255); text-decoration: none; border-right-color: rgb(187, 91, 148); border-right-width: 1px; border-right-style: solid;
+}
+#qf-utility-nav UL LI A:hover {
+	text-decoration: underline;
+}
+#qf-utility-nav UL LI.last A {
+	padding-right: 0px; border-right-color: ; border-right-width: medium; border-right-style: none;
+}
+#qf-search {
+	margin: 0px 8px 0px 0px; width: 300px; float: right;
+}
+#qf-search A {
+	color: rgb(255, 255, 255); font-size: 0.95em; text-decoration: none;
+}
+#qf-search .sfor {
+	margin: 4px 0px; padding: 3px 2px; border: 1px solid rgb(203, 173, 93); width: 302px;
+}
+#qf-search .sin {
+	width: 200px; font-size: 1em; margin-bottom: 4px;
+}
+#searchTabs {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+#searchTabs LI {
+	margin: 0px; padding: 0px; display: inline;
+}
+#searchTabs LI A {
+	margin: 0px; padding: 0px 10px 2px; font-weight: bold; display: inline-block;
+}
+#searchTabs LI.on A {
+	border: 1px solid rgb(229, 195, 107); color: rgb(104, 33, 69); padding-top: 2px; margin-bottom: -4px !important; background-color: rgb(229, 195, 107);
+}
+.js-style#qf-search {
+	width: auto; margin-right: 0px;
+}
+* HTML .js-style#qf-search {
+	width: 460px;
+}
+.js-style#qf-search DIV.tabs {
+	padding: 0px 5px; border: 1px solid rgb(235, 201, 110);
+}
+.js-style#qf-search .btnSubmit {
+	margin: 0px 0px 3px; padding: 2px 5px; width: auto !important; text-align: center; vertical-align: 1%; min-width: 130px;
+}
+*:first-child + HTML #searchTabs LI.on A {
+	border-bottom-color:  !important; border-bottom-width: medium !important; border-bottom-style: none !important;
+}
+* HTML #searchTabs LI.on A {
+	border-bottom-color:  !important; border-bottom-width: medium !important; border-bottom-style: none !important;
+}
+*:first-child + HTML #qf-search .btnSubmit {
+	line-height: 120%;
+}
+.qf-breadcrumbs {
+	margin: 0px; padding: 5px 50px 10px 0px; border-bottom-color: rgb(222, 212, 218); border-bottom-width: 1px; border-bottom-style: solid; position: relative; background-color: rgb(255, 255, 255);
+}
+.qf-breadcrumbs A {
+	padding: 0px 3px 0px 0px; font-weight: bold; text-decoration: none;
+}
+.qf-breadcrumbs A:hover {
+	text-decoration: underline;
+}
+* HTML .qf-breadcrumbs {
+	height: 1.3em;
+}
+.qf-breadcrumbs .add-this {
+	top: 5px; right: 0px; position: absolute;
+}
+DL#qf-primaryNav {
+	margin: 0px; padding: 0px;
+}
+DL#qf-primaryNav DT {
+	margin: 0px; padding: 0px; display: none;
+}
+DL#qf-primaryNav DD {
+	margin: 0px; padding: 0px;
+}
+DL#qf-primaryNav DD UL {
+	margin: 0px 0px 7px; padding: 0px; list-style-type: none;
+}
+DL#qf-primaryNav DD UL LI {
+	background: url(../images/qfinance/bg_nav_off.gif) repeat-x 0px 0px rgb(206, 206, 206); margin: 0px; padding: 6px 5px 0px 7px; color: rgb(51, 51, 51); line-height: normal; font-weight: bold; display: block;
+}
+DL#qf-primaryNav DD UL LI.selected {
+	background: url(../images/qfinance/bg_nav_on.gif) repeat-x 0px 0px rgb(229, 195, 108);
+}
+DL#qf-primaryNav DD UL LI A {
+	margin: 0px; padding: 6px 5px 6px 7px; color: rgb(104, 33, 69); line-height: normal; text-decoration: none; display: block;
+}
+DL#qf-primaryNav DD UL LI A:hover {
+	text-decoration: underline;
+}
+DL#qf-primaryNav DD UL LI.home A {
+	background: url(../images/qfinance/icon_home.gif) no-repeat 7px 25%; padding: 0px 0px 6px 23px;
+}
+DL#qf-primaryNav DD UL LI.blogs A {
+	background: url(../images/qfinance/icon_blogs.gif) no-repeat 7px 25%; padding: 0px 0px 6px 23px;
+}
+DL#qf-primaryNav DD UL LI.dictionary A {
+	background: url(../images/qfinance/icon_dictionary.gif) no-repeat 7px 25%; padding: 0px 0px 6px 23px;
+}
+DL#qf-primaryNav DD UL LI.market-data A {
+	background: url(../images/qfinance/icon_markets.gif) no-repeat 7px 25%; padding: 0px 0px 6px 23px;
+}
+DL#qf-primaryNav DD UL LI.events A {
+	background: url(../images/qfinance/icon_events.gif) no-repeat 7px 25%; padding: 0px 0px 6px 23px;
+}
+DL#qf-primaryNav DD UL LI.myfav A {
+	background: url(../images/qfinance/icon_myfav.gif) no-repeat 7px 25%; padding: 0px 0px 6px 23px;
+}
+DL#qf-primaryNav DD UL UL {
+	margin: 6px -5px 0px -7px; padding: 6px 0px 5px; background-color: rgb(255, 255, 255);
+}
+DL#qf-primaryNav DD UL UL LI {
+	margin: 0px; padding: 0px; background-image: none; background-color: rgb(255, 255, 255);
+}
+DL#qf-primaryNav DD UL UL LI A {
+	background: url(../images/qfinance/arrow_s1_right.gif) no-repeat 15px 0.3em; padding: 0px 5px 2px 25px; font-weight: normal;
+}
+DL#qf-primaryNav DD UL UL LI.sub A {
+	font-weight: bold; text-decoration: underline;
+}
+* HTML DL#qf-primaryNav DD UL LI {
+	border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.qf-buttons {
+	margin: 0px; padding: 8px 8px 0px; background-color: rgb(84, 8, 46);
+}
+.qf-buttons IMG {
+	margin: 0px 0px 8px;
+}
+.polldaddy {
+	margin: 0px 0px 8px;
+}
+#qf-footer {
+	padding: 0px; color: rgb(0, 0, 0);
+}
+#qf-footer UL {
+	margin: 5px 0px 0px 5px; padding: 0px; list-style-type: none;
+}
+#qf-footer LI {
+	margin: 0px; padding: 5px 5px 7px 7px; text-align: left; word-spacing: normal; vertical-align: top; display: inline-block;
+}
+* HTML #qf-footer LI {
+	display: inline;
+}
+* + HTML #qf-footer LI {
+	display: inline;
+}
+#qf-footer LI UL {
+	margin: 0px; padding: 1em 0px; font-size: 0.95em;
+}
+#qf-footer LI UL LI {
+	padding: 0px 0px 0.5em; display: block;
+}
+#qf-footer LI A {
+	text-decoration: none;
+}
+#qf-footer LI A:hover {
+	text-decoration: underline;
+}
+#qf-footer LI.last {
+	font-size: 0.9em;
+}
+.partners {
+	margin: 0px; padding: 0px; word-spacing: normal; vertical-align: bottom; display: inline-block;
+}
+#qf-footer .copyright {
+	display: block; white-space: nowrap;
+}
+.partners IMG {
+	margin: 0px 15px 5px 0px; padding: 0px;
+}
+* HTML .partners IMG {
+	display: inline;
+}
+* + HTML .partners IMG {
+	display: inline;
+}
+.qf-logo-footer_print {
+	display: none;
+}
+.qf-topics UL {
+	margin: 0px; padding: 0px; overflow: hidden; clear: right; font-size: 0.95em; word-spacing: -1em; border-bottom-color: rgb(104, 33, 69); border-bottom-width: 1px; border-bottom-style: solid; list-style-type: none;
+}
+.qf-topics UL LI {
+	background: url(../images/qfinance/bg_tab_off.gif) repeat-x 50% bottom rgb(239, 240, 242); margin: 2px 2px 0px 0px; padding: 5px 8px; text-align: center; word-spacing: normal; vertical-align: bottom; display: inline-block;
+}
+* + HTML .qf-topics UL LI {
+	display: inline;
+}
+.qf-topics UL LI:hover {
+	background: url(../images/qfinance/bg_tab_on.gif) repeat-x 50% bottom rgb(152, 56, 105); color: rgb(255, 255, 255);
+}
+.qf-topics UL LI.current {
+	background: url(../images/qfinance/bg_tab_on.gif) repeat-x 50% bottom rgb(152, 56, 105); color: rgb(255, 255, 255);
+}
+.qf-topics UL LI A {
+	color: rgb(135, 57, 104); text-decoration: none; display: block;
+}
+.qf-topics UL LI:hover A {
+	color: rgb(255, 255, 255);
+}
+.qf-topics UL LI.current A {
+	color: rgb(255, 255, 255);
+}
+.qf-topics UL LI A.wPaper {
+	background: url(../images/qfinance/icon_wp_off.gif) no-repeat 0px 0.1em; padding-left: 15px;
+}
+.qf-topics UL LI.current A.wPaper {
+	background-image: url("../images/qfinance/icon_wp_on.gif");
+}
+.qf-topics UL LI:hover A.wPaper {
+	background-image: url("../images/qfinance/icon_wp_on.gif");
+}
+.qf-tabs {
+	margin: 0px; overflow: hidden;
+}
+.qf-tabs UL.js-qf {
+	margin: 0px; padding: 0px; overflow: hidden; list-style-type: none;
+}
+.qf-tabs UL.js-qf LI {
+	margin: 2px 2px 0px 0px; padding: 0px; word-spacing: normal; vertical-align: top; display: inline-block;
+}
+* HTML .qf-tabs UL.js-qf LI {
+	display: inline;
+}
+* + HTML .qf-tabs UL.js-qf LI {
+	display: inline;
+}
+.qf-tabs UL.js-qf A {
+	background: url(../images/qfinance/bg_tab_off.gif) repeat-x 50% bottom rgb(239, 240, 242); margin: 0px; padding: 5px 8px; width: auto; color: rgb(135, 57, 104); font-size: 0.95em; text-decoration: none; display: block;
+}
+.qf-tabs UL.js-qf LI A:hover {
+	background: url(../images/qfinance/bg_tab_on.gif) repeat-x 50% bottom rgb(239, 240, 242); color: rgb(255, 255, 255); text-decoration: none;
+}
+.qf-tabs UL.js-qf LI.current A {
+	background: url(../images/qfinance/bg_tab_on.gif) repeat-x 50% bottom rgb(152, 56, 105); color: rgb(255, 255, 255);
+}
+.qf-tabs .js-current-info {
+	left: -999em; position: absolute;
+}
+.qf-tabs .accessibletabsanchor {
+	left: -999em; position: absolute;
+}
+.qf-tabs .js-content {
+	border-top-color: rgb(104, 33, 69); border-top-width: 1px; border-top-style: solid;
+}
+.qf-article-tabs {
+	padding: 9px; border: 1px solid rgb(204, 204, 204); margin-bottom: 10px;
+}
+.qf-article-tabs .tabbody UL {
+	padding: 0px; margin-left: 1.5em;
+}
+.qf-article-tabs .tabbody LI {
+	margin: 0px; padding: 0px 0px 1em; list-style-type: disc;
+}
+.qf-article-tabs H2 {
+	margin: 0px; padding: 0px 0px 10px; font-size: 1.4em;
+}
+.qf-article-tabs .tabbody UL.qf-nav-list {
+	margin: 0px; padding: 0px;
+}
+.qf-article-tabs .tabbody UL.qf-nav-list LI {
+	background: url(../images/qfinance/arrow_s1_right.gif) no-repeat 0px 0.25em; padding-bottom: 1em; padding-left: 10px; list-style-type: none;
+}
+.qf-article-tabs .tabbody UL.qf-nav-list LI.img {
+	margin: 0px 0px 7px; height: auto !important; padding-left: 0px; min-height: 45px;
+}
+.qf-article-tabs .date {
+	margin: 0px; padding: 0px 0px 4px; color: rgb(102, 102, 102); display: inline-block;
+}
+.qf-article-tabs .see-all {
+	margin: 0px; padding: 0.5em 0px; text-align: right;
+}
+.qf-article-tabs .see-all A {
+	background: url(../images/qfinance/arrow_s1_right.gif) no-repeat 0px 0.3em; padding: 0px 0px 0px 10px; text-decoration: none;
+}
+.market.qf-nav-list {
+	margin-top: -10px; min-height: 260px;
+}
+.market.qf-nav-list H2 {
+	margin-bottom: 5px;
+}
+.market .qf-tabs UL.js-qf LI {
+	margin-bottom: 1px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.market .qf-tabs .js-content H3 {
+	padding-bottom: 7px;
+}
+.p-search.qf-nav-list {
+	padding: 0px;
+}
+.p-search.qf-nav-list .qf-tabs LI {
+	margin-bottom: 1px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(249, 249, 249);
+}
+.p-search.qf-nav-list .qf-tabs LI.odd {
+	background-color: rgb(234, 234, 234);
+}
+.p-search.qf-nav-list .qf-tabs H3 {
+	padding-bottom: 0px;
+}
+.p-search.qf-nav-list .qf-tabs .tabbody LI {
+	padding: 7px; background-image: none;
+}
+.p-search.qf-nav-list .qf-tabs .tabbody H4 {
+	font: 0.95em normal Arial, Helvetica, Verdana, Geneva, sans-serif; color: rgb(51, 51, 51); text-transform: uppercase;
+}
+.qf-event-item {
+	margin: 0px 0px 1px; padding: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.qf-event-intro {
+	padding-bottom: 2em;
+}
+.qf-intro {
+	padding-bottom: 2em;
+}
+.qf-event-item .desc {
+	padding-bottom: 1.3em;
+}
+.qf-event-item EM {
+	width: 10em; color: rgb(102, 102, 102); font-style: normal; font-weight: bold; display: inline-block;
+}
+.qf-event-item P {
+	margin: 0px 0px 0.5em;
+}
+.qf-mpu {
+	margin-bottom: 10px; position: relative;
+}
+.mpu-inner {
+	padding: 0px 6px 0px 9px; margin-top: -20px;
+}
+* HTML .mpu-inner {
+	margin-top: 10px;
+}
+.flash-link {
+	left: 0px; top: 0px; position: absolute;
+}
+.no-flash-message {
+	padding: 10px; border: 1px solid rgb(204, 204, 204);
+}
+.qf-share-this {
+	padding: 7px 7px 0px; border: 1px solid rgb(255, 221, 108); width: 284px; overflow: hidden; margin-bottom: 10px; background-color: rgb(255, 239, 194);
+}
+.qf-share-this H2 {
+	font: bold 1.15em normal Arial, Helvetica, Verdana, Geneva, sans-serif; padding: 0px 0px 10px; color: rgb(51, 51, 51);
+}
+.qf-share-this UL {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+.qf-share-this LI {
+	margin: 0px 0px 5px; padding: 0px 0px 7px; width: 49.9%; word-spacing: normal; float: left; display: inline-block;
+}
+.qf-share-this LI A {
+	text-decoration: none;
+}
+.qf-share-this LI.border {
+	background: url(../images/qfinance/bg_share_this_article.gif) repeat-x 50% bottom;
+}
+.qf-video {
+	margin-bottom: 10px;
+}
+.qf-quote {
+	border: 1px solid rgb(204, 204, 204); color: rgb(104, 33, 69); line-height: 1.25em; margin-bottom: 10px;
+}
+.qf-quote A {
+	text-decoration: none; cursor: pointer;
+}
+.qf-quote A:hover {
+	text-decoration: none;
+}
+.qf-quote P {
+	background: url(../images/qfinance/bg_quote_top.gif) no-repeat 7px 10px rgb(255, 239, 194); padding: 17px 5px 17px 17px; border: 3px solid rgb(255, 255, 255); margin-bottom: 0px;
+}
+.qf-quote P .q {
+	background: url(../images/qfinance/bg_quote_bottom.gif) no-repeat right bottom rgb(255, 239, 194); font: 1.35em normal Georgia, "Times New Roman", Times, Verdana, sans-serif; padding-right: 17px; padding-bottom: 0.5em; margin-bottom: 0.5em; display: inline-block;
+}
+.qf-quote .author {
+	line-height: normal; padding-bottom: 5px; font-family: Arial,Helvetica,Verdana,Geneva,sans-serif; display: inline-block;
+}
+.qf-quote .source {
+	line-height: normal; padding-bottom: 5px; font-family: Arial,Helvetica,Verdana,Geneva,sans-serif; display: inline-block;
+}
+.qf-nav-list {
+	padding: 10px 9px 0px; border: 1px solid rgb(204, 204, 204); margin-bottom: 10px;
+}
+.qf-nav-list H2 {
+	margin: 0px 0px 15px; padding: 0px 0px 5px; font-size: 1.4em; border-bottom-color: rgb(104, 33, 69); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.qf-nav-list H2 A {
+	text-decoration: none;
+}
+.blog-tabs.qf-nav-list H2 {
+	margin: 0px; border-bottom-color: ; border-bottom-width: medium; border-bottom-style: none;
+}
+.qf-nav-list UL {
+	margin: 0px 0px 1em; padding: 0px;
+}
+.qf-nav-list OL {
+	margin: 0px 0px 1em; padding: 0px;
+}
+.qf-nav-list LI {
+	background: url(../images/qfinance/arrow_s1_right.gif) no-repeat 0px 0.25em; padding: 0px 0px 0.5em 12px; clear: left; list-style-type: none;
+}
+.qf-nav-list LI UL {
+	margin: 0px 0px 0px 1em;
+}
+.qf-nav-list LI UL LI {
+	padding: 0px 0px 0.3em 12px; background-image: url("../images/qfinance/arrow_black_right.gif");
+}
+.qf-nav-list LI.img {
+	padding: 0px 0px 1em; height: auto !important; min-height: 45px;
+}
+.qf-nav-list LI.img SPAN {
+	background: url(../images/qfinance/arrow_img.gif) no-repeat 100% 4px; margin: 0px 6px 5px 0px; padding-right: 6px; float: left;
+}
+.qf-nav-list LI.img SPAN IMG {
+	border: 3px solid rgb(204, 204, 204);
+}
+.qf-nav-list LI A {
+	text-decoration: none;
+}
+.qf-nav-list LI A:hover {
+	text-decoration: underline;
+}
+.qf-search-results LI H3 {
+	padding: 0px; font-family: Arial,Helvetica,Verdana,Geneva,sans-serif; font-size: 1.2em;
+}
+.qf-search-results LI .type {
+	padding: 0px 0px 3px; color: rgb(102, 102, 102); font-weight: bold; display: inline-block;
+}
+.qf-nav-list .author {
+	padding: 0px 0px 0.5em; color: rgb(102, 102, 102); display: inline-block;
+}
+.viewed.qf-nav-list {
+	background-color: rgb(239, 239, 239);
+}
+.qf-nav-list LI.pin {
+	background-image: url("../images/qfinance/icon_pin.gif");
+}
+.qf-nav-list-dl {
+	padding: 10px 9px 0px; border: 1px solid rgb(204, 204, 204); margin-bottom: 10px;
+}
+.qf-nav-list-dl H2 {
+	margin: 0px 0px 15px; padding: 0px 0px 5px; font-size: 1.4em; border-bottom-color: rgb(104, 33, 69); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.qf-nav-list-dl DT {
+	margin: 0px; padding: 0px 0px 0.5em; font-weight: bold;
+}
+.qf-nav-list-dl DD {
+	background: url(../images/qfinance/arrow_s1_right.gif) no-repeat 0px 0.25em; margin: 0px; padding: 0px 0px 0.5em 10px; list-style-type: none;
+}
+.qf-nav-list-dl DD A {
+	text-decoration: none;
+}
+.qf-nav-list LI.latest {
+	padding-left: 0px; margin-bottom: 10px; background-image: none;
+}
+.qf-nav-list LI.latest P {
+	margin-bottom: 5px;
+}
+.qf-nav-list LI.latest .date {
+	color: rgb(102, 102, 102);
+}
+.qf-nav-list LI.latest P A {
+	font-size: 1.2em; font-weight: bold;
+}
+.qf-nav-list .myfavlist LI {
+	padding-right: 25px; position: relative;
+}
+.qf-nav-list .myfavlist LI DIV.remove {
+	background: url(../images/qfinance/icon_close2.gif) no-repeat right top; top: 0px; right: 0px; position: absolute;
+}
+.qf-nav-list .myfavlist LI DIV.remove A {
+	width: 14px; height: 14px; display: block;
+}
+.qf-nav-list .myfavlist LI DIV.remove EM {
+	left: -9999em; position: absolute;
+}
+* HTML .qf-nav-list .myfavlist LI DIV.remove {
+	right: 14px;
+}
+.js-block-collapse.qf-nav-list .js-toggle {
+	padding-right: 25px; position: relative;
+}
+.js-block-collapse.qf-nav-list P {
+	margin-bottom: 0px;
+}
+.js-block-collapse.qf-nav-list .js-toggle SPAN A {
+	top: 0px; width: 14px; height: 20px; right: 0px; position: absolute;
+}
+.js-block-collapse.qf-nav-list .js-toggle SPAN A EM {
+	left: -9999em; position: absolute;
+}
+.js-block-collapse.qf-nav-list .js-toggle SPAN A {
+	background: url(../images/qfinance/icon_plus.gif) no-repeat 0px 0.25em;
+}
+.js-block-collapse.qf-nav-list .on.js-toggle SPAN A {
+	background: url(../images/qfinance/icon_minus2.gif) no-repeat 0px 0.25em;
+}
+* HTML .js-block-collapse.qf-nav-list .js-toggle SPAN A {
+	right: 14px;
+}
+.js-block-collapse.qf-nav-list .js-toggle {
+	background: url(../images/qfinance/icon_myfav.gif) no-repeat 0px 0.35em; padding: 0px 0px 0px 15px; border-bottom-color: ; border-bottom-width: medium; border-bottom-style: none;
+}
+.js-block-collapse.qf-nav-list .on.js-toggle {
+	padding-bottom: 5px; border-bottom-color: rgb(104, 33, 69); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.bg.qf-nav-list {
+	background: url(../images/qfinance/bg_blog_featured.jpg) repeat-x 0px 0px rgb(254, 254, 254);
+}
+.qf-article-body .qf-nav-list {
+	padding: 0px 9px 0px 0px; margin-bottom: 10px; list-style-type: none;
+}
+.qf-article-body .qf-nav-list UL {
+	margin-bottom: 0px;
+}
+.qf-article-body .qf-nav-list LI {
+	padding-bottom: 0.7em;
+}
+.qf-article-body .qf-nav-list LI.img {
+	padding-bottom: 1.5em;
+}
+.qf-article-body .linkView {
+	margin: 1.3em 0px 2em;
+}
+.wp.qf-nav-list {
+	padding: 0px !important;
+}
+.wp.qf-nav-list LI {
+	background-position: 5px 1.1em; margin: 0px 0px 5px; padding: 10px 9px 0px 15px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(234, 234, 234);
+}
+.wp.qf-nav-list LI .author {
+	color: rgb(102, 102, 102); padding-bottom: 0.5em; font-size: 0.95em; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.wp.qf-nav-list LI P {
+	margin-bottom: 0.5em;
+}
+.wp.qf-nav-list LI H3 {
+	font: 1em normal Arial, Helvetica, Verdana, Geneva, sans-serif; padding-bottom: 0.3em;
+}
+.wp.qf-nav-list LI.odd {
+	background-color: rgb(247, 247, 247);
+}
+#column-5 P {
+	margin: 0px; padding: 0px;
+}
+#column-5 H1 {
+	margin-bottom: 10px;
+}
+#column-5 A {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+#column-5 #column-5-left STRONG {
+	text-transform: uppercase; font-size: 1.2em; font-weight: bold; margin-bottom: 10px; display: inline-block;
+}
+#column-5 #column-5-left H1 {
+	padding: 0px; font-family: Georgia,"Century Schoolbook",Verdana,Arial,Helvetica,Geneva,sans-serif;
+}
+#column-5 #column-5-left A {
+	padding: 3px 0px 0px 10px; color: rgb(135, 57, 104); text-transform: none; font-size: 1em; display: inline-block;
+}
+* HTML #column-5 {
+	width: 99%;
+}
+.border#column-5 {
+	border-bottom-color: rgb(104, 33, 69); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#column-5 #column-5-right IMG {
+	vertical-align: middle;
+}
+#column-5 #column-5-right SPAN {
+	margin-right: 5px;
+}
+.promo_button {
+	margin-bottom: 10px;
+}
+.welcome-hero {
+	border: 1px solid rgb(204, 204, 204); height: 160px; position: relative;
+}
+.welcome-hero P {
+	margin: 0px; padding: 15px 0px 15px 15px; width: 500px; bottom: 0px; color: rgb(255, 255, 255); font-size: 1.45em; position: absolute;
+}
+.welcome-hero H1 {
+	padding: 15px 0px 15px 15px; color: rgb(255, 255, 255);
+}
+#qf-blog-featured {
+	background: url(../images/qfinance/bg_blog_featured.jpg) repeat-x 0px 0px rgb(254, 254, 254); margin: 0px 0px 10px; padding: 12px 10px 0px; border: 1px solid rgb(204, 204, 204); color: rgb(102, 102, 102);
+}
+#qf-blog-featured H2 {
+	padding: 0px; margin-bottom: 13px; border-bottom-color: ; border-bottom-width: medium; border-bottom-style: none;
+}
+#qf-blog-featured H2 A {
+	text-decoration: none;
+}
+#qf-blog-featured H3 {
+	font: 0.95em normal Arial, Helvetica, Verdana, Geneva, sans-serif; margin: 0px -10px 10px; padding: 3px 10px; color: rgb(51, 51, 51); text-transform: uppercase; border-bottom-color: rgb(231, 231, 231); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(255, 239, 194);
+}
+#qf-blog-featured UL {
+	margin-bottom: 0px;
+}
+#qf-blog-featured UL LI {
+	padding-bottom: 7px; margin-bottom: 0px;
+}
+#qf-blog-featured .author {
+	font-size: 0.95em;
+}
+.qf-article-header {
+	margin: 0px 0px 1em; padding: 0px 0px 3px; overflow: hidden;
+}
+.qf-article-header .title {
+	margin: 0px; padding: 10px 0px 1em;
+}
+.qf-article-header .title H1 {
+	padding: 0px;
+}
+.qf-article-header .title SPAN {
+	font-size: 1.4em;
+}
+.qf-article-intro {
+	background: url(../images/qfinance/key_line_dark.gif) repeat-x left bottom; margin: 1em 0px; padding-bottom: 5px;
+}
+.qf-article-body {
+	padding-bottom: 1em; clear: both; margin-bottom: 1em;
+}
+.qf-article-body .infoblock {
+	width: 100%;
+}
+.separator {
+	background: url(../images/qfinance/key_line_dark.gif) repeat-x left bottom;
+}
+A.dlink {
+	color: rgb(0, 0, 0); text-decoration: none; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+A.dlink:hover {
+	background-color: rgb(255, 246, 204);
+}
+.whitePapers.qf-article-header {
+	background: url(../images/qfinance/bg_wp_title_left.gif) no-repeat 0px 0px;
+}
+.whitePapers.qf-article-header H1 {
+	font-size: 1.9em;
+}
+.whitePapers.qf-article-header .title {
+	background: url(../images/qfinance/bg_wp_title_right.gif) no-repeat right top;
+}
+.whitePapers.qf-article-header .wp-logo {
+	padding: 5px 5px 15px;
+}
+.whitePapers.qf-article-header SPAN {
+	font-size: 1em;
+}
+.whitePapers-details {
+	padding: 1em 0px 0px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.whitePapers-details DL {
+	margin: 0px 0px 1.5em; padding: 0px; width: 100%; color: rgb(51, 51, 51); overflow: hidden; display: table;
+}
+.whitePapers-details DL DT {
+	margin: 0px; padding: 0px; width: 20%; clear: left; float: left;
+}
+.whitePapers-details DL DD {
+	margin: 0px; padding: 0px 0px 0.5em; width: 75%; float: left;
+}
+.portlet-header {
+	margin: 0px; padding: 0px 0px 1em;
+}
+.portlet-header H1 {
+	padding: 0px;
+}
+.portlet-recommend {
+	color: rgb(102, 102, 102); overflow: hidden; padding-bottom: 0.5em; margin-top: 5px;
+}
+.portlet-recommend A {
+	font-weight: bold; text-decoration: none;
+}
+.portlet-recommend .qf-recommend {
+	background: url(../images/qfinance/icon_rating2.gif) no-repeat 0px 0px; width: 45%; float: left;
+}
+.portlet-recommend .qf-fav {
+	background: url(../images/qfinance/icon_myfav.gif) no-repeat 0px 0.3em; padding-left: 15px; float: right;
+}
+* HTML .portlet-recommend {
+	clear: both;
+}
+.portlet-return {
+	background: url(../images/qfinance/arrow_s2_left.gif) no-repeat 0px 0px; margin: 1em 0px; padding: 0px 0px 0px 20px; text-decoration: none;
+}
+.portlet-return A {
+	text-decoration: none;
+}
+#toc {
+	margin: 0px; padding: 7px; background-color: rgb(237, 237, 237);
+}
+#toc H2 {
+	font: 1.2em normal Arial, Helvetica, Verdana, Geneva, sans-serif; padding: 0px;
+}
+#toc H2 A {
+	
+}
+#toc .qf-nav-list {
+	padding-left: 2em; margin-bottom: 0px;
+}
+#toc .qf-nav-list LI {
+	padding-bottom: 0.2em;
+}
+#toc A {
+	text-decoration: none;
+}
+#toc A:hover {
+	text-decoration: underline;
+}
+#toc DD.linkBtn {
+	padding: 5px 0px 0px;
+}
+#toc H2.js-toggle {
+	font: bold 1em normal Arial, Helvetica, Verdana, Geneva, sans-serif;
+}
+#toc H2.js-toggle A {
+	padding: 0px 0px 0px 20px; text-decoration: none; display: inline-block; cursor: pointer;
+}
+#toc H2.js-toggle A:hover {
+	text-decoration: underline;
+}
+#toc H2.js-toggle A.off {
+	background: url(../images/qfinance/icon_plus.gif) no-repeat 0px 0px;
+}
+#toc H2.opened.js-toggle A {
+	background: url(../images/qfinance/icon_minus.gif) no-repeat 0px 0px;
+}
+#toc H2.js-toggle A.on {
+	background: url(../images/qfinance/icon_minus.gif) no-repeat 0px 0px;
+}
+.article-tools {
+	padding: 7px; border: 1px solid rgb(237, 237, 237); clear: both;
+}
+.article-tools UL {
+	margin: 0px; padding: 0px; width: 100%; overflow: hidden; list-style-type: none;
+}
+.article-tools LI {
+	background: url(../images/qfinance/arrow_s3_right.gif) no-repeat 0px 0.3em; margin: 0px; padding: 0px 0px 0.3em 15px; width: 45%; float: left;
+}
+.article-tools LI A {
+	text-decoration: none;
+}
+.article-tools LI A:hover {
+	text-decoration: underline;
+}
+.qf-pagination {
+	margin: 0px; padding: 0px 0px 2em; width: 100%; position: relative;
+}
+.qf-pagination UL {
+	background: url(../images/qfinance/bg_pagination.gif) repeat-x left bottom rgb(255, 255, 255); margin: 0px; padding: 15px 7px 7px; overflow: hidden;
+}
+.qf-pagination UL LI {
+	margin: 0px; padding: 0px 0px 0.3em; list-style-type: none;
+}
+.qf-pagination .page {
+	right: 0px; bottom: 0px; color: rgb(102, 102, 102); position: absolute;
+}
+.qf-pagination .prev {
+	background: url(../images/qfinance/arrow_s3_left.gif) no-repeat 0px 10%; padding: 0px 0px 0px 13px; width: 45%; float: left;
+}
+.qf-pagination .next {
+	background: url(../images/qfinance/arrow_s3_right.gif) no-repeat 100% 10%; padding: 0px 13px 0px 0px; width: 48%; text-align: right; float: right;
+}
+.qf-pagination .next STRONG {
+	display: block;
+}
+.qf-pagination .prev STRONG {
+	display: block;
+}
+.qf-pagination A {
+	font-weight: normal; text-decoration: none; background-image: none;
+}
+.qf-pagination A:hover {
+	text-decoration: underline;
+}
+* HTML .qf-pagination UL {
+	float: left;
+}
+.qf-bookmarks {
+	margin: 0.5em 0px 1.5em; padding: 0px; clear: both; font-size: 0.95em; list-style-type: none;
+}
+.qf-bookmarks LI {
+	margin: 0px; padding: 0px 10px 0.5em 16px; word-spacing: normal; vertical-align: top; display: inline-block;
+}
+.qf-bookmarks LI.qf-addthis {
+	padding-left: 0px;
+}
+* HTML .qf-bookmarks LI {
+	display: inline;
+}
+* + HTML .qf-bookmarks LI {
+	display: inline;
+}
+.qf-bookmarks LI A {
+	text-decoration: none;
+}
+.qf-bookmarks LI A:hover {
+	text-decoration: underline;
+}
+LI.qf-pdf {
+	background: url(../images/qfinance/icon_pdf.gif) no-repeat 0px 0.3em;
+}
+LI.qf-recommend {
+	background: url(../images/qfinance/icon_rating2.gif) no-repeat 0px 0px; color: rgb(102, 102, 102);
+}
+LI.qf-print {
+	background: url(../images/qfinance/icon_print.gif) no-repeat 0px 0.3em;
+}
+LI.qf-send {
+	background: url(../images/qfinance/icon_send.gif) no-repeat 0px 0.2em;
+}
+.qf-recommend {
+	background: url(../images/qfinance/icon_rating2.gif) no-repeat 0px 0px; margin: 0px; padding: 0px 10px 0.5em 16px; word-spacing: normal; vertical-align: top; display: inline-block;
+}
+.qf-recommend A {
+	font-weight: bold; text-decoration: none;
+}
+.whitaker {
+	background: url(../images/qfinance/icon_whitaker.gif) no-repeat 0px 0.1em; padding: 0px 0px 0px 25px; text-decoration: none;
+}
+.whitaker:hover {
+	text-decoration: underline;
+}
+P.whitaker-def {
+	text-align: right; margin-bottom: 0.5em;
+}
+#recommendedArticle {
+	color: rgb(102, 102, 102); padding-bottom: 1em;
+}
+.qf-img-pull-right {
+	background: url(../images/qfinance/bg_pullbox.gif) no-repeat left bottom rgb(255, 255, 255); margin: 0px 0px 1em 1em; border: 1px solid rgb(104, 33, 69); width: 118px; float: right;
+}
+.qf-img-pull-right SPAN {
+	padding: 5px 5px 10px; line-height: normal; font-size: 0.95em; font-weight: bold; display: block;
+}
+.qf-img-pull-right EM {
+	color: rgb(135, 135, 135); line-height: 2.3em;
+}
+.qf-img-pull-right IMG {
+	border-bottom-color: rgb(104, 33, 69); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.qf-chart {
+	background: url(../images/qfinance/bg_pullbox.gif) no-repeat left bottom rgb(255, 255, 255); margin: 0px 1em 1em 0px; padding: 0px 7px 10px; border: 1px solid rgb(104, 33, 69); width: 200px;
+}
+.qf-chart IMG {
+	margin: 0px -7px 5px; border-bottom-color: rgb(104, 33, 69); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.qf-chart A {
+	line-height: normal; font-size: 0.95em; text-decoration: none;
+}
+.qf-chart EM {
+	color: rgb(135, 135, 135); line-height: 2.3em;
+}
+.qf-chart P.librios-caption {
+	color: rgb(135, 57, 104); line-height: normal; font-weight: normal;
+}
+.qf-chart P.librios-caption EM {
+	color: rgb(135, 57, 104); line-height: normal; font-weight: normal;
+}
+UL.sitemap {
+	margin: 0px; padding: 0px; color: rgb(0, 0, 0);
+}
+UL.sitemap UL {
+	padding: 5px 0px 0.5em 10px; height: auto !important; min-height: 70px;
+}
+UL.sitemap LI LI UL {
+	padding: 0px;
+}
+UL.sitemap LI {
+	margin: 0px; padding: 0px 2em 0.7em 0px; width: 300px; font-size: 1.2em; font-weight: bold; float: left; list-style-type: none;
+}
+UL.sitemap LI LI {
+	background: url(../images/qfinance/arrow_s1_right.gif) no-repeat 0px 0.4em; padding: 0px 0px 0px 10px; width: auto; font-size: 0.9em; font-weight: normal; float: none;
+}
+UL.sitemap LI A {
+	text-decoration: none; background-image: none;
+}
+UL.sitemap LI H2 {
+	margin: 0px; padding: 0px; font-size: 1em; font-weight: bold;
+}
+UL.viewall.sitemap {
+	margin: 0px 0px 2em; padding: 0px;
+}
+UL.viewall.sitemap UL {
+	margin: 0.5em 0px 1.5em; padding: 0px; min-height: 0px;
+}
+UL.viewall.sitemap LI {
+	margin: 0px; padding: 0px; width: auto; float: none; list-style-type: none;
+}
+UL.viewall.sitemap LI LI {
+	background: url(../images/qfinance/arrow_s1_right.gif) no-repeat 20px 0.4em; padding: 0px 0px 0px 30px;
+}
+UL.viewall.sitemap LI A {
+	text-decoration: none; background-image: none;
+}
+UL.viewall.sitemap H3 {
+	padding: 0px; font-size: 1em;
+}
+* HTML UL.viewall.sitemap UL {
+	height: 0px;
+}
+.rss-list UL {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+.rss-list UL UL {
+	padding: 10px 0px 0.5em 10px;
+}
+.rss-list LI LI UL {
+	padding: 0px;
+}
+.rss-list LI {
+	margin: 0px; padding: 0px 2em 0.5em 0px; list-style-type: none;
+}
+.rss-list LI LI {
+	background: url(../images/qfinance/icon_rss.gif) no-repeat 0px 0px; padding: 0px 0px 5px 25px; font-weight: normal;
+}
+.rss-list LI H3 {
+	margin: 0px; padding: 0px; font-size: 1em; font-weight: bold;
+}
+.rss-list LI A {
+	text-decoration: none;
+}
+.rss-list LI A:hover {
+	text-decoration: underline;
+}
+DL.section {
+	margin: 1.4em 0px 1.5em;
+}
+DL.section DT {
+	padding: 0px 0px 1em; font-size: 1.6em;
+}
+DL.section DT STRONG {
+	font-weight: normal;
+}
+DL.section DD {
+	margin: 0px; padding: 0px 0px 0px 2em !important; border-bottom-color: rgb(204, 204, 204) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;
+}
+DL.section DD UL {
+	padding-bottom: 1em;
+}
+.div-3-col TABLE {
+	margin: 0px 0px 1.5em; border: 1px solid rgb(204, 204, 204); border-collapse: collapse;
+}
+.div-3-col TABLE TH {
+	padding: 5px; border: 1px solid rgb(204, 204, 204); text-align: left; font-weight: bold; background-color: rgb(253, 246, 209);
+}
+.div-3-col TABLE TD {
+	padding: 4px 10px; vertical-align: top; border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;
+}
+.div-3-col TABLE IMG {
+	margin: 5px;
+}
+.div-3-col TABLE CAPTION {
+	text-align: left; padding-bottom: 5px; font-weight: bold;
+}
+.qf-generic-table TR.even TD {
+	background-color: rgb(253, 246, 209);
+}
+.librios-equation {
+	padding: 5px 10px; color: rgb(104, 33, 69); overflow: hidden; font-size: 1.2em; font-weight: bold; background-color: rgb(255, 246, 204);
+}
+.librios-i {
+	font-style: italic;
+}
+EM {
+	font-style: italic;
+}
+.librios-sup {
+	padding: 0px 5px 0px 0px; font-weight: bold; display: inline;
+}
+.librios-pendnote SUP {
+	padding: 0px 5px 0px 0px; font-weight: bold; display: inline;
+}
+.librios-pindent {
+	margin-bottom: 1.3em; display: block;
+}
+.librios-tcell {
+	display: block;
+}
+UL.librios-blistitem LI {
+	margin: 0px; padding: 0px;
+}
+OL.librios-nlistitem LI {
+	margin: 0px; padding: 0px;
+}
+UL.librios-blistitem LI P {
+	margin-bottom: 0.7em;
+}
+OL.librios-nlistitem LI P {
+	margin-bottom: 0.7em;
+}
+.librios-caption {
+	margin: 0px; padding: 0px 0px 5px; font-weight: bold;
+}
+.librios-caption IMG {
+	margin: 0px 0px 1.3em;
+}
+.librios-sc {
+	font-variant: small-caps;
+}
+DL.librios-tabnum {
+	margin: 0px 0px 1.5em; padding: 0px; width: 100%; overflow: hidden; display: table;
+}
+DL.librios-tabnum DT {
+	margin: 0px; padding: 0px; width: 20%; clear: left; font-weight: bold; float: left;
+}
+DL.librios-tabnum DD {
+	margin: 0px; padding: 0px 0px 1em; width: 75%; float: left;
+}
+.librios-tablist {
+	background: rgb(253, 246, 209); margin: 0px 0px 1.5em; padding: 0px; border: 1px 1px medium solid solid none rgb(204, 204, 204) rgb(204, 204, 204) ; list-style-type: none;
+}
+.librios-tablist LI {
+	padding: 5px 0px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.librios-tablist STRONG {
+	padding: 0px 10px; width: 35%; vertical-align: top; display: inline-block;
+}
+.librios-tablist SPAN {
+	width: 60%; display: inline-block;
+}
+.librios-tablist .ocdd {
+	background-color: rgb(253, 246, 209);
+}
+.librios-tcellce {
+	text-align: center; display: block;
+}
+.librios-tcellri {
+	text-align: right; display: block;
+}
+.market TABLE {
+	margin: 0px 0px 10px !important; width: 100%;
+}
+.qf-tabs TABLE {
+	font-size: 0.95em;
+}
+.market TABLE TD {
+	padding: 1px 10px 1px 0px !important; vertical-align: top;
+}
+.market TABLE A {
+	text-decoration: none;
+}
+.market TABLE A.active {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.market TABLE .dataValue {
+	color: rgb(0, 0, 0);
+}
+.market TABLE .negChange.dataValue {
+	color: rgb(153, 0, 0); font-weight: bold;
+}
+.market TABLE .posChange.dataValue {
+	color: rgb(46, 147, 65); font-weight: bold;
+}
+.market .disclaimer {
+	text-align: right; color: rgb(153, 153, 153); font-size: 0.95em;
+}
+.market P {
+	margin-bottom: 10px;
+}
+.qf-article-body .dataValue {
+	font-size: 1.2em; font-weight: bold;
+}
+.qf-article-body .currencyCode {
+	color: rgb(102, 102, 102); font-weight: normal;
+}
+.qf-article-body .dataLabel {
+	color: rgb(102, 102, 102); font-size: 0.95em;
+}
+.qf-article-body .market P {
+	margin-bottom: 1.3em;
+}
+.market TABLE.data-quote TD {
+	padding: 2px 0px 2px 10px !important; text-align: right;
+}
+.market TABLE.data-quote TD.first {
+	text-align: left; padding-left: 0px !important;
+}
+.market TABLE.data-summary {
+	margin-bottom: 1.3em !important;
+}
+.market TABLE.data-summary TR TD {
+	padding: 7px 20px 7px 0px !important; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.qf-article-body .market H2 {
+	padding-bottom: 0.5em; clear: both; margin-bottom: 0.5em; border-bottom-color: rgb(104, 33, 69) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;
+}
+.qf-article-body .market H3 {
+	padding-bottom: 0.5em; font-weight: lighter; margin-bottom: 0.7em; border-bottom-color: rgb(104, 33, 69); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.qf-article-body .market H2 SPAN {
+	color: rgb(153, 153, 153);
+}
+.qf-article-body .market-chart {
+	margin: 2em 0px;
+}
+.market .qf-topics UL {
+	margin: 0px 0px 1em; text-transform: uppercase; font-weight: bold; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.market .qf-topics UL LI {
+	background: url(../images/qfinance/bg2_tab_off.gif) repeat-x 50% bottom rgb(246, 247, 247); margin: 0px 1px 0px 0px; padding: 0px; width: 33%;
+}
+.market .qf-topics UL LI:hover {
+	background: url(../images/qfinance/bg2_tab_on.gif) repeat-x 50% bottom rgb(250, 240, 216);
+}
+.market .qf-topics UL LI.current {
+	background: url(../images/qfinance/bg2_tab_on.gif) repeat-x 50% bottom rgb(250, 240, 216);
+}
+.market .qf-topics UL LI A {
+	padding: 5px 10px; color: rgb(51, 51, 51);
+}
+.market .qf-topics UL LI:hover A {
+	color: rgb(145, 37, 87);
+}
+.market .qf-topics UL LI.current A {
+	color: rgb(145, 37, 87);
+}
+.market .qf-topics UL LI.last {
+	margin-right: 0px;
+}
+.market .qf-nav-list {
+	padding: 0px; overflow: hidden;
+}
+.market .qf-nav-list LI {
+	background-position: 0px 50%; padding: 0.4em 0px 0.4em 12px; width: 30%; clear: none; margin-right: 11px; float: left;
+}
+.market .qf-nav-list .on {
+	background-color: rgb(255, 239, 194);
+}
+.qf-3col {
+	margin: 0px 2% 2em 0px; padding: 0px; width: 30%; float: left;
+}
+.qf-3col .qf-nav-list LI {
+	background-position: 5px 0.5em !important; padding: 0.2em 5px 0.25em 15px !important;
+}
+.qf-3col .qf-nav-list LI.on {
+	background-color: rgb(255, 239, 194);
+}
+.qf-search-results {
+	margin: 0px 0px 1.3em; width: 64%; float: left;
+}
+.qf-search-results EM {
+	font-style: normal; background-color: rgb(255, 246, 204);
+}
+.qf-search-results H3 A EM {
+	font-weight: bold;
+}
+.qf-search-results STRONG EM {
+	font-weight: bold;
+}
+.qf-search-results H3 A:hover EM {
+	text-decoration: underline;
+}
+.qf-pagin_pages {
+	margin: 0px 0px 10px; padding: 5px 0px; width: 100%; overflow: hidden; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.qf-pagin_pages STRONG {
+	float: left;
+}
+.qf-pagin_pages .per-page {
+	float: right;
+}
+.qf-refine-results {
+	margin: 3px 0px 1.3em; padding: 10px; border: 1px solid rgb(204, 204, 204); width: 30%; float: right;
+}
+.qf-refine-results DL {
+	margin: 0px; padding: 0px;
+}
+.qf-refine-results DT {
+	padding: 15px 0px 5px; font-weight: bold;
+}
+.qf-refine-results DD {
+	background: url(../images/qfinance/arrow_s1_right.gif) no-repeat 0px 0.3em; margin: 0px; padding: 0px 0px 0px 10px;
+}
+.qf-refine-results H2 {
+	padding-bottom: 0px;
+}
+.qf-refine-results A {
+	text-decoration: none;
+}
+.qf-refine-results DD.line {
+	padding-top: 5px; margin-bottom: 5px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; display: block; background-image: none;
+}
+.qf-pagin_links {
+	margin: 0px 0px 1.8em; padding: 2px 10px 5px 0px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.qf-pagin_links .prev IMG {
+	margin-right: 10px; vertical-align: middle;
+}
+.qf-pagin_links .next IMG {
+	margin-left: 10px; vertical-align: middle;
+}
+.qf-pagin_links A {
+	padding: 0px; text-decoration: none; background-image: none !important;
+}
+.qf-pagin_links STRONG {
+	font-weight: bold;
+}
+.a-to-z {
+	margin: 0px; padding: 1em 0px 5px;
+}
+.a-to-z P {
+	margin-bottom: 1em;
+}
+.a-to-z UL {
+	margin: 0px; padding: 0px; font-weight: bold;
+}
+.a-to-z LI {
+	list-style: none; margin: 0px 2px 2px 0px; padding: 1px; border: 1px solid rgb(223, 223, 223); width: auto !important; text-align: center; color: rgb(204, 204, 204); min-width: 16px;
+}
+.a-to-z LI A {
+	text-decoration: none;
+}
+.a-to-z LI:hover A {
+	color: rgb(135, 57, 104);
+}
+.a-to-z LI:hover {
+	border: 1px solid rgb(135, 57, 104);
+}
+.a-to-z LI.inactive:hover {
+	border: 1px solid rgb(223, 223, 223);
+}
+.a-to-z LI.on {
+	padding: 1px; border: 1px solid rgb(135, 57, 104); width: auto !important; color: rgb(255, 255, 255); min-width: 16px; background-color: rgb(135, 57, 104);
+}
+.a-to-z LI {
+	word-spacing: normal; vertical-align: bottom; display: inline-block;
+}
+* HTML .a-to-z LI {
+	display: inline;
+}
+* + HTML .a-to-z LI {
+	display: inline;
+}
+#search-dictionary {
+	margin: 1em 0px 2em; border: 1px solid rgb(204, 204, 204); background-color: rgb(238, 238, 238);
+}
+#search-dictionary LABEL {
+	background: url(../images/qfinance/bg_search_dictionary.gif) no-repeat 100% 50%; padding: 7px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 0.9em; font-weight: bold; margin-right: 10px; display: inline-block;
+}
+#search-dictionary .inputText {
+	width: 45%; margin-top: 5px; vertical-align: top; display: inline-block;
+}
+#search-dictionary .selectText {
+	margin: 5px 10px 0px 0px; width: 35%; vertical-align: top; display: inline-block;
+}
+#search-dictionary .btnSubmit {
+	margin-top: 5px; vertical-align: top;
+}
+.dictionary.qf-nav-list H3 {
+	padding: 0px; font-family: Arial,Helvetica,Verdana,Geneva,sans-serif; font-size: 1em;
+}
+.dictionary.qf-nav-list .type {
+	padding: 0px 0px 3px; color: rgb(102, 102, 102); font-weight: bold; display: inline-block;
+}
+.dictionary.qf-nav-list EM {
+	font-style: normal; background-color: rgb(255, 246, 204);
+}
+.dictionary.qf-nav-list A:hover EM {
+	text-decoration: underline;
+}
+FORM SELECT {
+	font: 1em normal Arial, Helvetica, Verdana, Geneva, sans-serif;
+}
+FORM OPTION {
+	font: 1em normal Arial, Helvetica, Verdana, Geneva, sans-serif;
+}
+FORM INPUT {
+	font: 1em normal Arial, Helvetica, Verdana, Geneva, sans-serif;
+}
+FORM TEXTAREA {
+	font: 1em normal Arial, Helvetica, Verdana, Geneva, sans-serif;
+}
+.btnSubmit {
+	background: url(../images/qfinance/bg_submit.gif) repeat-x left bottom rgb(235, 235, 235); padding: 1px 10px; border: 1px solid rgb(203, 173, 93); color: rgb(104, 33, 69); font-weight: bold; cursor: pointer;
+}
+.btnCancel {
+	background: url(../images/qfinance/bg_cancel.gif) repeat-x left bottom rgb(240, 241, 243); padding: 1px 10px; border: 1px solid rgb(205, 205, 205); color: rgb(104, 33, 69); font-weight: bold; cursor: pointer;
+}
+.qf-form FIELDSET {
+	margin: 0px 0px 10px;
+}
+.qf-form OL {
+	margin: 0px 0px 1em; padding: 0px;
+}
+.qf-form LI {
+	list-style: none; padding: 5px 5px 5px 10px; color: rgb(102, 102, 102); overflow: hidden; clear: both; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 3px; border-bottom-style: solid; background-color: rgb(232, 232, 232);
+}
+.qf-form LABEL {
+	width: 45%; font-weight: bold; margin-right: 5px; vertical-align: top; float: left;
+}
+.qf-form LABEL SPAN.info {
+	font-size: 0.95em; font-weight: normal;
+}
+.qf-form EM {
+	color: rgb(255, 0, 0); font-style: normal; font-weight: bold;
+}
+.qf-form INPUT.text {
+	border: 1px solid rgb(204, 204, 204); width: 100%; height: 1.4em;
+}
+.qf-form .select {
+	border: 1px solid rgb(204, 204, 204); width: 100%; height: 1.7em;
+}
+.qf-form TEXTAREA.text {
+	border: 1px solid rgb(204, 204, 204); width: 96%;
+}
+.qf-form LI.wide LABEL INPUT {
+	vertical-align: middle;
+}
+.qf-form LI.wide LABEL {
+	width: 90%; padding-bottom: 5px;
+}
+.qf-form LI.wide INPUT {
+	float: left;
+}
+.qf-form INPUT[type='checkbox'] {
+	margin-right: 5px;
+}
+.qf-form .divRight LABEL {
+	margin: 10px 0px 0px; width: auto; float: none; display: inline-block;
+}
+.qf-form .divRight {
+	width: 50%; float: left;
+}
+.qf-form .divRight IMG {
+	margin: 3px 0px; border: 1px solid rgb(204, 204, 204);
+}
+.qf-error {
+	background: url(../images/qfinance/icon_error.gif) no-repeat 3px 2px; padding: 3px 0px 10px 25px; color: red; clear: both; display: block;
+}
+.qf-form .divRight .btnSubmit {
+	float: left;
+}
+.qf-form .btnSubmit {
+	margin: 0px 0px 1.3em; float: right;
+}
+* HTML .qf-form LI {
+	width: 96%;
+}
+.legend {
+	font-weight: bold;
+}
+.qf-form LI UL.group {
+	margin: 0px; padding: 0px;
+}
+.qf-form LI UL.group LI {
+	margin: 0px; padding: 0px; width: 33%; border-bottom-color: ; border-bottom-width: medium; border-bottom-style: none; float: left;
+}
+.qf-form LI UL.group LI LABEL {
+	width: 75%; padding-bottom: 0px; font-size: 1em; font-weight: normal; display: inline;
+}
+.qf-form LI UL.group LI INPUT {
+	width: 20px; margin-bottom: 1px; float: left;
+}
+.js-splitcol {
+	width: 48%; float: left;
+}
+.js-splitcol LI {
+	margin-right: 10px;
+}
+.dict-deflist LI {
+	list-style-type: none;
+}
+.dict-deflist LI H3 {
+	margin: 0px 0px 0px -1.1em; padding-bottom: 0.2em;
+}
+.dict-deflist LI H4 {
+	margin: 0px 0px 0px -0.8em; padding: 0px;
+}
+EM.dqdef {
+	padding-bottom: 0.5em; display: block;
+}
+.def-term {
+	width: 100%; display: inline-block;
+}
+.def-term H3 {
+	padding-right: 0.5em; float: left;
+}
+.ie6 .def-term H3 {
+	margin-left: 0px;
+}
+.def-term EM {
+	padding: 0.1em 0px 0px; vertical-align: bottom; float: left;
+}
+.qf-list-collapse {
+	margin: 0px; padding: 0px;
+}
+.qf-list-collapse H2 {
+	padding: 1em 0px 0.5em;
+}
+.qf-list-collapse H3 {
+	padding: 0px 0px 0.7em; font-weight: normal;
+}
+.qf-list-collapse H4 {
+	font-size: 1em;
+}
+.qf-list-collapse UL {
+	margin: 0px 0px 1.5em; padding: 0px; list-style-type: none;
+}
+.qf-list-collapse UL UL {
+	margin: 0px 0px 0px 1.5em;
+}
+.qf-list-collapse LI {
+	padding-bottom: 0px; margin-bottom: 0px;
+}
+.qf-list-collapse .qf-nav-list {
+	margin: 0px 0px 1em 1.5em; padding: 0px;
+}
+.qf-list-collapse .qf-nav-list LI {
+	padding-bottom: 0.2em;
+}
+.qf-list-collapse H3.js-toggle {
+	font: 1.2em normal Arial, Helvetica, Verdana, Geneva, sans-serif;
+}
+.qf-list-collapse H3.js-toggle A {
+	padding: 0px 0px 0px 20px; text-decoration: none; display: inline-block; cursor: pointer;
+}
+.qf-list-collapse H3.js-toggle A:hover {
+	text-decoration: underline;
+}
+.qf-list-collapse H3.js-toggle A.off {
+	background: url(../images/qfinance/icon_plus.gif) no-repeat 0px 0px;
+}
+.qf-list-collapse H3.opened.js-toggle A {
+	background: url(../images/qfinance/icon_minus.gif) no-repeat 0px 0px;
+}
+.qf-list-collapse H3.js-toggle A.on {
+	background: url(../images/qfinance/icon_minus.gif) no-repeat 0px 0px;
+}
+.qf-faq {
+	margin: 0px 0px 0.3em;
+}
+.qf-faq .js-toggle {
+	font: 1.2em normal Arial, Helvetica, Verdana, Geneva, sans-serif; padding: 0px 0px 0.7em;
+}
+.qf-faq .js-toggle A {
+	padding: 0px 0px 0px 20px; font-size: 0.85em; text-decoration: none; display: inline-block; cursor: pointer;
+}
+.qf-faq .js-toggle A:hover {
+	text-decoration: underline;
+}
+.qf-faq .js-toggle A.off {
+	background: url(../images/qfinance/icon_plus.gif) no-repeat 0px 0px;
+}
+.qf-faq .opened.js-toggle A {
+	background: url(../images/qfinance/icon_minus.gif) no-repeat 0px 0px !important;
+}
+.qf-faq .js-toggle A.on {
+	background: url(../images/qfinance/icon_minus.gif) no-repeat 0px 0px !important;
+}
+.qf-faq .js-block {
+	margin: 0px 0px 1.5em; padding: 0px 0px 0px 20px;
+}
+.portlet-blog-bg {
+	background: url(../images/qfinance/placeholders/blog_intro.jpg) no-repeat 0px 0px; height: 280px;
+}
+.blog-list {
+	margin: 0px 0px 2em; padding: 0px !important;
+}
+.item-home.blog-list {
+	margin-top: -140px;
+}
+.item-category.blog-list {
+	margin-top: -120px;
+}
+BODY.staging .item-home.blog-list {
+	margin-top: 0px;
+}
+BODY.staging .item-category.blog-list {
+	margin-top: 0px;
+}
+.blog-list OL {
+	margin: 0px; padding: 0px !important; word-spacing: -1em; list-style-type: none;
+}
+.blog-list LI.first {
+	margin: 0px 10px; padding: 10px 10px 0px; border: 1px solid rgb(227, 227, 227); background-image: none;
+}
+.blog-list LI.first .block {
+	background-image: none;
+}
+.blog-list LI.half {
+	margin: 0px 10px 0px 0px; width: 47%; vertical-align: top; display: inline-block; background-image: none;
+}
+* HTML .blog-list LI.half {
+	display: inline;
+}
+* + HTML .blog-list LI.half {
+	display: inline;
+}
+.blog-list LI.half .post_info {
+	margin: 0px; clear: left;
+}
+.blog-list LI.half .post_info LI.date {
+	padding: 0px 0px 0.2em 20px;
+}
+.blog-list LI.half .post_info LI.comments {
+	padding: 0px 0px 1em 20px; display: block; position: static;
+}
+.item-category.blog-list LI.first {
+	margin: 0px; padding: 10px 0px 0px; background-image: none;
+}
+.item-category.blog-list H1 {
+	margin: 5px; padding: 10px 10px 10px 15px; font-size: 1.8em; background-color: rgb(255, 255, 255);
+}
+.item-category.blog-list H1 SPAN {
+	display: block;
+}
+.blog-list H2 {
+	padding-bottom: 0.3em;
+}
+.blog-list LI {
+	background: url(../images/qfinance/key_line_dark.gif) repeat-x 0px 0px rgb(255, 255, 255); margin: 0px; padding: 15px 0px 0px; word-spacing: normal;
+}
+.blog-list LI LI {
+	margin: 0px; padding: 0px; background-image: none;
+}
+.blog-list .pic {
+	margin: 0px 10px 10px 0px; float: left;
+}
+.blog-list .pic IMG {
+	border: 1px solid rgb(204, 204, 204);
+}
+.blog-list .block {
+	padding: 5px 0px 1.3em; clear: both; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.post_info {
+	margin: 0px 0px 0px 73px; padding: 0px; color: rgb(102, 102, 102); position: relative;
+}
+.post_info LI {
+	margin: 0px; display: inline-block; list-style-type: none;
+}
+.post_info LI A {
+	text-decoration: none;
+}
+.post_info LI A:hover {
+	text-decoration: underline;
+}
+.post_info LI.date {
+	background: url(../images/qfinance/icon_date.gif) no-repeat 0px 0.1em; padding: 0px 90px 0.5em 20px;
+}
+.post_info LI.comments {
+	background: url(../images/qfinance/icon_comments.gif) no-repeat 0px 0.2em; padding: 0px 0px 0.5em 20px; top: 0px; right: 0px; position: absolute;
+}
+* HTML .post_info LI.comments {
+	position: static;
+}
+.blog-entry {
+	background: url(../images/qfinance/key_line_dark.gif) repeat-x left bottom; margin: 0px 0px 1em; padding: 0px 0px 1.5em;
+}
+.blog-entry H1 {
+	padding-bottom: 0.5em; margin-bottom: 0.5em; border-bottom-color: rgb(104, 33, 69); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.blog-confirm {
+	margin: 1em 0px;
+}
+.blog-confirm .qf-error {
+	background-position: 0px 0.4em; padding-left: 25px;
+}
+.blog-comments OL {
+	margin: 0px; padding: 0px; clear: both;
+}
+.blog-comments LI {
+	background: url(../images/qfinance/bg_blog_comments.gif) no-repeat left bottom rgb(232, 232, 232); list-style: none; margin: 0px 0px 10px; padding: 10px; position: relative;
+}
+.blog-comments LI .comment {
+	padding-bottom: 1.3em;
+}
+.blog-comments LI CITE {
+	font-style: normal; font-weight: bold;
+}
+.blog-comments .date {
+	color: rgb(102, 102, 102);
+}
+.blog-entry .post_info {
+	margin: 0px 0px 1em; padding: 0px; position: static;
+}
+.blog-entry .post_info LI {
+	margin-right: 15px; display: inline;
+}
+.blog-entry .post_info LI.comments {
+	position: static;
+}
+.add-comment LABEL {
+	color: rgb(102, 102, 102); font-weight: bold;
+}
+.add-comment TEXTAREA {
+	width: 99%;
+}
+* HTML .add-comment TEXTAREA {
+	width: 97%;
+}
+.add-comment .btnSubmit {
+	margin: 5px 0px 2em; float: right;
+}
+.add-comment P {
+	margin-bottom: 1em;
+}
+.blog-comments .comment UL {
+	margin: 10px 0px 0px; padding: 0px; list-style-type: none;
+}
+.blog-comments .comment UL LI {
+	background: url(../images/qfinance/arrow_s1_right.gif) no-repeat 0px 0.35em; margin: 0px; padding: 0px 0px 0px 8px;
+}
+.blog-comments .comment LI A {
+	text-decoration: none;
+}
+.blog-comments .comment LI A:hover {
+	text-decoration: underline;
+}
+.blog-comments .comment LI.abuse {
+	top: 10px; right: 0px; padding-right: 10px; font-size: 0.95em; position: absolute;
+}
+.blog-contributors {
+	margin: 0px; padding: 0px;
+}
+.blog-contributors IMG {
+	margin: 0px 10px 10px 0px; border: 1px solid rgb(204, 204, 204); float: left;
+}
+.blog-contributors LI {
+	padding: 0px 0px 7px; height: auto !important; clear: left; margin-bottom: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; list-style-type: none; min-height: 61px; background-image: none;
+}
+.blog-contributors LI.last {
+	padding-bottom: 0px; border-bottom-color: ; border-bottom-width: medium; border-bottom-style: none;
+}
+.blog-contributors A {
+	text-decoration: none;
+}
+.blog-contributors A:hover {
+	text-decoration: underline !important;
+}
+.blog-contributors STRONG A {
+	text-decoration: none !important;
+}
+UL.tag-cloud {
+	padding: 0px; text-align: center; margin-left: 0px; list-style-type: none;
+}
+UL.tag-cloud LI {
+	margin: 0px; padding: 0px 5px 0px 0px; line-height: 1.5em; display: inline; list-style-type: none; background-image: none;
+}
+* HTML UL.tag-cloud LI {
+	line-height: normal;
+}
+UL.tag-cloud A {
+	text-decoration: none;
+}
+UL.tag-cloud A:hover {
+	text-decoration: underline;
+}
+UL.tag-cloud A.tagweight18 {
+	font-size: 2.15em;
+}
+UL.tag-cloud A.tagweight17 {
+	font-size: 1.95em;
+}
+UL.tag-cloud A.tagweight16 {
+	font-size: 1.8em;
+}
+UL.tag-cloud A.tagweight15 {
+	font-size: 1.6em;
+}
+UL.tag-cloud A.tagweight14 {
+	font-size: 1.4em;
+}
+UL.tag-cloud A.tagweight13 {
+	font-size: 1.2em;
+}
+UL.tag-cloud A.tagweight12 {
+	font-size: 1em;
+}
+UL.tag-cloud A.tagweight11 {
+	font-size: 0.9em;
+}
+UL.tag-cloud A.tagweight10 {
+	font-size: 0.85em;
+}
+UL.tag-cloud A.tagweight9 {
+	font-size: 0.85em;
+}
+UL.tag-cloud A.tagweight8 {
+	font-size: 0.8em;
+}
+.floatLeft {
+	margin: 0px; word-spacing: normal; vertical-align: bottom; display: inline-block;
+}
+* HTML .floatLeft {
+	display: inline;
+}
+* + HTML .floatLeft {
+	display: inline;
+}
+#qf-home-carousel {
+	background: url(../images/qfinance/bg_home_carousel.jpg) no-repeat 0px 0px rgb(255, 255, 255); padding: 0px; border: 1px solid rgb(204, 204, 204); height: 1%; overflow: hidden; position: relative;
+}
+#qf-home-carousel .carousel-tabs {
+	margin: 0px; padding: 7px 7px 0px; width: 195px; float: right; list-style-type: none;
+}
+#qf-home-carousel .showJsOnly.carousel-tabs {
+	display: none;
+}
+#qf-home-carousel .carousel-tabs LI {
+	margin: 0px; padding: 0px;
+}
+#qf-home-carousel .carousel-tabs LI A {
+	background: url(../images/qfinance/home_carousel_nav_bg_off.gif) no-repeat right bottom; padding: 8px 8px 0px 25px; height: auto !important; text-align: right; font-size: 0.95em; font-weight: bold; text-decoration: none; display: block; min-height: 22px;
+}
+#qf-home-carousel .carousel-tabs LI.on A {
+	color: rgb(255, 255, 255); background-image: url("../images/qfinance/home_carousel_nav_bg_on.gif");
+}
+#qf-home-carousel .js-current-info {
+	display: none;
+}
+#qf-home-carousel .content {
+	padding: 0px 0px 1em;
+}
+#qf-home-carousel .content LI.renderHidden {
+	background-image: none !important;
+}
+#qf-home-carousel .content LI {
+	margin: 0px; padding: 18px 0px 0px 190px; overflow: hidden; background-repeat: no-repeat;
+}
+#qf-home-carousel .content H3 {
+	padding-bottom: 0.5em; font-size: 1.6em; font-weight: normal;
+}
+#qf-home-carousel .content A {
+	background: url(../images/qfinance/arrow_s1_right.gif) no-repeat 0px 0.3em; padding: 0px 0px 0px 10px; font-size: 1.3em; text-decoration: none; margin-left: -7px; display: inline-block;
+}
+#qf-home-carousel .content A:hover {
+	text-decoration: underline;
+}
+#qf-home-carousel .js-style.content {
+	padding: 0px; margin-right: 220px;
+}
+#qf-home-carousel .js-style.content LI {
+	height: auto !important; border-left-color: rgb(104, 33, 69); border-left-width: 7px; border-left-style: solid; min-height: 146px;
+}
+#qf-home-carousel .js-style.content A {
+	font-weight: lighter;
+}
+#home-flash-carousel {
+	border: 1px solid rgb(204, 204, 204); height: 270px;
+}
+#home-flash-carousel .inner {
+	height: 270px; position: relative;
+}
+#home-flash-carousel .inner H2 {
+	padding: 20px; color: rgb(104, 33, 69); font-size: 2.5em;
+}
+#home-flash-carousel .inner .teaser {
+	margin: 0px; padding: 15px 100px 15px 15px; bottom: 0px; position: absolute; background-color: rgba(255, 241, 205, 0.85);
+}
+#home-flash-carousel .inner .teaser A {
+	text-decoration: none;
+}
+#home-flash-carousel .inner .teaser A:hover {
+	text-decoration: underline;
+}
+#column-2 #home-flash-carousel {
+	top: -10px; margin-right: -10px; border-right-color: ; border-right-width: medium; border-right-style: none; position: relative;
+}
+#qf-new-highlights {
+	margin-bottom: 20px;
+}
+#qf-new-highlights .contentWrapper {
+	padding: 1px; border: 1px solid rgb(204, 204, 204);
+}
+#qf-new-highlights UL.content {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+#qf-new-highlights UL.content LI {
+	background-position: 0px 35px; padding: 0px; width: auto; background-repeat: no-repeat;
+}
+#qf-new-highlights H3 {
+	margin: 0px; padding: 10px 0px 5px 13px; height: auto !important; font-size: 1.4em; font-weight: normal; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; min-height: 18px; background-color: rgb(255, 255, 255);
+}
+.over#qf-new-highlights H3 {
+	border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#qf-new-highlights A {
+	background: url(../images/qfinance/arrow_s1_right.gif) no-repeat 0px 0.3em; padding: 0px 0px 0px 10px; text-decoration: none; margin-left: -5px; display: inline-block;
+}
+#qf-new-highlights A:hover {
+	text-decoration: underline;
+}
+#qf-new-highlights LI .block {
+	background: url(../images/qfinance/trans-white-bg.png); padding: 10px 5px 20px 9px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#dyn-carousel-label {
+	padding: 8px 2px 0px 0px; float: right; list-style-type: none;
+}
+#dyn-carousel-label LI {
+	padding-left: 10px; font-weight: bold; float: left;
+}
+#dyn-carousel-label A.control {
+	background: url(../images/qfinance/arrow_prev.gif) no-repeat 0px 0px; padding: 25px 0px 0px; width: 14px; height: 0px; overflow: hidden; display: block;
+}
+#dyn-carousel-label A.next {
+	background: url(../images/qfinance/arrow_next.gif) no-repeat 0px 0px;
+}
+#dyn-carousel-label #playButton {
+	background: url(../images/qfinance/icon_playstop.gif) no-repeat 0px -26px; padding: 0px 0px 0px 20px; width: 40px;
+}
+#dyn-carousel-label .play#playButton {
+	
+}
+.js #qf-new-highlights UL.content LI {
+	height: auto !important; min-height: 185px;
+}
+#column-6 #column-6-right .qf-nav-list {
+	margin: 0px 0px 10px; height: auto !important; min-height: 175px;
+}
+#loginWindow {
+	background: url(../images/qfinance/bg_login.jpg) no-repeat right top rgb(255, 255, 255); margin: 1.5em 1em 0px 0px; border: 4px solid rgb(135, 57, 104); left: 0px; top: 0px; width: 250px; position: absolute;
+}
+#loginWindow H2 {
+	margin: 0px; padding: 0px 0px 1em; font-size: 1.2em; font-weight: bold;
+}
+#loginWindow .content {
+	padding: 45px 15px 15px; position: relative;
+}
+#loginWindow A.close {
+	background: url(../images/qfinance/icon_close.gif) no-repeat 90% 55% rgb(135, 57, 104); padding: 3px 20px 3px 8px; top: 7px; right: 10px; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; position: absolute;
+}
+#loginWindow .content OL {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+#loginWindow .content LABEL {
+	font-weight: bold;
+}
+#loginWindow .content .text {
+	width: 100%;
+}
+#loginWindow .content .check {
+	margin: 0px 0px 0px 10px; vertical-align: middle;
+}
+#loginWindow .content .next {
+	margin: 0px 0px 1em;
+}
+BODY.portal-popup {
+	background: url(../images/qfinance/bg_login.jpg) no-repeat right top rgb(255, 255, 255) !important; padding: 10px 10px 0px;
+}
+BODY.portal-popup H1 {
+	padding: 0px; margin-bottom: 0.5em;
+}
+BODY.portal-popup A.popup-close {
+	background: url(../images/qfinance/icon_close.gif) no-repeat 90% 55% rgb(135, 57, 104); padding: 3px 20px 3px 8px; top: 15px; right: 15px; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; position: absolute;
+}
+BODY.portal-popup .intro {
+	margin: 0px 0px 2.5em; padding: 0px 0px 1em; border-bottom-color: rgb(104, 33, 69); border-bottom-width: 1px; border-bottom-style: solid;
+}
+BODY.portal-popup .qf-form LI {
+	margin: 0px; padding: 3px 0px; color: rgb(51, 51, 51); border-bottom-color: ; border-bottom-width: medium; border-bottom-style: none; min-height: 3.5em; background-color: transparent;
+}
+BODY.portal-popup .qf-form .qf-error {
+	margin: 0px; padding-bottom: 3px; font-size: 0.95em;
+}
+BODY.portal-popup .qf-form .btnSubmit {
+	margin-right: 15px;
+}
+BODY.portal-popup .qf-article-header {
+	
+}
+BODY.portal-popup .blog-entry {
+	background-image: none;
+}
+BODY.portal-popup .qf-article-header {
+	margin: 0px; padding: 0px;
+}
+BODY.portal-popup .qf-article-body {
+	margin: 0px; padding: 0px;
+}
+BODY.portal-popup .title {
+	margin: 0px; padding: 0px;
+}
+BODY.portal-popup .qf-form LABEL {
+	width: 40%;
+}
+BODY.portal-popup .qf-form .divRight {
+	width: 55%;
+}
+#jquery-overlay {
+	left: 0px; top: 0px; width: 100%; height: 500px; position: absolute; z-index: 90;
+}
+#jquery-lightbox {
+	left: 0px; top: 0px; width: 100%; text-align: center; line-height: 0; position: absolute; z-index: 100;
+}
+#lightbox-container-image-box {
+	margin: 0px auto; width: 250px; height: 250px; position: relative; background-color: rgb(255, 255, 255);
+}
+#lightbox-container-image {
+	padding: 10px;
+}
+#lightbox-container-image IMG {
+	border: 1px solid rgb(204, 204, 204);
+}
+#lightbox-loading {
+	left: 0px; top: 40%; width: 100%; height: 25%; text-align: center; line-height: 0; position: absolute;
+}
+#lightbox-nav {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav {
+	left: 0px;
+}
+#lightbox-nav-btnPrev {
+	width: 49%; height: 100%; display: block; zoom: 1;
+}
+#lightbox-nav-btnNext {
+	width: 49%; height: 100%; display: block; zoom: 1;
+}
+#lightbox-nav-btnPrev {
+	left: 0px; float: left;
+}
+#lightbox-nav-btnNext {
+	right: 0px; float: right;
+}
+#lightbox-container-image-data-box {
+	font: 10px 1.4em Verdana, Helvetica, sans-serif; margin: 0px auto; padding: 10px 10px 0px; width: 100%; overflow: auto; background-color: rgb(255, 255, 255);
+}
+#lightbox-container-image-data {
+	padding: 0px; color: rgb(102, 102, 102);
+}
+#lightbox-container-image-data #lightbox-image-details {
+	width: 70%; text-align: left; float: left;
+}
+#lightbox-image-details-caption {
+	font-weight: bold;
+}
+#lightbox-image-details-currentNumber {
+	padding-bottom: 1em; clear: left; display: block;
+}
+#lightbox-secNav-btnClose {
+	width: 26px; padding-bottom: 0.7em; float: right;
+}
+.get-widget {
+	margin-bottom: 1.5em;
+}
+.get-widget-code {
+	margin: 0px 0px 1.5em; padding: 10px 5px; border: 1px solid rgb(204, 204, 204); color: rgb(6, 38, 60); line-height: 1.6; font-size: 11px; background-color: rgb(245, 245, 245);
+}
+.get-widget-code PRE {
+	margin: 0px; padding: 0px 10px; height: 250px; overflow: auto;
+}
+* HTML .get-widget-code PRE {
+	width: 95%;
+}
+.get-widget-code PRE SPAN {
+	color: red;
+}
+#qf-poll {
+	padding: 7px !important; border: 1px solid rgb(204, 204, 204) !important; margin-bottom: 10px; background-color: rgb(247, 247, 247);
+}
+#qf-poll DIV {
+	background-color: rgb(247, 247, 247);
+}
+#qf-poll A {
+	color: rgb(135, 57, 104) !important;
+}
+#qf-poll .pds-box {
+	width: auto !important;
+}
+#qf-poll .pds-question-top {
+	font: 1.4em normal Georgia, "Times New Roman", Times, Verdana, sans-serif !important; margin: 0px 0px 10px !important; padding: 0px 0px 5px; border-bottom-color: rgb(104, 33, 69); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#qf-poll .pds-answer LABEL {
+	line-height: normal !important;
+}
+#qf-poll .pds-answer {
+	padding: 5px 0px 10px !important; margin-bottom: 1em; border-top-color:  !important; border-top-width: medium !important; border-top-style: none !important;
+}
+#qf-poll .pds-vote {
+	padding: 5px 0px !important;
+}
+#qf-poll .pds-answer-group {
+	margin: 0px !important; padding: 0px 0px 5px !important;
+}
+#qf-poll .pds-links {
+	padding: 0px !important; margin-bottom: 0px !important;
+}
+#qf-poll .pds-votebutton-outer {
+	padding: 0px !important; margin-bottom: 0px !important;
+}
+#qf-poll .pds-box-outer {
+	padding: 0px !important; margin-bottom: 0px !important;
+}
+#qf-poll .pds-box {
+	padding: 0px !important; margin-bottom: 0px !important;
+}
+#qf-poll .pds-answer-feedback-bar {
+	background-color: rgb(104, 33, 69) !important;
+}
+#qf-poll .pds-input-label {
+	width: 90% !important;
+}
+#myfavitems .qf-pagin_links {
+	padding: 0px; border-bottom-color: ; border-bottom-width: 0px; border-bottom-style: none;
+}
+#myfavitems .linkView {
+	margin: 7em 0px 0px;
+}
+.myfav-items {
+	width: 100%; margin-bottom: 1em;
+}
+.myfav-items H2 {
+	font: bold 1.15em normal Arial, Helvetica, Verdana, Geneva, sans-serif; margin: 0px 0px 2px; padding: 5px 100px 5px 10px; color: rgb(102, 102, 102); text-transform: uppercase; clear: both; background-color: rgb(237, 237, 237);
+}
+.myfav-items OL {
+	margin: 0px; padding: 0px; overflow: hidden; list-style-type: none;
+}
+.myfav-items OL UL {
+	margin: 0px; padding: 0px; overflow: hidden; list-style-type: none;
+}
+.myfav-items OL LI {
+	margin: 0px; padding: 5px 0px; width: 100%; overflow: hidden; clear: both; border-top-color: rgb(237, 237, 237); border-top-width: 1px; border-top-style: solid;
+}
+.myfav-items OL UL LI {
+	padding: 0px;
+}
+.myfav-items .date {
+	padding: 0px 10px; width: 15%; color: rgb(102, 102, 102); float: left;
+}
+.myfav-items .article {
+	background: url(../images/qfinance/arrow_s1_right.gif) no-repeat 5px 0.3em; padding: 0px 30px 0px 18px; width: 60%; float: left;
+}
+.myfav-items .action {
+	width: 8%; padding-right: 10px; float: left;
+}
+.myfav-items .remove {
+	background: url(../images/qfinance/icon_close2.gif) no-repeat 5px center rgb(237, 237, 237); margin: -5px 0px 0px; width: 24px; height: 26px; float: right;
+}
+.myfav-items .remove EM {
+	left: -999em; position: absolute;
+}
+.myfav-items .article H3 {
+	font: bold 1em normal Arial, Helvetica, Verdana, Geneva, sans-serif; margin: 0px 0px 0.7em; padding: 0px;
+}
+.myfav-items .article H3 P {
+	margin: 0px; padding: 0px;
+}
+.myfav-items .article H3 A {
+	text-decoration: none;
+}
+.myfav-items .article H3 SPAN {
+	color: rgb(102, 102, 102); font-weight: normal;
+}
+.myfav-items .action .pin {
+	background: url(../images/qfinance/icon_pin_yellowbg.gif) no-repeat 3px 0.5em; padding: 3px 0px 0px 20px; text-decoration: none; display: block;
+}
+.myfav-items .note P {
+	background: rgb(237, 237, 237); margin: 3px 0px 5px; padding: 10px;
+}
+.myfav-items .note .action-links {
+	background: url(../images/qfinance/icon_addnote.gif) no-repeat 0px 0.1em; padding: 0px 0px 0px 18px; display: block;
+}
+.myfav-items .note .action-links A {
+	padding: 0px 5px; color: rgb(153, 102, 51); font-weight: normal; text-decoration: none; display: inline;
+}
+.myfav-items .note FIELDSET {
+	margin: 5px 0px 10px; clear: left;
+}
+.myfav-items .note .wrap {
+	margin: 0px 0px 5px; border: 5px solid rgb(237, 237, 237);
+}
+.myfav-items .note TEXTAREA {
+	margin: 0px; border: 1px solid rgb(204, 204, 204); width: 99.5%; overflow: auto;
+}
+.myfav-items .note .btnCancel {
+	margin-left: 5px; float: right;
+}
+.myfav-items .note .btnSubmit {
+	margin-left: 5px; float: right;
+}
+.pinned.myfav-items {
+	border: 1px solid rgb(255, 228, 144); width: 99.7%; margin-top: 2.5em;
+}
+.pinned.myfav-items H2 {
+	background: url(../images/qfinance/bg_table_pinned_header.gif) repeat-x left bottom rgb(255, 239, 193); margin: 0px; padding: 5px 100px 7px 10px; color: rgb(0, 0, 0); text-transform: capitalize; font-size: 1.5em; font-weight: normal; position: relative;
+}
+.pinned.myfav-items H2 EM {
+	background: url(../images/qfinance/icon_pin_yellowbg.gif) no-repeat 0px 0.25em; width: 15px; height: 1em; display: inline-block;
+}
+.pinned.myfav-items OL LI {
+	margin: 0px; border-top-color: ; border-top-width: medium; border-top-style: none; background-color: rgb(255, 239, 194);
+}
+.pinned.myfav-items OL LI.odd {
+	background-color: rgb(255, 228, 144);
+}
+.pinned.myfav-items .article {
+	background: url(../images/qfinance/icon_pin_yellowbg.gif) no-repeat 0px 0.3em; width: 45%; padding-right: 20px;
+}
+.pinned.myfav-items .label {
+	width: 15%; color: rgb(102, 102, 102); text-transform: uppercase; padding-right: 10px; font-size: 0.95em; font-weight: bold; float: left;
+}
+.pinned.myfav-items .remove {
+	margin-top: -3px; background-color: transparent;
+}
+.pinned.myfav-items .note P {
+	background: rgb(255, 255, 255);
+}
+.pinned.myfav-items H2 SPAN {
+	font: 0.75em normal Arial, Helvetica, Verdana, Geneva, sans-serif; margin: 0px; padding: 0px;
+}
+.pinned.myfav-items .js-toggle SPAN A {
+	background: url(../images/qfinance/icon_plus.gif) no-repeat right 0.15em; padding: 0px 20px; top: 5px; right: 0px; text-decoration: none; margin-right: 5px; position: absolute;
+}
+.pinned.myfav-items .on.js-toggle SPAN A {
+	background-image: url("../images/qfinance/icon_minus2.gif");
+}
+.date.myfav-items .article {
+	width: 45%; padding-right: 20px;
+}
+.date.myfav-items .label {
+	width: 15%; color: rgb(102, 102, 102); text-transform: uppercase; padding-right: 10px; font-size: 0.95em; font-weight: bold; float: left;
+}
+.non-js-add-note {
+	margin: 1em auto; width: 60%;
+}
+.non-js-add-note .btnSubmit {
+	float: none; display: block;
+}
+.non-js-add-note .divRight {
+	margin-bottom: 1em; float: none; display: block;
+}
+.qf-corners FIELDSET {
+	background: url(../images/qfinance/forms/curve_bl.gif) no-repeat 0px 100% rgb(237, 237, 237); color: rgb(51, 51, 51); position: relative;
+}
+.qf-corners FIELDSET DL {
+	background: url(../images/qfinance/forms/curve_br.gif) no-repeat 100% 100%; margin: 0px; width: 100%; float: left;
+}
+.qf-corners DT {
+	background: url(../images/qfinance/forms/curve_tl.gif) no-repeat 0px 0px; padding: 0.5em 1em; left: 0px; top: 0px; position: absolute;
+}
+.qf-corners DD {
+	background: url(../images/qfinance/forms/curve_tr.gif) no-repeat 100% 0px; margin: 0px; padding: 20px 20px 15px;
+}
+.qf-corners H3 {
+	color: rgb(104, 33, 69); font-weight: normal;
+}
+.qf-corners A {
+	text-decoration: none;
+}
+.qf-corners BIG A {
+	font-weight: bold;
+}
+.qf-corners BIG {
+	line-height: 1.2em;
+}
+.qf-corners .benefits {
+	padding: 0px; margin-bottom: 1em;
+}
+.qf-corners .benefits LI {
+	background: url(../images/qfinance/forms/tick.gif) no-repeat 0px 0px; padding: 0px 0px 0.6em 2.5em; color: rgb(51, 51, 51); overflow: hidden; border-bottom-color: ; border-bottom-width: medium; border-bottom-style: none;
+}
+.qf-corners .benefits LI STRONG {
+	white-space: nowrap;
+}
+.qf-corners LABEL {
+	padding: 7px 0px 0px; width: 26%;
+}
+.qf-corners OL {
+	margin: 0px;
+}
+.qf-corners OL LI {
+	padding: 0px 0px 3px; color: rgb(51, 51, 51); clear: none; border-bottom-color: ; border-bottom-width: medium; border-bottom-style: none; background-color: transparent;
+}
+.qf-corners .divRight SPAN {
+	background: url(../images/qfinance/forms/input_left.gif) no-repeat 0px 0px; padding: 0px 0px 0px 5px; width: 100%; height: 32px; display: table;
+}
+.qf-corners .divRight SPAN INPUT {
+	background: url(../images/qfinance/forms/input_right.gif) no-repeat 100% 0px; padding: 5px 0px 0px 5px; height: 27px;
+}
+.qf-corners .disclaimer {
+	color: rgb(102, 102, 102); font-size: 0.95em; float: left;
+}
+.qf-corners .terms LABEL {
+	margin: 0px; padding: 0px; font-weight: normal;
+}
+.qf-corners .terms LABEL INPUT {
+	margin: 0px 5px 3px 0px; vertical-align: middle;
+}
+.qf-corners .terms A {
+	font-weight: bold;
+}
+.login LABEL {
+	padding: 0px 0px 3px; width: auto; display: inline-block;
+}
+.login FIELDSET {
+	margin: 10px;
+}
+.login FIELDSET FIELDSET {
+	background-image: url("../images/qfinance/forms/inner_curve_bl.gif"); background-color: rgb(221, 221, 219);
+}
+.login FIELDSET FIELDSET DL {
+	background-image: url("../images/qfinance/forms/inner_curve_br.gif");
+}
+.login FIELDSET FIELDSET DT {
+	background-image: url("../images/qfinance/forms/inner_curve_tl.gif");
+}
+.login FIELDSET FIELDSET DD {
+	background-image: url("../images/qfinance/forms/inner_curve_tr.gif");
+}
+.login FIELDSET FIELDSET P {
+	padding: 0px 0px 8px 54px; line-height: 1.2em; font-family: georgia; font-size: 1.4em; margin-bottom: 3px; background-repeat: no-repeat;
+}
+.login FIELDSET FIELDSET P.scribble {
+	background-image: url("../images/qfinance/forms/form_scribble.gif");
+}
+.login FIELDSET FIELDSET .btnSubmit {
+	margin: 0px 0px 0px 54px;
+}
+.login DD #column-2-left {
+	padding: 0px 5% 0px 0px; width: 55%; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.login DD #column-2-right {
+	padding: 60px 0px 0px; width: 35%; float: right;
+}
+.login .divRight {
+	width: 55%;
+}
+.login .nofloat LABEL {
+	float: none;
+}
+.login .nofloat .divRight {
+	float: none;
+}
+.login .btnSubmit {
+	float: none;
+}
+.login FIELDSET FIELDSET.signin {
+	margin: 0px 0px 20px; background-image: url("../images/qfinance/forms/signin_curve_bl.gif"); background-color: rgb(255, 255, 255);
+}
+.login FIELDSET FIELDSET.signin DL {
+	background-image: url("../images/qfinance/forms/signin_curve_br.gif");
+}
+.login FIELDSET FIELDSET.signin DT {
+	background-image: url("../images/qfinance/forms/signin_curve_tl.gif");
+}
+.login FIELDSET FIELDSET.signin DD {
+	background-image: url("../images/qfinance/forms/signin_curve_tr.gif");
+}
+.login .scribble EM {
+	color: rgb(51, 51, 51); font-style: italic; font-weight: normal;
+}
+.login INPUT#remember {
+	vertical-align: middle;
+}
+.login .qf-error SPAN {
+	margin: 0px; padding: 0px; background-image: none;
+}
+.login .qf-error {
+	margin: 0px; padding: 0px; background-image: none;
+}
+.login .portlet-msg-error {
+	font-weight: normal;
+}
+.div-3-col .login TABLE TR.even TD {
+	font-size: 1.1em; background-color: transparent;
+}
+.div-3-col .login TABLE TH {
+	font-size: 1.1em; background-color: transparent;
+}
+.login TABLE {
+	width: 100%;
+}
+.login TABLE {
+	padding: 0px;
+}
+.login TABLE TD {
+	padding: 0px;
+}
+.login TABLE TH {
+	padding: 0px;
+}
+.login TABLE TD {
+	text-align: center;
+}
+.login TABLE TH {
+	text-align: center;
+}
+.login TABLE .col1 {
+	height: 27px; text-align: left;
+}
+.login TABLE .red {
+	color: rgb(153, 0, 0); font-weight: bold;
+}
+.login TABLE .green {
+	color: rgb(97, 165, 61); font-weight: bold;
+}
+.div-3-col .login TABLE IMG {
+	margin: 0px;
+}
+.login TABLE A.btnSubmit {
+	margin-bottom: 0px;
+}
+.login A.btnSubmit:focus {
+	border: 1px solid rgb(203, 173, 93);
+}
+.login A.btnSubmit:visited {
+	border: 1px solid rgb(203, 173, 93);
+}
+.login TABLE TFOOT TD {
+	padding: 5px 0px; font-weight: bold;
+}
+.div-3-col .login TABLE TFOOT TH {
+	padding-bottom: 1.2em; font-size: 1.1em;
+}
+.login TABLE .status TD {
+	color: rgb(119, 119, 119); font-weight: bold;
+}
+.login TABLE .status IMG {
+	margin: 0px auto; display: block;
+}
+.registration OL LI P {
+	margin-bottom: 0px;
+}
+.registration .select {
+	margin-top: 6px;
+}
+.registration .divRight {
+	width: 35%;
+}
+.registration .sidebyside {
+	width: 45%; float: left;
+}
+.registration .sidebyside LABEL {
+	width: 20%;
+}
+.registration .sidebyside .divRight {
+	width: 70%;
+}
+.registration .captcha .divRight {
+	width: 25%;
+}
+.registration .captcha IMG {
+	margin-bottom: 8px; display: block;
+}
+.registration .terms .wide LABEL {
+	padding-bottom: 0px;
+}
+.newsletter .terms .wide LABEL {
+	padding-bottom: 0px;
+}
+.registration UL.group LI {
+	line-height: 1.6;
+}
+.registration UL.group LI LABEL {
+	margin: 0px 0px 0px 5px; padding: 0px;
+}
+.registration UL.group LI INPUT {
+	margin: 0px; padding: 0px; width: 20px; vertical-align: bottom; float: left;
+}
+.newsletter .terms {
+	padding-top: 1em; margin-bottom: 1.5em; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.newsletter .sidebyside {
+	width: 48%; margin-bottom: 1em; float: left;
+}
+.newsletter .right.sidebyside {
+	width: 48%;
+}
+.newsletter .sidebyside LABEL {
+	width: 29%;
+}
+.newsletter .sidebyside .divRight {
+	width: 60%;
+}
+.newsletter .intro-left {
+	width: 58%; margin-bottom: 1.5em; float: left;
+}
+.newsletter .intro-right {
+	background: url(../images/qfinance/forms/benefits_top.gif) repeat-y rgb(255, 255, 255); margin: -20px -20px 1.5em 0px; width: 43%; float: right;
+}
+.newsletter .intro-right .wrap {
+	margin: 0px; padding: 20px 40px 0px 50px;
+}
+.newsletter .intro-right I {
+	background: url(../images/qfinance/forms/benefits_bottom_left.gif) no-repeat 21px bottom; width: 100%; height: 20px; display: block;
+}
+.newsletter DD .benefits LI {
+	background: url(../images/qfinance/forms/tick2.gif) no-repeat 0px 0px; padding: 0px 0px 0.6em 2.5em; color: rgb(51, 51, 51); overflow: hidden; border-bottom-color: ; border-bottom-width: medium; border-bottom-style: none;
+}
+.newsletter .btnSubmit {
+	float: none;
+}
+.amazon-details-small {
+	background: url(../images/qfinance/amazon/amazon_bg.gif) repeat-x 0px 0px; padding: 10px; border: 1px solid rgb(0, 75, 145); width: 130px; text-align: center; margin-left: 10px; float: right;
+}
+.amazon-details-small .thumb {
+	margin-bottom: 5px;
+}
+.amazon-details-small P {
+	margin: 10px 0px 0px; color: rgb(102, 102, 102); line-height: 1.2em; font-size: 0.95em;
+}
+.amazon-details-small P SPAN {
+	color: rgb(153, 0, 0);
+}
+.amazon-details-small .rating IMG {
+	margin-top: 5px;
+}
+.amazon-details-small .trademark {
+	font-size: 0.9em;
+}
+.amazon-details-large {
+	background: url(../images/qfinance/amazon/amazon_bg.gif) repeat-x 0px 0px; padding: 10px; border: 1px solid rgb(0, 75, 145); overflow: hidden;
+}
+* HTML .amazon-details-large {
+	width: 95%;
+}
+.amazon-details-large .thumb {
+	margin: 0px 15px 10px 0px; float: left;
+}
+.amazon-details-large .review {
+	overflow: hidden;
+}
+.amazon-details-large .intro {
+	margin: 0px 0px 10px; color: rgb(102, 102, 102); line-height: 1.2em; font-size: 0.95em; border-bottom-color: rgb(221, 221, 219); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.amazon-details-large .intro P SPAN {
+	color: rgb(153, 0, 0); margin-left: 5px;
+}
+.amazon-details-large .rating {
+	margin-bottom: 0px;
+}
+.amazon-details-large .rating IMG {
+	top: 2px; margin-left: 5px; position: relative;
+}
+.amazon-details-large .buy {
+	float: right;
+}
+.amazon-details-large .review-content {
+	color: rgb(51, 51, 51); font-size: 1.1em; margin-top: 1.5em;
+}
+.amazon-details-large .trademark {
+	font-size: 0.95em; margin-top: 1.3em;
+}

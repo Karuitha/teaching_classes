@@ -1,0 +1,126 @@
+---
+title: "Ratio Analysis"
+author: "John Karuitha"
+date: "11/25/2021"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Background
+- Common size analysis key to understand financial statements. 
+
+- After common size analysis, drill down on identified patterns using ratio analysis. 
+
+- Ratio analysis is another key concept.
+
+- This topic covers:
+  - Accounting ratios.
+  - The DuPont identity. 
+  
+## Ratio analysis
+
+- Comparison of financial ratios 
+
+- The ratios are computed from financial data.
+
+- The ratios give us insights into business performance. 
+
+## Why Ratio analysis
+
+Helps answer key questions:
+
+- Why is one business more profitable than another?
+
+- What returns are being earned by the business owners?
+
+- Is the business solvent?
+
+- How effectively is a business using its assets?
+
+## Why ratio analysis
+
+- Ratio analysis gives insights.
+
+- Ratio analysis does not necessarily lead to solutions to business problems.
+
+## Sources of Data for Ratio Analysis.
+
+- Two main sources of data for financial analysis.
+
+- Financial statements;
+
+        - Statement of Financial posisition.
+        
+        - Statement of Comprehensive incomes. 
+        
+## Sources of Data for Ratio Analysis.
+
+- Statement of Financial posisition.
+
+        - Current assets.
+        - Current liabilities.
+        - Inventories.
+        - Trade receivables & payables.
+        - Long term liabilities.
+        - Capital & reserves.
+        
+## Sources of Data for Ratio Analysis.
+- Statement of Comprehensive incomes. 
+
+        - Revenues.
+        - Cost of sales.
+        - Gross profit.
+        - Operating profit.
+        - Net profit.
+        
+## Steps in Doing Ratio Analysis
+
+- Gather data.
+- Calculate the ratios.
+- Interpret results.
+- Take action.
+
+## Main Groups of Ratios
+
+- Profitability ratios:
+- Returns/ profits earned by business. 
+
+        - Gross profit margin.
+        - Operating profit margin.
+        - Return on capital employed (ROCE).
+        
+## Main Groups of Ratios
+
+- Liquidity ratios
+- Can the business meet its obligations. 
+        
+        - Current ratio.
+        - Acid test ratio. 
+        
+## Main Groups of Ratios
+
+- Financial efficiency ratios. 
+- How well the business uses its assets. 
+
+        - Payable days.
+        - Receivables days.
+        - Inventory turnover.
+        - Gearing. 
+        
+## Key Users of Ratios.
+
+- Shareholders.
+_ Governments.
+- Competitors.
+- Employees.
+- Lenders.
+- Suppliers.
+
+## Liquidity Ratios
+
+- The current ratio is among the most useful in this area. 
+
+

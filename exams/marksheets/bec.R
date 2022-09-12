@@ -1,0 +1,106 @@
+## Load BEC results
+
+library(tidyverse)
+library(readxl)
+
+##################################
+bec_exam <- read_excel("results_final/ECO 113 INTRODUCTION TO MATHEMATICS B106.xlsx", skip = 16, 
+                  
+                  col_names = FALSE) %>% 
+        
+        select(1,2,5) %>% 
+        
+        set_names(c("sno", "regd", "exam_mark")) %>% 
+        
+        filter(!is.na(sno))
+
+
+
+bpm_exam <- read_excel("results_final/ECO 113 INTRODUCTION TO MATHEMATICS B103.xlsx", skip = 16, 
+                   
+                   col_names = FALSE) %>% 
+        
+        select(1,2,5) %>% 
+        
+        set_names(c("sno", "regd", "exam_mark")) %>% 
+        
+        filter(!is.na(sno))
+
+#########################################
+## Join the two exams
+
+full_exam <- rbind(bec_exam, bpm_exam)
+########################################
+
+full_cat <- read_excel("BHR210.xlsx", sheet = "ECO113") %>% 
+        
+        janitor::clean_names() %>% 
+        
+        select(first_name, surname, catotal) %>% 
+        
+        mutate(regd = str_extract_all(surname, "^[BbE].*20")) %>% 
+        
+        mutate(surname = str_remove_all(surname, "^[BbE].*20\\s*\\|")) %>% 
+        
+        mutate(regd = str_to_upper(regd))
+        
+View(full_cat)
+
+########################################
+
+full_cat_and_exam <- full_exam %>% 
+        
+        full_join(full_cat, by = "regd") %>% 
+        
+        relocate(surname, first_name, .after = sno) %>% 
+        
+        mutate(exam_mark = case_when(
+                
+                exam_mark <= 15 ~ exam_mark + 6,
+                
+                TRUE ~ exam_mark
+        )) %>% 
+        
+        mutate(total_marks = exam_mark + catotal) %>% 
+        
+        select(-sno) %>% 
+        
+        arrange(desc(regd)) %>% 
+        
+        relocate(exam_mark, .after = catotal) %>% 
+        
+        filter(!duplicated(.))
+
+###############################################
+grade <- for (i in nrow(full_cat_and_exam)){
+        
+        if(is.na(full_cat_and_exam$total_marks[i])){
+                
+                print(NA)
+                
+        } else if (full_cat_and_exam$total_marks[i] < 40){
+                
+                print("Fail")
+                
+        } else if(full_cat_and_exam$total_marks[i] >= 40 & full_cat_and_exam$total_marks[i] < 50){
+                
+                print("D")
+                
+        } else if(full_cat_and_exam$total_marks[i] >= 50 & full_cat_and_exam$total_marks[i] < 60){
+                
+                print("C")
+                
+        } else if(full_cat_and_exam$total_marks[i] >= 60 & full_cat_and_exam$total_marks[i] < 70){
+                
+                print("B")
+                
+        } else{
+                
+                print("A")
+        }
+}
+###############################################
+
+full_cat_and_exam %>% filter(total_marks < 40)
+
+write_csv(full_cat_and_exam, "eco_113_cat_exam.csv")

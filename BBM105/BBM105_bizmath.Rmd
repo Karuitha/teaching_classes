@@ -1,0 +1,168 @@
+---
+title: "Karatina University"
+author: "John Karuitha"
+date: "`r format(Sys.Date(), '%A, %B %d, %Y')`"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+params:
+  course: 'BBM 105: Business Maths 1'
+subtitle: School of Business
+always_allow_html: true
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## `r params$course`
+
+## COURSE PURPOSE
+This course will explore basic mathematical techniques essential to the operational management of firms, including functions, linear inequalities, financial maths, calculus, matrices and time series. 
+
+The program aims to equip the student with mathematical analysis skills for making decisions that form the basis for advanced courses in business and economics such as Advanced Microeconomics, Advanced Microeconomics, Economics Statistics and Econometrics. The course seeks to build mathematical intuition in students instead of merely plugging numbers into formulas.
+
+The main reference text is Harshbarger(2012) and Wainwright(2005). Later editions of these books are preferable where available. 
+
+## COURSE LEARNING OUTCOMES
+
+Upon successful completion of this course, students should be able to:
+
+1. Solve equations in different functional forms.
+2. Apply linear and non-linear functions to resolve business problems.
+3. Use financial maths to compute the present and future values of annuities and perpetuities.
+4. Solve systems of equations using matrices. 
+5. Apply differential and integral calculus to economic settings. 
+6. Analyse time series data to derive useful insights and forecasts.
+
+## COURSE CONTENT
+
+- Meaning and scope of business mathematics
+
+- The Number System
+
+- R and R Studio
+
+    - Introduction to R and R studio.
+    - Introduction to latex, knitr and R markdown.
+    - Writing a report in R Markdown.
+    - Creating a vector in R.
+    - Creating a matrix in R.
+    - Basic data operations in R.
+
+
+- Functions.
+
+    - Background and Definitions.
+    - Linear equations and functions.
+    - Quadratic and other special functions.
+    - Exponential and logarithmic functions.
+
+- Linear inequalities 
+
+- Financial arithmetic
+
+    - Annuities and perpetuities.
+
+    - Interest rates. 
+
+- Matrix algebra
+
+    - Introduction to matrices and related terminology.
+    - Matrix addition, subtraction and multiplication.
+    - The determinant and inverse of a matrix.
+    - Solving systems of equations - Crammer's Rule. 
+    - Matrix algebra in R.
+
+- Differential calculus
+
+    - Introduction to differential calculus.
+    - Terminology and notation.
+    - Rules of differentiation.
+    - Applications of differentiation.
+
+- Integral calculus
+
+    - Introduction to differential calculus.
+    - Terminology and notation.
+    - Rules of integretion.
+    - Applications of integration.
+
+- Time series
+
+    - Definitions, Applications and Techniques
+    - Visualizing times series data
+    - What are Moving Average or Smoothing Techniques?
+    
+        - Single Moving Average
+        - Centered Moving Average
+        - Introduction to exponential smoothing.
+
+
+## MODE OF DELIVERY OF THE COURSE
+The course will be delivered using physical and on-line lectures and discussions based on case studies and presentations by students.
+
+## INSTRUCTIONAL MATERIALS/ EQUIPMENT
+
+- Audio-visual devices.
+- Computers/internet services.
+- Journals, newspapers.
+- Flip charts.
+
+## COURSE ASSESSMENT
+The course will be assessed using 3 continuous assessment tests, 1 project-based class assignment and 1 final exam, as shown in Table 1 below.
+
+```{r, echo = FALSE}
+library(tibble)
+library(kableExtra)
+tribble(~ Assessment, ~ Contribution,
+        "CAT 1: Multiple Choice", "5%",
+        "CAT 2: Multiple Choice", "5%",
+        "CAT 3: Sit in: Essays and Computations", "10%",
+        "CAT 4:Group Presentations", "10%", 
+        "Final Examination", "70%", 
+        "TOTAL", "100%") %>% 
+  
+  kableExtra::kbl(., caption = "Course Evaluation", 
+      
+  booktabs = TRUE) %>% 
+  
+  kable_paper(full_width = FALSE, font_size = 12,
+              
+              latex_option = "hold_position")
+```
+
+
+
+## References
+
+Harshbarger, R. J., & Reynolds, J. J. (2012). Mathematical applications for the management, life, and social sciences. NY: Nelson Education.
+
+Wainwright, K. (2005). Fundamental methods of mathematical economics. NY: McGraw-Hill/Irwin.
+
+I will share on-line resources especially on YouTube in the course of the class. 
+
+**NB: IF YOU DO NOT UNDESTAND A TOPIC, TRY YOUTUBE & BOOKS BEFORE SEEKING CLARIFICATION FROM THE INSTRUCTOR!**
+
+## Installing R and R Studio
+
+- I have made arrangements that technicians at the computers labs at the University install `R` and `R Studio` on the computers.  
+
+- For students who own personal computers, please install both `R` and `R studio` from the internet. Confirm whether your computer is 32-bit or 64 bit and install the appropriate version. Each software is free. 
+
+- `R` is availabe on this link <https://cran.r-project.org/bin/windows/base/>.
+
+- `R_Studio` is available on this link <https://rstudio.com/products/rstudio/download/>.
+
+- Both `R` and `R-Studio` are available for Mac, Linux, and Windows-based systems. Choose the appropriate version for your computer. 
+
+- For students who own tablets, you can neither install `R` nor `R Studio`. However, you can access the service online through `R Studio Cloud`. You have to be connected to the internet to access and use this service. Students with personal computers may also opt for this route. 
+
+
+
+
+
+
+
