@@ -1,0 +1,71 @@
+---
+title: "Introduction to Finance"
+author: "John Karuitha"
+date: "`r format(Sys.Date(), format = '%A, %B %d %Y')`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## What is Finance?
+
+Finance examines how individuals and corporations raise and spend money—both how they do and how they should—to produce the highest expected value from investments in assets. Finance started as a field of Business Administration before crossing over and being taken up by Economists. Like every other resource, finance is scarce and has alternative uses, and individuals, corporations, and states will never have enough of it (they have an insatiable appetite for finance). Consequently, finance borrows heavily from economics for theoretical and analytical tools.
+
+## Branches of Finance
+
+Finance has several fields. The core fields in finance are;
+
+- Corporate Finance.
+- Financial Markets.
+
+*Corporate finance* or *business finance* ^[You will often encounter other fields such as real estate, household, climate, and microfinance that may be separate fields on their own or fall under either Corporate Finance or Capital Markets. They may also be distinct fields of their own.] addresses how managers of companies make real investments, raise capital, control risks and return money to investors. Topics of study include;
+
+- Cash flows.
+- Capital budgeting.
+- Capital structure and cost of capital.
+- Business valuation.
+- Mergers and acquisitions.
+- Risk management and payout policies.
+
+*Financial markets* examine how markets price financial securities and make decisions concerning investments in portfolios of different types of financial assets. Topics of study include;
+
+- The relation between risk and return.
+- Pricing of bonds, stocks and derivatives.
+- The term structure of interest rates.
+- Allocation of wealth among different types of securities, and 
+- Institutional frictions that prevent the attainment of optimal prices
+
+## Core Assumptions in Finance
+
+A few simple assumptions about investor behaviour underlie much of finance: that, all else being equal (Ceteris Paribus), investors prefer: 
+
+- More wealth to less, 
+- Less risk to more, and 
+- Want their cash flows sooner rather than later. 
+
+These assumptions lead to the idea of a discount rate, the notion that future cash flows are discounted in value to equate to the present, using a factor that reflects a risk-adjusted cost of capital relevant to the asset. 
+
+These ideas combine to establish a key rule: we should invest in an asset only if it is expected to generate a return greater than its cost of capital, in other words, if it has positive expected value today (“positive net present value”). In simpler terms, we should invest in a project only if we hypothesize that it will be profitable. Since that judgment requires assessing an asset’s intrinsic value, tools and methods to assess such value are central to finance. Intrinsic value, in turn, is  determined by the sum of all expected future cash flows from the asset, discounted back to the present at its cost of capital. 
+
+In its theories and practice, the core ideas in finance are founded on a set of logically cogent ideas. There are few disciplines in business schools where academic research and the real world come together as well as in finance. The ideas that underpin the field win Nobel prizes regularly and form the basis upon which billions of shillings change hands every day. 
+
+That said, there are many questions that finance researchers and professionals grapple with daily. What causes recurrent financial crises? What is the role of “long tail” risks, and how can they be understood and analyzed better? Why do we witness predictable irrational investment decision-making by investors and managers? Why do markets and companies seem prone to herd behaviours? How can corporate governance and incentives be structured to produce value-creating outcomes for the long run as opposed to the short run? What is the right balance between free markets and regulation in enabling the best outcomes for society? Scholarship in finance continues to make exciting progress on all of these important questions. 
+
+## What is the course about?
+
+How much should you save? Moreover, how much risk should you bear? When we think about these questions, it becomes clear that they are of great importance to our overall material well-being. Saving is essential because most of us will retire at some point. Although we will still be consuming, we will receive no more labour income from that point onwards. Moreover, we will all face significant economic risks during our lives—the risk of losing our job, for instance, or—much worse—of becoming unable to work because of illness or other misfortunes. The risks we are exposed to can significantly affect our future life, and it is, therefore, essential to make rational decisions about how much risk to bear.
+
+Important as these questions are for each of us, individuals’ decisions about saving and risk-taking also matter for society. Total saving determines the amount of investment that the economy can realize and thus affects future production possibilities. The amount of risk that people are willing to bear determines whether risky projects will be undertaken. Individual decisions in the face of future retirement and risk and the capital requirements of more or less risky investment projects are coordinated through financial markets. If markets work well, risk is allocated to those people who are least hurt by it, impatient people get to consume before they earn (by taking out a loan), and capital is allocated to those projects that generate the most attractive risk-return profile. 
+
+Finance theory is concerned with determining prices that equalize demand and supply on these markets and their effect on the allocation of capital and risk across agents in the economy. Finance theory is also useful in interpreting financial market prices in ways of interest for public policy and social welfare issues. 
+
+For instance, Robert Lucas (1987) examined the social costs of business cycles. This is important for economic policy making, but it is also essential for macroeconomic theory. To learn the answer to this question, we need to know how much people dislike risk, that is, variations in income. More specifically, to judge how expensive business cycles are, we need to determine a price that people would be prepared to pay to avoid the income variations caused by business cycles. Modern asset pricing theory allows us—at least in principle—to do just that.
+
+
+
+

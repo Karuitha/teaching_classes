@@ -1,0 +1,139 @@
+---
+title: "**Karatina University**"
+author: "***BBM 312: Financial Institutions and Markets***"
+date: "`r format(Sys.Date(), format = '%A %B %d, %Y')`"
+output:
+  pdf_document: default
+  html_document: default
+subtitle: '**School of Business**'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# **Course Outline**
+
+## **Background**
+
+Financial institutions and markets channel Billions of Shillings through the economy, affecting business and consumer decisions and the economic well being of our country, Kenya and foreign countries as well. The purpose of this course is to guide students in developing critical thinking skills as applied to financial institutions and markets. Topics include regulation; the efficient markets hypothesis; financial derivatives, exchange rates, risk and evaluation of financial institutions/ markets.
+
+## **Course Objectives**
+
+After going through the course, the student should be able to;
+
+- Identify & critically analyze the emerging issues in financial institutions and markets.
+- Value financial instruments.
+- Apply the concepts learnt in the course in a management setting.
+
+## Course Content (Required readings in brackets)
+
+- What is Finance? (See lecture notes)
+
+- Introduction to the financial system (Hubbard, Chapter 1).
+    - The financial system.
+    - Components of the financial system.
+    - Clients/ participants in the financial system.
+    - Funds flow within the financial system.
+    - Do we really need a financial system? 
+    
+- Financial intermediation (See lecture notes)
+    - Why financial intermediation? (Information asymmetry- Moral Hazard, Adverse selection; Transaction cost economics).
+    - Agency theory in financial intermediation.
+    - Financial intermediaries in Kenya (highlight).
+
+- Financial markets 1- Introduction (F&D, September 2008, pp 34-5 (Over-the-counter?)).
+    - Financial markets versus commodity markets.
+    - OTC versus exchange markets.
+    - The role of financial markets.
+    - Financial markets in Kenya, Eastern and Southern Africa, Key global financial markets.
+    
+- Financial markets II- Money Markets (Howells/ Bain Chapter 5.)
+    - Money market instruments.
+    - The microstructure of money markets- Trading in the money markets (Case of GoK T-bills).
+    - International money markets.
+    
+- Financial markets III- Capital markets (Harris Part I, III, and IV.)
+    - Capital market instruments (Including unit trusts).
+    - The micro-structure of capital markets- Trading at Securities Exchanges (Case of Equity trading at the NSE).
+    - International capital markets.
+    
+- Financial markets V- Derivative markets (Mishkin 2 Chapter on Derivatives).
+    - Derivative instruments.
+    - The trading of derivative instruments.
+    
+- Financial markets IV- Securitization and financial innovation (F&D, September 2008, pp 78 (What is securitization?); Deacon Chapter 1, lecture notes.)
+    - Financial innovation- Introduction.
+    - Innovations in product development.
+    - Innovations in regulation.
+    - Innovations in infrastructure.
+
+- Financial markets VI- The foreign Exchange markets (Mishkin 2 Chapter 13.).
+    - Foreign Exchange quotations and trading.
+    - Forex regimes. 
+    - The law of one price and the PPP.
+    - Determinants of exchange rates.
+    - Local versus triangular arbitrage.
+
+- Regulation of the financial system (Howells/ Bain Chapter 13; Mishkin 2, Chapter 20.).
+    - The theory of regulation.
+    - Regulatory framework in Kenya: relevant regulatory laws and institutions
+    - Comparative study: Regulatory frameworks in USA, Britain, Australia and Mauritius.
+    - Consolidated versus unconsolidated regulatory framework.
+    - Case for and case against consolidated regulatory framework.
+    - Self-regulation
+    - Emerging issues in regulation after the global financial crisis.
+    
+- The theory of rational expectations and the efficient market hypothesis (Mishkin 1 Chapter on rational expectations).
+    - Rational expectations.
+    - Efficient markets hypothesis.
+    - Forms of market efficiency.
+    - Evidence for and against the efficient market hypothesis.
+    
+- Financial markets Indices (See lecture notes).
+    - Market Indices, Calculating market indices: Price weighted vs. Market weighted indices, Composite indices
+    - Specific market indices- The Dow Jones Index, S&P Index, NSE 20 Share Index, NASI, NASDAQ and other stock market indices).
+    
+- Principles of managing banking institutions (See lecture notes).
+    - Managing credit, liquidity risk.
+    - Managing capital.
+    - Asset/ Liability management.
+
+- Managing non-bank finance institutions (See lecture notes).
+    - Peculiarities of non-bank finance institutions management.
+    - Principles of managing non-bank finance institutions.
+    
+## Notes
+A hard copy of the notes will be given to the students where necessary. In other cases students will be required to refer to textbooks. Students are encouraged to refer to the texts even in cases where notes are provided as this will give deeper insights.
+
+## Course Evaluation
+
+Two continuous assessment tests will be administered. CAT 1 will cover topic 1 and 6. CAT 2 will cover topic 7 through topic 11. The class assignments will cover the entire outline. In addition, students will write a term paper.
+
+
+## References
+
+**KEY TEXTBOOKS RECOMMENDED FOR PURCHASE (IN THE ORDER OF IMPORTANCE- THE FIRST THREE TEXTS ARE VITAL)**
+
+- Howells/ Bain (2007), Financial markets and institutions, Pearson Education LTD, Harlow, England
+- Mishkin, Frederic and Stanley G. Eakins, Financial Markets & Institutions, 4th edition, Addison Wesley, 2003 (**Mishkin 2**).
+- Madura (2008), Financial markets and institutions, 8th edition, South-Western, Mason OH, USA.
+- Hubbard, R. Glenn (2012). Money, banking, and the financial system. Prentice Hall. NY.
+- Harris, Larry (2006), Trading & exchanges, Oxford University Press, Harlow, UK.
+- Deacon, J (2006)., Global securitization and CDOs, 
+
+
+**REFERENCES AVAILABLE FOR FREE ON THE WEB** 
+
+- IMF, Finance & Development (F&D) (Various editions). Available free of charge at the IMF, website.www.imf.org.
+- Misati, R. et al (2010), Financial innovation and monetary policy transmission in Kenya. International research journal of finance and economics, issue 50. http://www.eurojournals.com/finance.htm
+- Financial Standards Report, Kenya Peer Review Report, April 2009, www.eStandardsForum.org
+
+**OTHER RESOURCES**
+
+- Mishkin, Frederic S.The economics of money, banking, and financial markets. The Addison-Wesley series in economics (**Mishkin 1**).
+- Bodie, Z., et at (2010), Investments, Wiley, NY.
+- Other references will be communicated in the course of the semester.
+
+
+Instructor: John Karuitha jkaruitha@karu.ac.ke
