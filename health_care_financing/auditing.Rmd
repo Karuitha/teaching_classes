@@ -1,0 +1,220 @@
+---
+title: "Auditing"
+author: "John Karuitha"
+date: "`r format(Sys.Date(), format = '%A, %B %d %Y')`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Nature and purpose of an audit
+
+Auditing is an evaluation of a person, organization, system, process, enterprise, project or product. It is the accumulation and evaluation of evidence about information to determine and report on the degree of correspondence between the information and established criteria. Auditing should be done by a competent, independent person. The above description shows that auditing is not only done on financial statements. We have environmental audits, human resource audits, and so on. In fact any system can be audited.
+
+This course is concerned with financial statement audits. What is a financial statement audit?
+
+A financial statement Audit is an independent examination of financial statements of an entity that enables an auditor to express an opinion whether the financial statements are prepared (in all material respects) in accordance with an identified and acceptable financial reporting framework (e.g. international or local accounting standards and national legislations). 
+
+Such audits are conducted by CPA firms or Audit firms. This view of audit is presented by ISA 200 Objective and General Principles Governing an Audit of Financial Statements. The opinion to be expressed is whether the financial statements reflect a true and fair view or present fairly in all material respects the state of affairs of the business. 
+
+True and fair presentation means that the financial statements are prepared and presented in accordance with the requirements of the applicable International Financial Reporting Standards (IFRS) and local pronouncements/legislations. 
+
+You will note that this is a wide concept of a financial statement audit which can be applied to any entity, not just to limited companies. However, in this course, we are concerned primarily with audits of limited companies (often known as statutory or external audits). Any other audit applications will be clearly indicated for you. 
+
+## Demand for audits
+
+### Agency theory
+A problem that has always existed at the time when management reports to the owners is whether or not the owners will believe the management. This is because the reports may contain errors, not disclose fraud, be inadvertently misleading, be deliberately misleading, fail to disclose relevant information, fail to conform to regulations, e.t.c.  The solution to this problem of credibility in reports and accounts lies in appointing an independent person called an auditor to examine the financial statements and report on his findings.  A further point is that modern companies can be very large with multi-national activities. 
+
+The preparation of the accounts of such groups is a very complex operation involving the bringing together and summarizing of accounts of subsidiaries with differing conventions, legal systems and accounting and control systems. The examination of such accounts by independent experts who are trained in the assessment of financial information is of benefit to those who control and operate such organizations as well as to owners and outsiders.
+
+### Stakeholder hypothesis
+Besides shareholders, there are others with interests in the organization whose interests should be taken into account. Examples are creditors and the public whose taxes are used to bail out ailing firms. This is the basis for statutory audits.
+
+### Information hypothesis/ Transaction cost economics
+The information hypothesis asserts that investors demand information on current and future cash flows and the market value of assets and liabilities. This theory is based on the concept of “bounded rationality” and “homo economicus”. A person chooses the best option based on the available information. Auditing has an informative role by improving corporate reporting disclosures reducing the chance of errors and bias and contributing to the formation of investors’ expectations. 
+
+### The insurance hypothesis
+It is a requirement of regulatory forces and government agencies that investors and other users get credible and reliable financial information data from corporations. Under the insurance hypothesis, shareholders, creditors and other users seek auditors’ protection and so this hypothesis is directly related to topics such as auditor liability, auditor litigation and the information in audit reports. The auditor acts as a guarantor, or insurer, against risk of loss. The auditor will take precautions against personal loss when providing this protection by performing a thorough examination.
+
+## Distinction between accounting and auditing
+
+Accounting is the process of recording, classifying, summarizing and reporting financial information in a logical/systematic manner for the purpose of decision making. To provide relevant & reliable information, accountants must have a thorough understanding of the principles and rules that provide the basis for preparing the financial statements. In auditing the financial statements, the concern is with determining whether the presented financial statements properly (true and fair) reflect the financial information that occurred during the accounting period. 
+
+Since auditors are primarily concerned with the end result of this work i.e. do the financial statements show a true and fair view? In order to arrive at their conclusion the auditors must have a deep knowledge and understanding of accounting (including applicable accounting standards) and in practice, the directors will consult with the auditors as to appropriate accounting policies to follow. 
+
+## Types of audits and auditors
+
+### External Audits.
+The external audit, conducted by external auditors seeks to test the underlying transactions that form the basis of the financial statements and form an opinion of whether such financial statements represent a true and fair view of the state of affairs of the entity in question. External auditors are external consultants appointed to conduct the external audit.
+
+### Internal Audits.
+
+Internal audit, conducted by internal auditors, on the other hand, seeks to advise management on whether its major operations have sound systems of risk management and internal controls. In most cases, internal auditors are employees of the organization being audited, although increasingly, internal audit services are being outsourced.
+
+### Government/ public sector Audits.
+These are audits of public entities, such as state corporations, ministries, departments’ and so on. In Kenya, such audits are done by the Kenya national audit office (KENAO), the Government of Kenya audit department, although they may at times be outsourced to external consultants.
+
+## Classification of Audits
+
+### Financial statement audits (refer to definition above)
+
+A financial statement Audit is an independent examination of financial statements of an entity that enables an auditor to express an opinion whether the financial statements are prepared (in all material respects) in accordance with an identified and acceptable financial reporting framework (e.g. international or local accounting standards and national legislations)
+
+### Operational audits 
+
+This is the appraisal of the economy and efficiency with which resources are employed. It is also a review of operations or programs to ascertain whether results are consistent with established objectives and goals and whether the operations are being carried out as planned.
+
+### Compliance audits 
+
+This is a review of the systems established to ensure compliance with those policies, plans, procedures, laws, regulations and important contracts that could have a significant impact on operations.
+
+### Information systems audits 
+
+This process collects and evaluates evidence to determine whether the information systems and related
+ resources adequately safeguard assets, maintain data  and system integrity and availability, provide relevant and reliable information, achieve organizational goals effectively, consume resources efficiently and have, in effect, internal controls that provide reasonable assurance that business, operational, and control objectives will be met and that undesired events will be prevented or detected and corrected in a timely manner.
+
+### Integrated audits
+
+This type of audit consists of a combination of financial, operational and compliance, and IS audits for an organization.
+
+### Forensic audits.
+
+The foremost aim of forensics is to establish the truth behind a particular situation by immediately capturing data to identify the perpetrator and establish proof for criminal proceedings to aid law enforcement. It also aids the organization in protecting the assets from future criminal activities and in gaining an understanding about the perpetrators and their actions.
+NB: Note that, as noted earlier, any system can be audited. For this reason, the classification above may not be exhaustive.
+
+## Services offered by auditors
+
+### Assurance services
+An assurance service is an independent professional service that improves the quality of information for decision makers. Such services are valued because the assurance provider is independent and perceived as being unbiased with respect to the information examined. Individuals who are responsible for making business decisions seek assurance services to help improve the reliability and relevance of the information used (e.g. Financial information) as the basis for their decisions. Assurance services can be done by CPAs or by a variety of other professionals. 
+
+For example, Consumers Union, a non profit organization, tests a wide variety of products used by consumers and reports their evaluations of the quality of the products tested in Consumer Reports. The organization provides the information to help consumers make intelligent decisions about the products they buy. 
+
+One category of assurance services provided by Auditors is attestation services. An attestation service is a type of assurance service in which the audit firm issues a report about the reliability of an assertion that is made by another party. An example of an attestation service is when an auditor issues a report with an opinion as to whether the financial statements present fairly in all material respects the state of affairs in a corporation. Attestation services fall into five categories:
+
+1. Audit of historical financial statements
+2. Audit of internal control over financial reporting
+3. Review of historical financial statements
+4. Attestation services on information technology
+5. Other attestation services that may be applied to a broad range of subject matter
+
+There are different levels of assurance services, which include:
+
+***Reasonable assurance***: It is a conclusion that the financial statements are not materially misstated. It is a relative term whose content depends upon the circumstances. Reasonable assurance is less than absolute assurance. The objective of a reasonable assurance engagement is a reduction in assurance engagement risk to an acceptably low level in the circumstances of the engagement as the basis for a positive form of expression of the practitioner’s conclusion. 
+
+***Absolute assurance***: It is a conclusion that the financial statements are not misstated at all, meaning that audit risk is ZERO. This is impossible to arrive at due to the use of selective testing (sampling), inherent limitations of internal control, the fact that much of the evidence available to the auditor is persuasive rather than conclusive, the use of judgement in gathering and evaluating evidence and forming conclusions based on that evidence, and the characteristics of the subject matter.
+
+***Limited assurance engagement***: This term is associated with engagements in which the decision was taken to obtain less assurance than otherwise could have been reasonably obtained.
+
+## Non- assurance services provided by Auditors
+Audit firms perform numerous other services that generally fall outside the scope of assurance services. Three specific examples are:
+
+1. Accounting and bookkeeping services
+2. Tax services
+3. Management consulting services
+
+Most accounting and bookkeeping services, tax services, and management consulting services fall outside the scope of assurance services, although there is some common area of overlap between consulting and assurance services. While the primary purpose of an assurance service is to improve the quality of information, the primary purpose of a management consulting engagement is to generate a recommendation to management.
+
+## Rights, duties and liabilities of auditor 
+
+### Powers/Rights of an Auditor
+
+- Right of access to books of account and vouchers. 
+- Right to receive information and explanations. 
+- Right of access to books and papers of branch. 
+- Right to receive notices of general meetings and to attend those meetings. 
+- Right to make representation where another person is being appointed as auditor. 
+- Right of Lien- to retain books of accounts at his custody in case of unpaid dues by the audited.
+
+## Duties of an Auditor 
+
+Duties of auditor are: 
+
+- To give a report to the members on the accounts, books of account, balance sheet and profit and loss account examined by him. 
+- Where any matter reported upon is answered in the negative or with a qualification the report shall include reasons for such qualification with factual position. 
+- To include in the report of the company such matters as directed by the Government. 
+- To attend those general meetings of a listed company, either himself or through authorized person, in which the balance sheet, profit and loss account and the auditors' report are to be considered. 
+
+- To make report for inclusion in prospectus. 
+- To certify receipts and payments account in the statutory report. 
+- To make report on declaration of solvency in case of voluntary winding up. 
+- To exercise reasonable care and skill in carrying out his duties and make such inquiries as considered necessary.
+
+## Audit Evidence
+
+### Types of Audit Evidence
+
+In deciding which audit procedures to use, the auditor can choose from eight broad categories of evidence, which are called types of evidence. Every audit procedure obtains one or more of the following types of evidence:
+
+1. Physical examination
+2. Confirmation
+3. Documentation
+4. Analytical procedures
+5. Inquiries of the client
+6. Recalculation
+7. Re-performance
+8. Observation
+
+**Physical examination** is the inspection or count by the auditor of a tangible asset. This type of evidence is most often associated with inventory and cash, but it is also applicable to the verification of securities, notes receivable, and tangible fixed assets. There is a distinction in auditing between the physical examination of assets, such as marketable securities and cash, and the examination of documents, such as cancelled checks and sales documents. 
+
+If the object being examined, such as a sales invoice, has no inherent value, the evidence is called documentation. For example, before a check is signed, it is a document; after it is signed, it becomes an asset; and when it is cancelled, it becomes a document again. For correct auditing terminology, physical examination of the check can occur only while the check is an asset. Physical examination is a direct means of verifying that an asset actually exists (existence objective), and to a lesser extent whether existing assets are recorded (completeness objective). 
+
+It is considered one of the most reliable and useful types of audit evidence. Generally, physical examination is an objective means of ascertaining both the quantity and the description of the asset. In some cases, it is also a useful method for evaluating an asset’s condition or quality. However, physical examination is not sufficient evidence to verify that existing assets are owned by the client (rights and obligations objective), and in many cases the auditor is not qualified to judge qualitative factors such as obsolescence or authenticity (realizable value objective). Also, proper valuation for financial statement purposes usually cannot be determined by physical examination (accuracy objective).
+
+**Confirmation** describes the receipt of a direct written response from a third party verifying the accuracy of information that was requested by the auditor. The response may be in electronic or paper form. The request is made to the client, and the client asks the third party to respond directly to the auditor. Because confirmations come from sources independent of the client, they are a highly regarded and often-used type of evidence. 
+
+However, confirmations are relatively costly to obtain and may cause some inconvenience to those asked to supply them. Therefore, they are not used in every instance in which they are applicable.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(kableExtra)
+
+tribble(~ Information, ~ Source,
+        "Cash in Bank", "Bank",
+        "Accounts Receivable", "Debtors - Those who owe us.",
+        "Accounts Payable", "Creditors - Those we owe.",
+        "Insurance coverage", "Insurance") %>% 
+        kbl(booktabs = TRUE, 
+            
+            caption = "Information often Confirmed") %>% 
+        kable_classic(full_width = TRUE)
+        
+
+```
+
+To be considered reliable evidence, confirmations must be controlled by the auditor from the time they are prepared until they are returned. If the client controls the preparation of the confirmation, does the mailing, or receives the responses, the auditor has lost control and with it independence; thus reducing the reliability of the evidence. Auditors often attempt to authenticate the identity of the confirmation respondent, especially for facsimile or electronic confirmation responses.
+
+**Documentation** is the auditor’s inspection of the client’s documents and records to substantiate the information that is, or should be, included in the financial statements. The documents examined by the auditor are the records used by the client to provide information for conducting its business in an organized manner, and may be in paper form, electronic form, or other media. Because each transaction in the client’s organization is normally supported by at least one document, a large volume of this type of evidence is usually available. For example, the client often retains a customer order, a shipping document, and a duplicate sales invoice for each sales transaction. These same documents are useful evidence for the auditor to verify the accuracy of the client’s records for sales transactions. Documentation is widely used as evidence in audits because it is usually readily available at a relatively low cost. Sometimes, it is the only reasonable type of evidence available.
+
+Documents can be conveniently classified as internal and external. An internal document has been prepared and used within the client’s organization and is retained without ever going to an outside party. Internal documents include duplicate sales invoices, employees’ time reports, and inventory receiving reports. An external document has been handled by someone outside the client’s organization who is a party to the transaction being documented, but which are either currently held by the client or readily accessible.
+
+In some cases, external documents originate outside the client’s organization and end up in the hands of the client. Examples of external documents include vendors’ invoices, cancelled notes payable, and insurance policies. Some documents, such as cancelled checks, originate with the client, go to an outsider, and are finally returned to the client.
+
+The primary determinant of the auditor’s willingness to accept a document as reliable evidence is whether it is internal or external and, when internal, whether it was created and processed under conditions of effective internal control. Internal documents created and processed under conditions of weak internal control may not constitute reliable evidence. Original documents are considered more reliable than photocopies or facsimiles. Although auditors should consider the reliability of documentation, they rarely verify the authenticity of documentation. Auditors are not expected to be trained or be experts in document authentication.
+
+Because external documents have been in the hands of both the client and another party to the transaction, there is some indication that both members are in agreement about the information and the conditions stated on the document. Therefore, external documents are considered more reliable evidence than internal ones. Some external documents, such as title to land, insurance policies, indenture agreements, and contracts, have exceptional reliability because they are almost always prepared with considerable care and often have been reviewed by attorneys or other qualified experts.
+
+When auditors use documentation to support recorded transactions or amounts, the process is often called vouching. To vouch recorded acquisition transactions, the auditor might, for example, verify entries in the acquisitions journal by examining supporting vendors’ invoices and receiving reports and thereby satisfy the occurrence objective. If the auditor traces from receiving reports to the acquisitions journal to satisfy the completeness objective, however, it is not appropriate to call it vouching. This latter process is called tracing.
+
+**Analytical procedures** use comparisons and relationships to assess whether account balances or other data appear reasonable compared to the auditor’s expectations. For example, an auditor may compare the gross margin percent in the current year with the preceding year’s. Analytical procedures are used extensively in practice, and are required during the planning and completion phases on all audits. The purposes of analytical procedures are:
+
+- Understand the Client’s Industry and Business Auditors must obtain knowledge about a client’s industry and business as a part of planning an audit. By conducting analytical procedures in which the current year’s unaudited information is compared with prior years’ audited information or industry data, changes are highlighted. These changes can represent important trends or specific events, all of which will influence audit planning. For example, a decline in gross margin percentages over time may indicate increasing competition in the company’s market area and the need to consider inventory pricing more carefully during the audit. Similarly, an increase in the balance in fixed assets may indicate a significant acquisition that must be reviewed.
+
+ - Assess the Entity’s Ability to Continue as a Going Concern Analytical procedures are often a useful indicator for determining whether the client company has financial problems. Certain analytical procedures can help the auditor assess the likelihood of failure. For example, if a higher-than-normal ratio of long-term debt to net worth is combined with a lower-than-average ratio of profits to total assets, a relatively high risk of financial failure may be indicated. Not only will such conditions affect the audit plan, they may indicate that substantial doubt exists about the entity’s ability to continue as a going concern, which requires a report modification.
+ 
+- Indicate the Presence of Possible Misstatements in the Financial Statements Significant unexpected differences between the current year’s unaudited financial data and other data used in comparisons are commonly called unusual fluctuations. Unusual fluctuations occur when significant differences are not expected but do exist, or when significant differences are expected but do not exist. In either case, the presence of an accounting misstatement is one possible reason for the unusual fluctuation. If the unusual fluctuation is large, the auditor must determine the reason and be satisfied that the cause is a valid economic event and not a misstatement. For example, in comparing the ratio of the allowance for uncollectible accounts receivable to gross accounts receivable with that of the previous year, suppose that the ratio has decreased while, at the same time, accounts receivable turnover also decreased. The combination of these two pieces of information indicates a possible understatement of the allowance. This aspect of analytical procedures is often called “attention directing” because it results in more detailed procedures in the specific audit areas where misstatements might be found.
+
+- Reduce Detailed Audit Tests When an analytical procedure reveals no unusual fluctuations, this implies the possibility of a material misstatement is minimized. In such cases, the analytical procedure constitutes substantive evidence in support of the fair statement of the related account balances, and it is possible to perform fewer detailed tests in connection with those accounts. In other cases, certain audit procedures can be eliminated, sample sizes can be reduced, or the timing of the procedures can be moved farther away from the balance sheet date.
+
+**Inquiry** is the obtaining of written or oral information from the client in response to questions from the auditor. Although considerable evidence is obtained from the client through inquiry, it usually cannot be regarded as conclusive because it is not from an independent source and may be biased in the client’s favour. Therefore, when the auditor obtains evidence through inquiry, it is normally necessary to obtain corroborating evidence through other procedures. (Corroborating evidence is additional evidence to support the original evidence.) As an illustration, when the auditor wants to obtain information about the client’s method of recording and controlling accounting transactions, the auditor usually begins by asking the client how the internal controls operate. Later, the auditor performs audit tests using documentation and observation to determine whether the transactions are recorded (completeness objective) and authorized (occurrence objective) in the manner stated.
+
+**Recalculation** involves rechecking a sample of calculations made by the client. Rechecking client calculations consists of testing the client’s arithmetical accuracy and includes such procedures as extending sales invoices and inventory, adding journals and subsidiary records, and checking the calculation of depreciation expense and prepaid expenses. A considerable portion of auditors’ recalculation is done by computer assisted audit software.
+
+**Re-performance** is the auditor’s independent tests of client accounting procedures or controls that were originally done as part of the entity’s accounting and internal control system. Whereas recalculation involves rechecking a computation, re-performance involves checking other procedures. For example, the auditor may compare the price on an invoice to an approved price list, or may re-perform the aging of accounts receivable. Another type of re-performance is for the auditor to recheck transfers of information by tracing information included in more than one place to verify that it is recorded at the same amount each time. For example, the auditor normally makes limited tests to ascertain that the information in the sales journal has been included for the proper customer and at the correct amount in the subsidiary accounts receivable records and is accurately summarized in the general ledger.
+
+**Observation** is the use of the senses to assess client activities. Throughout the engagement with a client, auditors have many opportunities to use their senses, sight, hearing, touch, and smell—to evaluate a wide range of items. The auditor may tour the plant to obtain a general impression of the client’s facilities, or watch individuals perform accounting tasks to determine whether the person assigned a responsibility is performing it properly. Observation is rarely sufficient by itself because of the risk of client personnel changing their behaviour because of the auditor’s presence. They may perform their responsibilities in accordance with company policy but resume normal activities once the auditor is not in sight. Therefore, it is necessary to follow up initial impressions with other kinds of corroborative evidence. Nevertheless, observation is useful in most parts of the audit.
