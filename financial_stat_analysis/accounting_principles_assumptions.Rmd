@@ -1,0 +1,80 @@
+---
+title: "Financial Statements Analysis"
+subtitle: "Accounting Assumptions and Principles"
+author: "John Karuitha"
+date: "`r format(Sys.Date(), format = '%A, %B %d %Y')`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+
+# Assumptions and the Generally Accepted Accounting Principles
+
+The current set of principles that accountants use rests upon some underlying assumptions and principles. The basic assumptions and principles presented on the next several pages are considered GAAPs and apply to most financial statements. 
+
+## The Assumptions
+
+### The Economic entity assumption. 
+
+Financial records must be separately maintained for each economic entity. Economic entities include businesses, governments, school districts, churches, and other social organizations. Although accounting information from many different entities may be combined for financial reporting purposes, every economic event must be associated with and recorded by a specific entity. In addition, business records must not include the personal assets or liabilities of the owners. 
+
+### The Monetary unit assumption. 
+
+An economic entity's accounting records include only quantifiable transactions. Certain economic events that affect a company, such as hiring a new chief executive officer or introducing a new product, cannot be easily quantified in monetary units and, therefore, do not appear in the company's accounting records. Furthermore, accounting records must be recorded using a stable currency. Businesses in the Kenya usually use Kenya Shillings for this purpose. 
+The Time period assumption. 
+
+Most businesses exist for long periods of time, so artificial time periods must be used to report the results of business activity. Depending on the type of report, the time period may be a day, a month, a year, or another arbitrary period. Using artificial time periods leads to questions about when certain transactions should be recorded. For example, how should an accountant report the cost of equipment expected to last five years? Reporting the entire expense during the year of purchase might make the company seem unprofitable that year and unreasonably profitable in subsequent years. Once the time period has been established, accountants use GAAP to record and report that accounting period's transactions. 
+
+### The Going concern assumption. 
+
+Unless otherwise noted, financial statements are prepared under the assumption that the company will remain in business indefinitely. Therefore, assets do not need to be sold, and debt does not need to be paid off before maturity. This principle allows for the classification of assets and liabilities as short-term (current) and long-term. Long-term assets are expected to be held for more than one year. Long-term liabilities are not due for more than one year.
+
+## The Principles
+
+### The Full disclosure principle. 
+
+Financial statements normally provide information about a company's past performance. However, pending lawsuits, incomplete transactions, or other conditions may have imminent and significant effects on the company's financial status. The full disclosure principle requires that financial statements include disclosure of such information. Footnotes supplement financial statements to convey this information and to describe the policies the company uses to record and report business transactions. 
+
+### Accrual basis accounting. 
+
+In most cases, GAAP requires the use of accrual basis accounting rather than cash basis accounting. Accrual basis accounting, which adheres to the revenue recognition, matching, and cost principles discussed below, captures the financial aspects of each economic event in the accounting period in which it occurs, regardless of when the cash changes hands. Under cash basis accounting, revenues are recognized only when the company receives cash or its equivalent, and expenses are recognized only when the company pays with cash or its equivalent. 
+
+### The Revenue recognition principle. 
+
+Revenue is earned and recognized upon product delivery or service completion, without regard to the timing of cash flow. Suppose a store orders five hundred compact discs from a wholesaler in March, receives them in April, and pays for them in May. The wholesaler recognizes the sales revenue in April when delivery occurs, not in March when the deal is struck or in May when the cash is received. Similarly, if a lawyer receives a KSh.100 retainer from a client, the lawyer doesn't recognize the money as revenue until he or she actually performs KSh.100 in services for the client. 
+
+### The Matching principle. 
+
+The costs of doing business are recorded in the same period as the revenue they help to generate. Examples of such costs include the cost of goods sold, salaries and commissions earned, insurance premiums, supplies used, and estimates for potential warranty work on the merchandise sold. Consider the wholesaler who delivered five hundred CDs to a store in April. These CDs change from an asset (inventory) to an expense (cost of goods sold) when the revenue is recognized so that the profit from the sale can be determined. 
+
+### The Cost principle (HISTORICAL COST PRINCIPLE). 
+
+Assets are recorded at cost, which equals the value exchanged at the time of their acquisition. even if assets such as land or buildings appreciate in value over time, they are not revalued for financial reporting purposes. Note, however that there is an emergence of what is called fair value accounting that allows for valuation of assets and liabilities at market rates. 
+
+### The Principle of conservatism. 
+
+Accountants must use their judgment to record transactions that require estimation. The number of years that equipment will remain productive and the portion of accounts receivable that will never be paid are examples of items that require estimation. In reporting financial data, accountants follow the principle of conservatism, which requires that the less optimistic estimate be chosen when two estimates are judged to be equally likely. For example, suppose a manufacturing company's Warranty Repair Department has documented a three-percent return rate for product X during the past two years, but the company's Engineering Department insists this return rate is just a statistical anomaly and less than one percent of product X will require service during the coming year. Unless the Engineering Department provides compelling evidence to support its estimate, the company's accountant must follow the principle of conservatism and plan for a three-percent return rate. Losses and costs—such as warranty repairs—are recorded when they are probable and reasonably estimated. Gains are recorded when realized. 
+
+### The Materiality principle (SIGNIFICANT).
+
+Accountants follow the materiality principle, which states that the requirements of any accounting principle may be ignored when there is no effect on the users of financial information. Certainly, tracking individual paper clips or pieces of paper is immaterial and excessively burdensome to any company's accounting department. Although there is no definitive measure of materiality, the accountant's judgment on such matters must be sound. Several thousand Kenya Shillings may not be material to an entity such as General Motors, but that same figure is quite material to a small, family-owned business. 
+
+## Useful Accounting Information
+
+Accounting information has many users. For example, an investor will use financial accounting information to decide whether or not to buy shares in the corporation. Managers use management accounting information to make decisions such as whether to launch a new product, hire or fire employees, mechanize operations or not, e.t.c. useful information has certain desirable characteristics outlined below. Note that there may be a trade off between the characteristics. Striving to have very relevant accounting information may lead to reduced reliability and consistency. Please do more research on these tradeoffs.
+
+### Relevance, reliability, comparability and consistency.
+
+To be useful, financial information must be relevant, reliable, and prepared in a consistent manner. Relevant information helps a decision maker understand a company's past performance, present condition, and future outlook so that informed decisions can be made in a timely manner. Of course, the information needs of individual users may differ, requiring that the information be presented in different formats. Internal users often need more detailed information than external users, who may need to know only the company's value or its ability to repay loans. 
+
+Reliable information is verifiable and objective. Consistent information is prepared using the same methods each accounting period, which allows meaningful comparisons (comparability) to be made between different accounting periods and between the financial statements of different companies that use the same methods. The financial statements must be prepared in such a manner as to ensure that comparisons can be made with earlier time periods. This requires accounting policies to be consistently applied and an outline of what policies have been used and any changes that are made to such policies. Understandability is also a key quality of accounting information.
+
+## Review Questions
+
+1. Explain SIX differences between financial accounting and managerial accounting.
+2. List a minimum of eight users of accounting information and explain the decisions they may make using the information. 

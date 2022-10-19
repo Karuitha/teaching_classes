@@ -5,7 +5,7 @@ date: "`r Sys.Date()`"
 output:
   pdf_document: default
   html_document: default
-subtitle: 'BBM 419: Financial Statements Analysis'
+subtitle: 'Course Outline: BBM 419- Financial Statements Analysis'
 
 ---
 

@@ -1,0 +1,124 @@
+---
+title: "Financial Statements Analysis"
+subtitle: "Understanding Financial Statements"
+author: "John Karuitha"
+date: "`r format(Sys.Date(), format = '%A, %B %d %Y')`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Background
+
+Consider the following questions related to financial statement information for SAFARICOM in 2014: Safaricom’s net income in 2014 was Ksh. 17.829 billion. That seems like a lot, but does it represent a large amount for a company the size of Safaricom? Total assets for Safaricom at the end of 2014 were Ksh. 67.646 billion. Given the volume of business that Safaricom does, is this amount of assets too much, too little, or just right?
+
+By the end of 2014, Safaricom’s liabilities totalled Ksh. 15.466 billion. Is this level of debt too much for Safaricom?
+
+The important point to recognize is that just having the financial statement numbers is not enough to answer the questions that financial statement users want answered. Without further analysis, the raw numbers themselves don’t tell much of a story. Financial statement analysis involves the examination of both the relationships among
+financial statement numbers and the trends in those numbers over time. One purpose of financial statement analysis is to use the past performance of a company to predict how it will do in the future. Another purpose is to evaluate the performance of a company with an eye toward identifying its strengths and weaknesses. 
+
+In sum, financial statement analysis is both diagnosis— identifying where a firm has problems—and prognosis—predicting how a firm will perform in the future. Financial statement analysis is used to predict a company’s future profitability and cash flows from its past performance and to evaluate the performance of a company with an eye toward identifying problem areas. Financial information is almost always compared to what was reported in the previous year. For example, when Safaricom publicly announced on December 15, 2014, that its annual revenues were Ksh. 50.84 billion, the press release also stated that this amount represented an 8% increase over
+the same period in the prior year. 
+
+Financial statement analysis often points to areas in which additional data must be gathered, including details of significant transactions, market share information, competitors’ plans, and customer demand forecasts.
+
+The informativeness of financial analysis is greatly enhanced when they are compared with past values and with values for other firms in the same industry.
+
+## Pitfalls of Financial Statements Analysis
+
+Financial statement analysis, as emphasized previously, usually does not give answers but instead points in directions where further investigation is needed. This section discusses several reasons why we must be careful not to place too much weight on an analysis of financial statement numbers themselves.
+
+### Financial Statements Don’t Contain All Information 
+
+Accountants, should be forgiven for mistakenly thinking that all knowledge in the universe can be summarized in numerical form in financial statements. Accountants love numbers, they love things that balance, and they love condensing and summarizing the complexity of business—in short, accountants love financial statements. Businesspeople don’t have this emotional relationship with financial statements and therefore should be able to take a more detached view. 
+
+Businesspeople should remember that financial statements represent just one part of the information spectrum. Safaricom’s financial statements, for example, tell nothing about the morale of Safaricom’s employees, about new products being developed in Safaricom’s research laboratories, or about the strategic plans of Safaricom’s competitors. In addition, many valuable economic assets, such as the value of a company’s own home-grown reputation, brand recognition, and customer loyalty, are not recognized in financial statements. 
+
+The danger in financial statement analysis is that, in computing dozens of ratios and comparing common-size financial statements across years and among competitors, we can forget there is lots of decision-relevant information to be found outside financial statements. Don’t let the
+attractiveness of the apparent precision of financial statement numbers distract you from searching for all relevant information, no matter how imprecise and non-quantitative.
+
+### Lack of Comparability
+
+Ratio analysis is most meaningful when ratios can be benchmarked to comparable values for the same company in prior years and to ratio values for other companies in the same industry. A problem arises when reported financial statement numbers that seem to be comparable are actually measurements of different things. For example, the income statement of ABC LTD may list depreciation expense separately and include advertising expense as part of selling, general, and administrative expense. In contrast, ABC’s competitor DOW does not list depreciation expense separately but does report a separate line for advertising expense. This classification difference makes it more difficult
+to compare the income statements of the two companies. 
+
+Another benchmarking difficulty arises because many large companies are conglomerates, meaning that they are composed of divisions operating in different industries, sometimes quite unrelated to one another. For example, APPLE COMPUTER, is used as a benchmark competitor
+for MICROSOFT, but in addition to operating in the software industry, Apple is also heavily involved in the computer hardware business (iPhone, iPad). Thus, a true benchmark firm for Microsoft would be to use (if available) only the results for the software segment of Apple Computer. Finally, comparison difficulties arise because all companies don’t use the same accounting practices. From your accounting background, you learnt that companies can choose different methods of computing depreciation
+expense, cost of goods sold, and bad debt expense. Some companies report leased assets as part of property, plant, and equipment in the balance sheet, and some companies don’t report leased assets anywhere at all on the balance sheet.
+
+In addition, different industries may be affected by unique social policies, special accounting procedures, or other individual industry attributes. Ratios of companies in different industries are not comparable without considering industry characteristics. A high debt to assets ratio is more acceptable in some industries than others. Even within
+an industry, a particular business may require more or less working capital than the industry average. If so, the working capital and quick ratios would mean little compared to those of other firms, but may still be useful for trend analysis. Because of industry-specific factors, most professional analysts specialize in one, or only a few, industries.
+
+Financial institutions such as brokerage houses, banks, and insurance companies typically employ financial analysts who specialize in areas such as mineral or oil extraction, chemicals, banking, retail, insurance, bond markets, or automobile manufacturing. 
+
+### Search for the Smoking Gun 
+
+Financial case studies are very useful and fun because they allow students to discover key business insights for themselves in the context of real situations. When analysing a case, one feels good scouring financial statements to see whether a company’s problems are caused by poor inventory management, short-sighted tax planning, or growing difficulties collecting receivables. This detective mentality can be counterproductive, however. 
+
+For example, not every company suffering from poor profitability has one
+big flaw that will come out at you as you do your ratio analysis. If you focus too much on trying to “solve” the case and find the smoking gun, you may overlook indications of a collection of smaller, less spectacular problems.
+
+### Anchoring, Adjustment, and Timeliness
+
+Financial statements are based on historical data. A large part of the value of this historical data lies in its ability to indicate how a company will perform in the future. The danger in performing analysis on several years of past data is that we might then tend to focus on the company’s past performance and ignore current year information. The careful analyst must balance what he or she learns from an analysis of historical
+financial statement data with more current data available from different sources.
+
+### Changing Economic Environment
+
+When comparing firms, analysts must be alert to changes in general economic trends from year to year. Significant changes in fuel costs and interest rates in recent years make old rule-of-thumb guidelines for evaluating these factors obsolete. In addition, the presence or absence of inflation affects business prospects.
+
+## Accounting Principles
+
+Financial statement analysis is only as reliable as the data on which it is based. Although most firms follow generally accepted accounting principles, a wide variety of acceptable accounting methods is available from which to choose, including different inventory and depreciation methods, different schedules for recognizing revenue, and different ways to account for oil and gas exploration costs. Analysing statements of companies that seem identical may produce non-comparable ratios if the companies used different
+accounting methods. 
+
+Analysts may seek to improve comparability by trying to recast different companies’ financial statements as if the same accounting methods had been
+applied. Accrual accounting requires the use of many estimates; bad debt expense, warranty expense, asset lives, and salvage value are just a few. The reliability of the resulting financial reports depends on the expertise and integrity of the persons who make the estimates. The quality and usefulness of accounting information are influenced by
+underlying accounting concepts. 
+
+Two particular concepts, conservatism and historical cost, have a tremendous impact on financial reporting. Conservatism dictates
+recognizing estimated losses as soon as they occur, but gain recognition is almost always deferred until the gains are actually realized. Conservatism produces a negative bias in financial statements. There are persuasive arguments for the conservatism principle, but users should be alert to distortions it may cause in accounting information. 
+
+The pervasive use of the historical cost concept is probably the greatest single cause of distorted financial statement analysis results. The historical cost of an asset does not represent its current value. The asset purchased in 2001 for Ksh. 10,000 is not comparable in value to the asset purchased in 2015 for Ksh. 10,000 because of changes in the value of the
+shilling. Using historical cost produces financial statements that report shilling with differing purchasing power in the same statement. Combining these differing shilling values is akin to adding miles to kilometers. To get the most from analyzing financial statements, users should be cognizant of these limitations.
+
+![The Accounting Cycle](accounting_cycle.png)
+
+
+## Other Sources of Information on Financial Performance
+
+In addition to analysing the basic financial statements there are a number of additional information sources that can be used to gain insight into a company’s current and future financial performance. Here, we will discuss three such sources: management discussion and analysis; credit reports; and news articles.
+
+### Management Discussion and Analysis
+
+The annual report of public companies contains a section called Management Discussion and Analysis (abbreviated as MD&A). In this section, management can provide stockholders and other financial statement users with explanations for financial results that are not obvious from simply reading the basic financial statements. 
+
+The Illustration below provides excerpts from the MD&A of ABC LTD in the annual report for fiscal 2014. Illustration 11-7. Excerpts from the MD&A of ABC LTD for Fiscal Year ended December 31, 2014.
+
+> Compared to 2013, net sales for fiscal year 2014 increased 19.0% to Ksh. 45.7 billion from Ksh. 38.4 billion in fiscal year 2013. This increase was attributable to, among other things, full year sales from the 169 new stores opened during fiscal 2013, a 4% comparable store-for-store sales increase and 204 new store openings. Gross profit as a percent of sales was 29.9% for fiscal 2014 compared to 29.7% for fiscal 2013. The rate
+increase was primarily attributable to a lower cost of merchandise resulting from product line review, benefits from global sourcing programs and an increase in the number of tool rental centres from 150 at the end of fiscal 2013 to 342 at the end of fiscal 2014. Operating expenses as a percent of sales were 20.7% for fiscal 2014 compared to 19.8% for fiscal 2013. Selling and store operating expenses as a percent of
+sales increased to 18.6% in fiscal 2014 from 17.8% in fiscal 2013. The increase was primarily attributable to higher store selling payroll expenses resulting from market wage pressures and an increase in employee longevity. In addition, medical costs increased due to higher family enrolment in the Company’s medical plans, rising health care costs and higher prescription drug costs. Finally, store occupancy costs, such as
+property taxes, property rent, depreciation and utilities, increased due to new store growth and energy rate increases.
+
+### Credit Reports
+
+A number of firms sell credit reports that provide information on a company’s credit history. This can be sourced from credit rating agencies like Moody’s, Fitch, and S&P, or locally at Metropol. Note that for a fee, the company will provide a credit history and credit risk rating (low, moderate, high) which evaluates the likelihood that a company will pay its bills on time.
+
+### News Articles
+
+News articles are another very valuable source of financial information. For example, Business week, The Nation Newspaper, The East African, The Standard, The Economist, e.t.c. Television business channels like Bloomberg and CNBC also come handy.
+
+## Earnings Management: The Need to Compare Earnings and Cash Flows
+
+It is well known that accounting earnings can be managed to make financial
+performance appear stronger than it actually is, and recent allegations of financial improprieties have been levelled against many well-known firms. Analysts know that these accounting occur because as an outsider you don’t know how much of this is really going on behind the scenes.” 
+
+A “red flag” suggesting that accounting irregularities may be a problem is a substantial difference between reported income and operating cash flows. Why is this comparison informative? Suppose a firm records fictitious sales. Earnings will increase, but operating cash flows will not be affected (since companies don’t collect cash from fictitious sales!) and, thus, there will be a difference between earnings and operating cash flows. Likewise, if a company understates expenses (which increases income) but still makes payments related to the understated expense, there
+will be a difference between earnings and operating cash flows. Always be on the lookout for these. Financial statement analysis techniques such as horizontal analysis/vertical analysis of ratios and common size statements, time series analysis are discussed next.
+
+QUIZ: Distinguish Earnings Management from Income Smoothing, citing examples.
+

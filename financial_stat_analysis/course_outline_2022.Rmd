@@ -1,0 +1,14 @@
+---
+title: "Karatina University"
+author: 'BBM 419: Financial Statements Analysis'
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+subtitle: School of Business
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
