@@ -1,5 +1,5 @@
 ---
-title: "**COURSE OUTLINE**"
+subtitle: "**COURSE OUTLINE**"
 author: "*John Karuitha*, jkaruitha@karu.ac.ke"
 date: "`r format(Sys.Date(), format = '%A %B %d, %Y')`"
 output:
@@ -10,7 +10,7 @@ header-includes:
   - \pretitle{\begin{center}
     \includegraphics[width=2in,height=2in]{karu2.png}\LARGE\\}
   - \posttitle{\end{center}}
-subtitle: "**BBM 419 : Financial Statements Analysis**"
+title: "**BBM 419 : Financial Statements Analysis**"
 ---
 
 ```{r setup, include=FALSE}
