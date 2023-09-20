@@ -1,14 +1,16 @@
 ---
-title: "Karatina University"
-author: "John Karuitha"
-date: "`r format(Sys.Date(), '%A, %B %d, %Y')`"
+subtitle: "**COURSE OUTLINE**"
+author: "*John Karuitha*, jkaruitha@karu.ac.ke"
+date: "`r format(Sys.Date(), format = '%A %B %d, %Y')`"
 output:
   pdf_document: default
   html_document: default
-  word_document: default
-params:
-  course: 'BBM 105: Business Maths 1'
-subtitle: School of Business
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{center}
+    \includegraphics[width=2in,height=2in]{karu2.png}\LARGE\\}
+  - \posttitle{\end{center}}
+title: "**BBM 105: Business Maths 1**"
 always_allow_html: true
 bibliography: references.bib
 ---
@@ -17,7 +19,6 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 ```
 
-## `r params$course`
 
 ## COURSE PURPOSE
 This course will explore basic mathematical techniques essential to the operational management of firms, including functions, linear inequalities, financial maths, calculus, matrices and time series. 
@@ -39,67 +40,55 @@ Upon successful completion of this course, students should be able to:
 
 ## COURSE CONTENT
 
-- Meaning and scope of business mathematics
+### Meaning and scope of business mathematics
 
-- The Number System
+### The Number System
 
-- R and R Studio
+### Functions.
 
-    - Introduction to R and R studio.
-    - Introduction to latex, knitr and R markdown.
-    - Writing a report in R Markdown.
-    - Creating a vector in R.
-    - Creating a matrix in R.
-    - Basic data operations in R.
+- Background and Definitions.
+- Linear equations and functions.
+- Quadratic and other special functions.
+- Exponential and logarithmic functions.
 
+### Linear inequalities 
 
-- Functions.
+### Financial arithmetic
 
-    - Background and Definitions.
-    - Linear equations and functions.
-    - Quadratic and other special functions.
-    - Exponential and logarithmic functions.
+- Annuities and perpetuities.
 
-- Linear inequalities 
+- Interest rates. 
 
-- Financial arithmetic
+### Matrix algebra
 
-    - Annuities and perpetuities.
+- Introduction to matrices and related terminology.
+- Matrix addition, subtraction and multiplication.
+- The determinant and inverse of a matrix.
+- Solving systems of equations - Crammer's Rule. 
+- Matrix algebra in R.
 
-    - Interest rates. 
+### Differential calculus
 
-- Matrix algebra
+- Introduction to differential calculus.
+- Terminology and notation.
+- Rules of differentiation.
+- Applications of differentiation.
 
-    - Introduction to matrices and related terminology.
-    - Matrix addition, subtraction and multiplication.
-    - The determinant and inverse of a matrix.
-    - Solving systems of equations - Crammer's Rule. 
-    - Matrix algebra in R.
+### Integral calculus
 
-- Differential calculus
+- Introduction to differential calculus.
+- Terminology and notation.
+- Rules of integretion.
+- Applications of integration.
 
-    - Introduction to differential calculus.
-    - Terminology and notation.
-    - Rules of differentiation.
-    - Applications of differentiation.
+### Time series
 
-- Integral calculus
-
-    - Introduction to differential calculus.
-    - Terminology and notation.
-    - Rules of integretion.
-    - Applications of integration.
-
-- Time series
-
-    - Definitions, Applications and Techniques
-    - Visualizing times series data
-    - What are Moving Average or Smoothing Techniques?
-    
-        - Single Moving Average
-        - Centered Moving Average
-        - Introduction to exponential smoothing.
-
+- Definitions, Applications and Techniques
+- Visualizing times series data
+- What are Moving Average or Smoothing Techniques?
+    - Single Moving Average
+    - Centered Moving Average
+    - Introduction to exponential smoothing.
 
 ## MODE OF DELIVERY OF THE COURSE
 The course will be delivered using physical and on-line lectures and discussions based on case studies and presentations by students.
