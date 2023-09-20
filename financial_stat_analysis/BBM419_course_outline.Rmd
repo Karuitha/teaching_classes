@@ -1,12 +1,16 @@
 ---
-title: "**KARATINA UNIVERSITY**"
+title: "**COURSE OUTLINE**"
 author: "*John Karuitha*, jkaruitha@karu.ac.ke"
-date: "`r Sys.Date()`"
+date: "`r format(Sys.Date(), format = '%A %B %d, %Y')`"
 output:
   pdf_document: default
   html_document: default
-subtitle: 'Course Outline: BBM 419- Financial Statements Analysis'
-
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{center}
+    \includegraphics[width=2in,height=2in]{karu2.png}\LARGE\\}
+  - \posttitle{\end{center}}
+subtitle: "**BBM 419 : Financial Statements Analysis**"
 ---
 
 ```{r setup, include=FALSE}
@@ -29,14 +33,27 @@ ii. Analyse a business using the financial statement analysis tools and make dec
 ## **Course Content**
 
 1. Introduction to financial statements analysis.
-2. Getting comfortable with Ms Excel for Financial Analysis (Week 1 to 4).
-2. Financial statements.
-3. Using Financial Statement Information; why evaluate financial statements? Internal uses, external uses, choosing a benchmark, problems with financial statements analysis.
+2. The financial report and financial statements.
+
+- Components of a financial report.
+- GAAPs: Assumptions and principles of accounting.
+- Accounting standards (IFRS). 
+
+3. Using Financial Statement Information.
+
+- Why evaluate financial statements? 
+- Internal uses, external uses.
+- Choosing a benchmark.
+- Merits and limitations of financial statements analysis.
+
+2. Getting comfortable with Ms Excel for Financial Analysis (Week 5 to 7).
 4. Cash flows and taxes.
 5. Standardized Financial Statements.
-        - Vertical analysis
-        - Horizontal analysis/ Base year analysis
-        - Combined vertical and horizontal analysis.
+
+- Vertical analysis
+- Horizontal analysis/ Base year analysis
+- Combined vertical and horizontal analysis.
+
 6. Ratio Analysis & the Du Point Identity.
 7. Earnings analysis.
 8. Cash flow analysis.
