@@ -1,11 +1,17 @@
 ---
-title: "**Karatina University**"
-author: "***BBM 312: Financial Institutions and Markets***"
+title: "**COURSE OUTLINE**"
+author: "Instructor: John Karuitha"
 date: "`r format(Sys.Date(), format = '%A %B %d, %Y')`"
 output:
   pdf_document: default
   html_document: default
-subtitle: '**School of Business**'
+always_allow_html: true
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{center}
+    \includegraphics[width=2in,height=2in]{karu2.png}\LARGE\\}
+  - \posttitle{\end{center}}
+subtitle: '***BBM 312: Financial Institutions and Markets***'
 ---
 
 ```{r setup, include=FALSE}

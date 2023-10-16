@@ -1,0 +1,102 @@
+---
+author: "John Karuitha"
+title: "**Money Markets**"
+subtitle: "***How do Money Markets Works? Which Instruments Constitute the Money Market***"
+date: "`r format(Sys.Date(), format = '%A, %B %d %Y')`"
+output:
+  pdf_document:
+      number_sections: true
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(kableExtra)
+library(tidyverse)
+```
+
+# **Financial Markets**
+
+Financial markets is the market for short term debt instruments (less than one year to maturity). Because of their short terms to maturity, the debt instruments traded in the money market undergo the least price fluctuations and so are the least risky investments.
+
+# **Financial Market Instruments**
+
+Individuals, corporations, and governments can source money from the money market in several ways, including;
+
+- Bank overdrafts.
+- Treasury bills.
+- Negotiable Bank Certificates of Deposit (CDs).
+- Commercial paper.
+- Bankers Acceptances.
+- Repurchase agreements (Repos and reverses).
+
+
+
+## Treasury bills
+
+These short-term debt instruments of the government are issued in 91-, 182-, or 364- day maturities to finance the government. T-bills are also the safest of all money market instruments, because there is almost no possibility of default, a situation in which the party issuing the debt instrument (in this case, the government) is unable to pay off the amount owed when the instrument matures. The government is always able to meet its debt obligations, because it can raise taxes or issue currency (paper money or coins) to pay off its debts. Treasury bills are held mainly by banks, although small amounts are held by households, corporations, and other financial intermediaries. Because of their short term nature, usually T-bills do not pay interest and are quoted on a yield on a
+discount basis or money market basis. The yield on a discount basis is computed as follows;
+
+
+$Y = \frac{F - P}{F} * \frac{B}{n}$
+
+Where F is the Face or redemption value, P is the price of a bond (usually discounted and thus lower than the face value, F. B is the year basis used (usually 360- or 365- day depending on the country) and n is the number of days remaining to maturity.
+
+
+Example
+
+Compute on a discount basis the yield on a 91-day Government of Kenya T-bill with price P = Ksh. 98, and face value Ksh. 10,000. Use both 360- and 364- day basis.
+When you know the yield on a discount basis, how can you get the T-bill price?
+Please be sure to read this page in the central bank of Kenya [website](http://www.centralbank.go.ke/securities/bills/introduction.aspx)
+ for more details on the T-Bills ^[See http://www.centralbank.go.ke/securities/bills/introduction.aspx].
+
+NB: T-bills in Kenya are quoted on a discount basis using a 364 day year.
+
+
+## Negotiable Bank Certificates of Deposit (CDs)
+
+A certificate of deposit (CD) is a debt instrument, sold by a bank to depositors, that pays annual interest of a given amount and at maturity, pays back the original purchase price. Before 1961, CDs were non-negotiable; That is, they could not be sold to someone else and could not be redeemed from the bank before maturity without paying a substantial penalty. In 1961, to make CDs more liquid and more
+attractive to investors, Citibank (USA) introduced the first negotiable CD in large denominations that could be resold in a secondary market. This instrument is now issued by almost all the major commercial banks and has been extremely successful.
+Their maturity typically ranges from a few weeks to three months, but it can reach several years. They trade on a money-market basis. The price is computed using the following equation;
+
+
+$P = F * \frac{1 + c * \frac{nc}{B}}{1 + ym + \frac{nm}{B}}$
+
+Where F is the face value, c the interest rate at issuance, nc is the number of days between issue date and maturity date, B is the year-basis (360 or 364), ym is the yield on a money-market basis, nm is the number of days between settlement and maturity.
+
+Example
+
+The Certificate of Deposit issued by KCB on 07/27/2021, with maturity 04/29/2022, face value Ksh. 80 million, an interest rate at issuance of 4.27% falling at maturity and a yield of 4.19% as of 08/13/2011, has a price P equal to;
+
+
+## Commercial Paper
+
+Commercial papers are unsecured short-term debt securities issued by corporations including industrial and financial companies. Their maturity ranges from 2 to 270 days. They bear no interest rate and are traded on a discount basis in the United States and on a money-market basis in the Euro area. They entail the credit risk of the issuing entity. Note that they are slightly riskier than bankers’ acceptances as the latter are guaranteed by the accepting bank beside the guarantee of the issuing company. Corporations typically use them either as a way of raising short term funds or as interim loans to finance long-term projects while awaiting more attractive long term capital market conditions, which are called bridge financing. Regarding short-term financing, commercial papers are simply rolled over by the issuing corporation until reaching its lending horizon.
+
+Example
+
+Consider the commercial paper issued by Safaricom LTD on 10/11/2021 and maturing on 01/15/2022. At issuance, its money-market yield amounts to 3.62%, its nominal value to Ksh. 70 million. Its market value MV is equal to;
+
+$MV = \frac{70,000,000}{1 + 3.62\% + \frac{96}{364}}$
+
+NB: There are 96 days between the two dates. We have used the 364 day basis- but in other countries, the 360 day basis is used. Always use the basis given in a particular case.
+
+
+## Bankers Acceptances
+
+These money market instruments are created in the course of carrying out international trade and have been in use for hundreds of years. A banker’s acceptance is a bank draft (a promise of payment similar to a check) issued by a firm, payable at some future date, and guaranteed for a fee by the bank that stamps it “accepted.” The firm issuing the instrument is required to deposit the required funds into its account to cover the draft. If the firm fails to do so, the bank’s guarantee means that it is obligated to make good on the draft. The advantage to the firm is that the draft is more likely to be accepted when purchasing goods abroad, because the foreign exporter knows that even if the company purchasing the goods goes bankrupt, the bank draft will still be paid off. These “accepted” drafts are often resold in a secondary market at a discount and are therefore similar in function to Treasury bills. Bankers’ acceptances are traded on a discount basis in the United States and a money-market basis in the Euro area. They bear no interest rate. So, the market price of a bankers’ acceptance is calculated in the same manner as the price of a T-Bill. Its discount or money-market yield accounts for the credit risk that neither the importer nor the bank honors their commitment. The market for banker’s acceptances is not developed in Kenya.
+
+Example
+
+An investor buying a banker’s acceptance with maturity 04/10/2022 and a discount yield of 1.90% as of 12/14/2021 for a face value of Ksh. 30 million will pay a price P equal to;
+
+
+## Repurchase Agreements (Repos)
+
+Repurchase agreements, or repos, are effectively short-term loans (usually with a maturity of less than two weeks) in which Treasury bills serve as collateral, an asset that the lender receives if the borrower does not pay back the loan. Repos are made as follows: A large corporation, such as EABL, may have
+some idle funds in its bank account, say Ksh. 1 million, which it would like to lend for a week. EABL uses this excess Ksh. 1 million to buy Treasury bills from a bank, which agrees to repurchase them the following week at a price slightly above EABL’s purchase price. The effect of this agreement is that EABL makes a loan of Ksh.1 million to the bank and holds Ksh. 1 million of the bank’s Treasury bills until the bank repurchases the bills to pay off the loan. Repurchase agreements are a fairly recent innovation in financial markets. They are now an important source of bank funds
+
+# **Assignment 2**
+
+Visit http://www.centralbank.go.ke/securities/bills/manualresults.aspx. Describe in detail the results of that T-Bill auction. You will need to first define the terms involved and then describe the meaning of the figures in relation to the terms you defined. Try to be brief (at most 3 pages).
+

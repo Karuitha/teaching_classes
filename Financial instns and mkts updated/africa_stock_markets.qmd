@@ -1,0 +1,99 @@
+---
+title: "**List of Stock Exchanges in Africa**"
+subtitle: "***The Bourses of Africa (List subject to change)***"
+author: "John Karuitha"
+date: today
+date-format: long
+format: 
+  docx: default
+  html: 
+    toc: true
+    number-sections: true
+    number-depth: 3
+    code-fold: true
+  pdf:
+    toc: false
+    documentclass: scrreprt
+    number-sections: true
+    toc-title: Contents
+    include-in-header: 
+      text: |
+        \usepackage{lscape}
+        \usepackage{longtable}
+        \newcommand{\blandscape}{\begin{landscape}}
+        \newcommand{\elandscape}{\end{landscape}}
+        \usepackage{titling}
+        \pretitle{\begin{center}
+        \includegraphics[width=2in,height=2in]{karu2.png}\LARGE\\}
+        \posttitle{\end{center}}
+
+editor: visual
+execute: 
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+if(!require(pacman)){
+    install.packages('pacman')
+}
+
+p_load(tidyverse, janitor, rvest, kableExtra)
+```
+
+
+\newpage
+\blandscape
+
+```{r}
+read_html("https://en.wikipedia.org/wiki/List_of_African_stock_exchanges") %>% 
+    html_nodes("table") %>% 
+    html_table() %>% 
+    .[[1]] %>% 
+    mutate(
+        Listings = str_remove_all(
+            Listings, "\\[.*\\]"
+        )
+    ) %>% 
+    mutate(
+        Technology = str_remove_all(
+            Technology, "\\[.*\\]"
+        )
+    ) %>% 
+    mutate(
+        Founded = str_remove_all(
+            Founded, "\\[.*\\]|\\(.*\\)"
+        )
+    ) %>% 
+    select(-Link) %>% 
+    mutate(
+        Location = case_when(
+            Location == "Ethiopia" ~ "Addis Ababa",
+            .default = Location
+        )) %>% 
+    mutate(
+        Exchange = str_remove(Exchange, "\\*")
+    ) %>% 
+    mutate(
+        Technology = case_when(
+            Technology == "Millenium Information Technology" ~ "MIT",
+            .default = Technology
+        )
+    ) %>% 
+    rename(Country = Economy) %>% 
+    relocate(Location, .after = Country) %>% 
+    kbl(booktabs = TRUE,
+        caption = "Stock exchanges in Africa",
+        longtable = TRUE) %>% 
+    kable_classic(
+        full_width = FALSE,
+        latex_options = c("repeat_header"),
+        font_size = 11
+    ) %>% 
+    footnote(general = c("MIT: Millenium Information Technology.",
+                         "List is subject to change.",
+                         "Source: https://en.wikipedia.org/wiki/List_of_African_stock_exchanges"))
+```
+
+\elandscape

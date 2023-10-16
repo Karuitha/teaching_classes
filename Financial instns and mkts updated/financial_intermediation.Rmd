@@ -1,7 +1,7 @@
 ---
 author: "John Karuitha"
 title: "**Financial Intermediation**"
-subtitle: "what are Financial Intermediaries? Their Roles in the Economy?"
+subtitle: "What are Financial Intermediaries? Their Roles in the Economy?"
 date: "`r format(Sys.Date(), format = '%A, %B %d %Y')`"
 output:
   pdf_document: default
@@ -291,13 +291,13 @@ A building society is a financial institution, owned by its members, that offers
 #### Credit Unions
 These are co-op associations whose members normally have a common bond, such as employees of the same firm. Member’s savings are loaned out only to other members. They offer the cheapest source of funds for individual borrowers. Co-ops are regulated by the co-op act.
 
-#### Pension Fund
+#### Pension Funds
 
 A pension fund is any plan, fund, or scheme which provides retirement income. Pension funds are important shareholders of listed and private companies. They are especially important to the stock market where large institutional investors dominate. Open vs. closed pension funds Open pension funds support at least one pension plan with no restriction on membership while closed pension funds support only pension plans that are limited to certain employees. 
 
 A public pension fund is one that is regulated under public sector law while a private pension fund is regulated under private sector law. In certain countries the distinction between public or government pension funds and private pension funds may be difficult to assess. In others, the distinction is made sharply in law, with very specific requirements for administration and investment. In Kenya, pension funds are regulated by the RBA, governed by the RBA act, retirement benefits regulations and the investment regulations and policies issued. Retirement Benefit Scheme can be classified in various forms as presented below:
 
-- Defined Contribution and Defined Benefit
+- Defined Contribution and Defined Benefit Pension Schemes
 
 A defined contribution (DC) scheme is a scheme in which member' and employer' contributions are fixed either as a percentage of pensionable earnings or as a shilling amount, and a member's retirement benefits has a value equal to those contributions, net of expenses including premiums paid for insurance of death or disability risks, accumulated in an individual account with investment return and any surpluses or deficits as determined by the trustees of the scheme.
 DC Schemes are arrangements where the retirement benefit is not known or defined in advance. Rather the level of retirement income receivable on pay-out date is related to the:
@@ -368,8 +368,8 @@ These differences in the ease with which savers can demand repayment have a majo
 1. Discuss the role played by credit rating agencies. 
 2. Give THREE example of a credit rating agencies in Kenya.
 3. Cite three major global credit rating agencies, and for each credit rating agency give the rating scale used and discuss in general terms the methodology used to arrive at the ratings.
-4. What is the rating of Kenya Government sovereign bonds as per the S&P ratings? Disuss the implications of this rating.
-5. Describe the folloing investment funds offered my mutual funds giving an example of each (please refer to daily newspapers here.)
+4. What is the rating of Kenya Government sovereign bonds as per the S&P ratings? Discuss the implications of this rating.
+5. Describe the following investment funds offered my mutual funds giving an example of each (please refer to daily newspapers here.)
 
 - Equity fund.
 - Bond fund.
