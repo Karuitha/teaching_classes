@@ -1,0 +1,47 @@
+---
+title: "**BBM 419: Financial Statements Analysis**"
+subtitle: "***Assignment 3***"
+author: John Karuitha
+date: today
+date-format: long
+date-modified: long
+format: 
+   pdf:
+     include-in-header: 
+         text: |
+            \usepackage{scrlayer-scrpage}
+            \clearpairofpagestyles
+            \cohead[{\includegraphics[width=5cm]{karu2.png}}]{Assignment 2}
+editor: visual
+---
+
+# **Instructions**
+
+1. Attempt the assignment in groups of not more than 3 people.
+2. Each group must pick one company among those listed at the NSE. No two groups should analyse the same company. To check which company other groups have chosen, please visit this site <https://docs.google.com/spreadsheets/d/1qt14Gp2BFLDhCTvjb73dWZUJkDHFsfL4THEbmBbMQBg/edit?usp=sharing>
+3. Each group should add the details of members in the sheet above. ^[See https://docs.google.com/spreadsheets/d/1qt14Gp2BFLDhCTvjb73dWZUJkDHFsfL4THEbmBbMQBg/edit?usp=sharing]
+3. The questions must be answered in reference to your chosen company. Do not just copy and paste the class notes. 
+4. All references should be in the APA format.
+5. Attach a plagiarism check for your assignment. Talk to the librarians for assistance.
+5. The deadline for submission is Friday, October 13, 2023. 
+
+# **Question 1** 
+
+
+Calculate the company’s basic and diluted EPS for the year ended 30 June 2022 using the information below. 
+
+![](screen.jpg)
+
+
+- No. of shares outstanding on 01 July 2021    \hfill\                                        1,518 million 
+
+- No. of shares issued on 01 December 2021      \hfill\                                     458 million 
+
+- No. of shares repurchased on 01 April 2022    \hfill\                                      (93) million 
+
+- No. of shares outstanding on 30 June 2022      \hfill\                                      1,883 million 
+
+- The company does not pay any dividends to the common shareholders in the year ended 30 June 2022;  
+
+- The company has 1.2 million shares of preferred stock outstanding for the entire year which are each convertible into 40 shares of common stock. There is no preferred dividend paid during the year. The company does not have other potentially dilutive security. 
+

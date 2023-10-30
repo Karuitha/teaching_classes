@@ -1,0 +1,55 @@
+---
+title: "**BBM 419: Financial Statements Analysis**"
+subtitle: "***Assignment 2***"
+author: John Karuitha
+date: today
+date-format: long
+date-modified: long
+format: 
+   pdf:
+     include-in-header: 
+         text: |
+            \usepackage{scrlayer-scrpage}
+            \clearpairofpagestyles
+            \cohead[{\includegraphics[width=5cm]{karu2.png}}]{Assignment 2}
+editor: visual
+---
+
+# **Instructions**
+
+1. Attempt the assignment in groups of not more than 3 people.
+2. Each group must pick one company among those listed at the NSE. No two groups should analyse the same company. To check which company other groups have chosen, please visit this site <https://docs.google.com/spreadsheets/d/1qt14Gp2BFLDhCTvjb73dWZUJkDHFsfL4THEbmBbMQBg/edit?usp=sharing>
+3. Each group should add the details of members in the sheet above. ^[See https://docs.google.com/spreadsheets/d/1qt14Gp2BFLDhCTvjb73dWZUJkDHFsfL4THEbmBbMQBg/edit?usp=sharing]
+3. The questions must be answered in reference to your chosen company. Do not just copy and paste the class notes. 
+4. All references should be in the APA format.
+5. Attach a plagiarism check for your assignment. Talk to the librarians for assistance.
+5. The deadline for submission is Friday, October 13, 2023. 
+
+# **Question 1** 
+
+Assume that you are analysing the financial statements of YOUR ASSIGNED COMPANY for the year 2022. 
+
+- Where in the 2022 financial report can you find the information to examine its performance? (8 marks)
+- Comment on the performance of the company for the year 2022? (3 marks)
+- What more information (outside the financial report) do you need to draw a reasonable conclusion about the performance of the firm? (6 marks)
+ 
+# **Question 2** 
+
+Assume that you are analysing the financial statements of YOUR ASSIGNED COMPANY for the year 2022. 
+
+- What information can you obtain from MD&A? (8 marks)
+- How can the MD&A help you to evaluate the performance of your company? (4 marks)
+
+# **Question 3** 
+
+Explain the meaning of the following terms, with examples from Kenya or internationally.
+
+- Big Bath Accounting. (4 marks)
+- Earnings smoothing.(4 marks)
+- Management Fraud.(4 marks)
+
+What are the motivations for such practices? Explain with examples. (4 marks) 
+
+# **Question 4** 
+
+What are the motivations associated with low financial reporting quality? Explain with examples. (4 marks) 
